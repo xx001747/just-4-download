@@ -5,40 +5,16 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"name":"馃嚭馃嚫 US_77 |47.91Mb","server":"104.18.7.138","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_76 |32.88Mb","server":"104.18.6.138","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_74 |31.27Mb","server":"23.224.69.18","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"76003e21-7cce-430a-a823-428a7f012aa2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.76126449.xyz","ws-headers":{"HOST":"www.76126449.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_72 |38.44Mb","server":"172.67.154.85","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_64 |44.83Mb","server":"104.21.48.161","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_63 |38.90Mb","server":"cdnde.irteyz.today","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_61 |31.81Mb","server":"23.225.57.203","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"811782d9-6cdb-45dd-9448-1ec4c47ad564","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.34428394.xyz","ws-headers":{"HOST":"www.34428394.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_59 |23.84Mb","server":"23.225.9.252","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"2dd19ba3-f6d8-4562-8153-03ea94335111","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.38559541.xyz","ws-headers":{"HOST":"www.38559541.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_58 |40.68Mb","server":"23.224.8.82","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"74e4c336-aaa3-4c41-9a0d-bea94e71833b","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.78651322.xyz","ws-headers":{"HOST":"www.78651322.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_48 |51.23Mb","server":"46.182.107.29","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"5e2b3301-d09b-401a-b465-94a8e0a68a79","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_47 |49.47Mb","server":"154.84.1.35","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"0415746c-4d6b-49fb-9a8a-e74ad6172d3d","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.00722542.xyz","ws-headers":{"HOST":"www.00722542.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_46 |56.10Mb","server":"46.182.107.17","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"45ef0cc8-1a31-453d-9b4c-f66eaa6daa86","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"46.182.107.17","ws-headers":{"HOST":"46.182.107.17"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_45 |55.05Mb","server":"154.84.1.181","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"2a3b4685-7deb-4388-a96a-fac9ee08ad63","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"154.84.1.181","ws-headers":{"HOST":"154.84.1.181"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_44 |53.93Mb","server":"46.182.107.11","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"b438dc80-6336-4717-a770-7cb2068971aa","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"46.182.107.11","ws-headers":{"HOST":"46.182.107.11"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_43 |52.29Mb","server":"154.84.1.23","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"f3875942-e838-4d0a-82fd-59e785941b63","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"154.84.1.23","ws-headers":{"HOST":"154.84.1.23"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_42 |50.86Mb","server":"154.84.1.175","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"c49d20c4-aabb-4caa-9f75-538316b8e97a","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"154.84.1.175","ws-headers":{"HOST":"154.84.1.175"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_41 |50.80Mb","server":"154.84.1.34","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"f5713c1a-eeec-4f31-a51c-acb2b879144c","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_40 |49.59Mb","server":"154.84.1.150","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"b6a1fc1e-5e56-47d5-b1af-76a3d81def37","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_39 |53.27Mb","server":"46.182.107.26","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"ed430006-3d07-4116-902b-649d3492c01a","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"46.182.107.26","ws-headers":{"HOST":"46.182.107.26"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_38 |51.00Mb","server":"46.182.107.5","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"9fb4ba62-3b1c-4987-8762-d1e4d346afd7","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"46.182.107.5","ws-headers":{"HOST":"46.182.107.5"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_37 |55.37Mb","server":"154.84.1.149","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"1655351f-8d5f-4e7a-9a86-b5bc4ed7da92","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"154.84.1.149","ws-headers":{"HOST":"154.84.1.149"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_36 |53.49Mb","server":"154.84.1.225","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"fac11238-1560-4c46-b93b-e92a71304005","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"154.84.1.225","ws-headers":{"HOST":"154.84.1.225"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_35 |49.38Mb","server":"154.84.1.33","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"0165667d-54f2-479e-9bd7-e5548edc3194","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"154.84.1.33","ws-headers":{"HOST":"154.84.1.33"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_34 |54.21Mb","server":"154.84.1.37","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"bad6de34-e23e-4a56-a162-f9b524447cc2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"154.84.1.37","ws-headers":{"HOST":"154.84.1.37"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_33 |49.54Mb","server":"154.84.1.163","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"c0b06dcf-ab46-454f-b173-4afadd9f56c8","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"154.84.1.163","ws-headers":{"HOST":"154.84.1.163"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_32 |49.92Mb","server":"154.84.1.31","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"82e9f17c-cac2-45da-9c07-2967980a32a6","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.00225384.xyz","ws-headers":{"HOST":"www.00225384.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_31 |53.91Mb","server":"46.182.107.14","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"046e37b4-962a-4dfd-a372-c52f8f90edc6","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"46.182.107.14","ws-headers":{"HOST":"46.182.107.14"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_30 |52.01Mb","server":"154.84.1.180","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"0f55100c-8abb-4542-9e5a-ff7d8120e43d","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_29 |51.48Mb","server":"154.84.1.238","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"5599a700-4f47-4673-b2c8-a4d9460ab0be","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_28 |50.13Mb","server":"154.84.1.127","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"01f3e51f-4c86-48fe-9a03-202e93a46969","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚤馃嚬 LT_25 |38.36Mb","server":"abc.2589974338.tk","type":"vmess","country":"馃嚤馃嚬 LT","port":443,"uuid":"e287b3c6-1cbc-43c7-85ea-65ffe2c80878","alterId":64,"cipher":"auto","network":"ws","ws-path":"/296b584da/","servername":"abc.2589974338.tk","ws-headers":{"HOST":"abc.2589974338.tk"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚢馃嚪 KR_24 |25.58Mb","server":"3.35.175.255","type":"vmess","country":"馃嚢馃嚪 KR","port":52025,"uuid":"7acbe87b-a979-444c-bf14-9e866473f883","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚝馃嚪 FR_21 |50.05Mb","server":"51.89.115.72","type":"vmess","country":"馃嚝馃嚪 FR","port":443,"uuid":"6a7e3fcf-6256-4eaa-9d37-07886949b94f","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"51.89.115.72","ws-headers":{"HOST":"51.89.115.72"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚝馃嚪 FR_20 |42.57Mb","server":"51.195.112.160","type":"vmess","country":"馃嚝馃嚪 FR","port":443,"uuid":"6a7e3fcf-6256-4eaa-9d37-07886949b94f","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"51.195.112.160","ws-headers":{"HOST":"51.195.112.160"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_51 |10.28Mb","server":"104.18.6.138","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_49 |14.41Mb","server":"104.18.7.138","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_47 |86.63Mb","server":"52.53.154.161","type":"vmess","country":"馃嚭馃嚫 US","port":13275,"uuid":"efbe7912-be81-44e3-870f-222c5fb053e4","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚫馃嚞 SG_41 |22.15Mb","server":"54.255.134.80","type":"vmess","country":"馃嚫馃嚞 SG","port":54171,"uuid":"eb56f21c-4185-4858-af43-bc85f662de6f","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚪馃嚭 RU_40 |20.64Mb","server":"91.245.227.135","type":"vmess","country":"馃嚪馃嚭 RU","port":38166,"uuid":"9551d4fd-610e-4bf3-9f93-1df5452c3654","alterId":32,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚢馃嚪 KR_36 |23.59Mb","server":"3.35.175.255","type":"vmess","country":"馃嚢馃嚪 KR","port":52025,"uuid":"7acbe87b-a979-444c-bf14-9e866473f883","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚟馃嚢 HK_28 |23.04Mb","server":"52.184.71.53","type":"trojan","country":"馃嚟馃嚢 HK","port":11035,"password":"ZOfTWgka","skip-cert-verify":true,"udp":true}
+  - {"name":"馃嚟馃嚢 HK_27 |17.73Mb","server":"kaizen-hk-2.cn0.me","type":"trojan","country":"馃嚟馃嚢 HK","port":443,"password":"18e513fe-f7f4-353d-84ca-bc9646fb2528mielink","skip-cert-verify":true,"udp":true}
+  - {"name":"馃嚟馃嚢 HK_26 |12.77Mb","server":"agals05.v2raya.xyz","type":"vmess","country":"馃嚟馃嚢 HK","port":80,"uuid":"5e3078ff-3676-3041-a5e3-4602bd3bc532","alterId":2,"cipher":"auto","network":"ws","ws-path":"/public","servername":"agals05.v2raya.xyz","ws-headers":{"HOST":"agals05.v2raya.xyz"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚟馃嚢 HK_22 |27.05Mb","server":"18.162.96.154","type":"vmess","country":"馃嚟馃嚢 HK","port":80,"uuid":"119f999c-2cf9-36cd-bf7b-08fdf66dbd45","alterId":1,"cipher":"auto","network":"ws","ws-path":"/hk","servername":"18.162.96.154","ws-headers":{"HOST":"18.162.96.154"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
   - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: us.199301.xyz, port: 30010, type: vmess, uuid: fd00927a-b0c2-4629-aef7-d9ff15a9d722, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /websocket, ws-headers: {Host: us.199301.xyz}}
   - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君), server: 45.144.2.10, port: 80, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 45.144.2.10}}
   - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 45.129.3.127, port: 8080, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 45.129.3.127}}
@@ -104,40 +80,16 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 馃嚭馃嚫 US_77 |47.91Mb
-      - 馃嚭馃嚫 US_76 |32.88Mb
-      - 馃嚭馃嚫 US_74 |31.27Mb
-      - 馃嚭馃嚫 US_72 |38.44Mb
-      - 馃嚭馃嚫 US_64 |44.83Mb
-      - 馃嚭馃嚫 US_63 |38.90Mb
-      - 馃嚭馃嚫 US_61 |31.81Mb
-      - 馃嚭馃嚫 US_59 |23.84Mb
-      - 馃嚭馃嚫 US_58 |40.68Mb
-      - 馃嚦馃嚤 NL_48 |51.23Mb
-      - 馃嚦馃嚤 NL_47 |49.47Mb
-      - 馃嚦馃嚤 NL_46 |56.10Mb
-      - 馃嚦馃嚤 NL_45 |55.05Mb
-      - 馃嚦馃嚤 NL_44 |53.93Mb
-      - 馃嚦馃嚤 NL_43 |52.29Mb
-      - 馃嚦馃嚤 NL_42 |50.86Mb
-      - 馃嚦馃嚤 NL_41 |50.80Mb
-      - 馃嚦馃嚤 NL_40 |49.59Mb
-      - 馃嚦馃嚤 NL_39 |53.27Mb
-      - 馃嚦馃嚤 NL_38 |51.00Mb
-      - 馃嚦馃嚤 NL_37 |55.37Mb
-      - 馃嚦馃嚤 NL_36 |53.49Mb
-      - 馃嚦馃嚤 NL_35 |49.38Mb
-      - 馃嚦馃嚤 NL_34 |54.21Mb
-      - 馃嚦馃嚤 NL_33 |49.54Mb
-      - 馃嚦馃嚤 NL_32 |49.92Mb
-      - 馃嚦馃嚤 NL_31 |53.91Mb
-      - 馃嚦馃嚤 NL_30 |52.01Mb
-      - 馃嚦馃嚤 NL_29 |51.48Mb
-      - 馃嚦馃嚤 NL_28 |50.13Mb
-      - 馃嚤馃嚬 LT_25 |38.36Mb
-      - 馃嚢馃嚪 KR_24 |25.58Mb
-      - 馃嚝馃嚪 FR_21 |50.05Mb
-      - 馃嚝馃嚪 FR_20 |42.57Mb
+      - 馃嚭馃嚫 US_51 |10.28Mb
+      - 馃嚭馃嚫 US_49 |14.41Mb
+      - 馃嚭馃嚫 US_47 |86.63Mb
+      - 馃嚫馃嚞 SG_41 |22.15Mb
+      - 馃嚪馃嚭 RU_40 |20.64Mb
+      - 馃嚢馃嚪 KR_36 |23.59Mb
+      - 馃嚟馃嚢 HK_28 |23.04Mb
+      - 馃嚟馃嚢 HK_27 |17.73Mb
+      - 馃嚟馃嚢 HK_26 |12.77Mb
+      - 馃嚟馃嚢 HK_22 |27.05Mb
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
       - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
@@ -203,40 +155,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 馃嚭馃嚫 US_77 |47.91Mb
-      - 馃嚭馃嚫 US_76 |32.88Mb
-      - 馃嚭馃嚫 US_74 |31.27Mb
-      - 馃嚭馃嚫 US_72 |38.44Mb
-      - 馃嚭馃嚫 US_64 |44.83Mb
-      - 馃嚭馃嚫 US_63 |38.90Mb
-      - 馃嚭馃嚫 US_61 |31.81Mb
-      - 馃嚭馃嚫 US_59 |23.84Mb
-      - 馃嚭馃嚫 US_58 |40.68Mb
-      - 馃嚦馃嚤 NL_48 |51.23Mb
-      - 馃嚦馃嚤 NL_47 |49.47Mb
-      - 馃嚦馃嚤 NL_46 |56.10Mb
-      - 馃嚦馃嚤 NL_45 |55.05Mb
-      - 馃嚦馃嚤 NL_44 |53.93Mb
-      - 馃嚦馃嚤 NL_43 |52.29Mb
-      - 馃嚦馃嚤 NL_42 |50.86Mb
-      - 馃嚦馃嚤 NL_41 |50.80Mb
-      - 馃嚦馃嚤 NL_40 |49.59Mb
-      - 馃嚦馃嚤 NL_39 |53.27Mb
-      - 馃嚦馃嚤 NL_38 |51.00Mb
-      - 馃嚦馃嚤 NL_37 |55.37Mb
-      - 馃嚦馃嚤 NL_36 |53.49Mb
-      - 馃嚦馃嚤 NL_35 |49.38Mb
-      - 馃嚦馃嚤 NL_34 |54.21Mb
-      - 馃嚦馃嚤 NL_33 |49.54Mb
-      - 馃嚦馃嚤 NL_32 |49.92Mb
-      - 馃嚦馃嚤 NL_31 |53.91Mb
-      - 馃嚦馃嚤 NL_30 |52.01Mb
-      - 馃嚦馃嚤 NL_29 |51.48Mb
-      - 馃嚦馃嚤 NL_28 |50.13Mb
-      - 馃嚤馃嚬 LT_25 |38.36Mb
-      - 馃嚢馃嚪 KR_24 |25.58Mb
-      - 馃嚝馃嚪 FR_21 |50.05Mb
-      - 馃嚝馃嚪 FR_20 |42.57Mb
+      - 馃嚭馃嚫 US_51 |10.28Mb
+      - 馃嚭馃嚫 US_49 |14.41Mb
+      - 馃嚭馃嚫 US_47 |86.63Mb
+      - 馃嚫馃嚞 SG_41 |22.15Mb
+      - 馃嚪馃嚭 RU_40 |20.64Mb
+      - 馃嚢馃嚪 KR_36 |23.59Mb
+      - 馃嚟馃嚢 HK_28 |23.04Mb
+      - 馃嚟馃嚢 HK_27 |17.73Mb
+      - 馃嚟馃嚢 HK_26 |12.77Mb
+      - 馃嚟馃嚢 HK_22 |27.05Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
