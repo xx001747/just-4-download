@@ -5,23 +5,27 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"name":"馃嚭馃嚫 US_64 |13.34Mb","server":"euserv9p.ezddns.tk","type":"vmess","country":"馃嚭馃嚫 US","port":80,"uuid":"ca870483-fa7d-4f64-983a-6ed455143aca","alterId":0,"cipher":"auto","network":"ws","ws-path":"/live","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_62 |487.99Mb","server":"52.255.146.242","type":"vmess","country":"馃嚭馃嚫 US","port":28380,"uuid":"a232e331-bff8-48d4-f9a6-2436cf41aa26","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_61 |17.92Mb","server":"ac2088.herokuapp.com","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"d1babe08-f8ac-490b-b66f-9be27467f3cc","alterId":0,"cipher":"auto","network":"ws","ws-path":"/d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_59 |193.44Mb","server":"ac2077.herokuapp.com","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"d1babe08-f8ac-490b-b66f-9be27467f3cc","alterId":0,"cipher":"auto","network":"ws","ws-path":"/d1babe08-f8ac-490b-b66f-9be27467f3cc-vmess","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_56 |14.40Mb","server":"euserv17p.ezddns.tk","type":"vmess","country":"馃嚭馃嚫 US","port":80,"uuid":"4a6cc4a6-491f-4a58-fb45-bf888f0b381f","alterId":0,"cipher":"auto","network":"ws","ws-path":"/video","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚭馃嚫 US_54 |12.48Mb","server":"euserv12p.ezddns.tk","type":"vmess","country":"馃嚭馃嚫 US","port":80,"uuid":"c0304bc1-f8ff-4108-9bc6-3415d16ae5e3","alterId":0,"cipher":"auto","network":"ws","ws-path":"/video","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚫馃嚞 SG_35 |21.93Mb","server":"sg.rapeamazon.ml","type":"vmess","country":"馃嚫馃嚞 SG","port":443,"uuid":"78405ab3-fe5a-4743-978a-078034b3790a","alterId":0,"cipher":"auto","network":"ws","ws-path":"/bdff","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚨馃嚤 PL_33 |50.34Mb","server":"95.214.55.119","type":"vmess","country":"馃嚨馃嚤 PL","port":16408,"uuid":"4e49e7c6-b7cd-4c74-c022-2add80a19556","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_32 |49.40Mb","server":"46.182.107.39","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"d3133484-f2bf-4b0c-8d38-f8e645b67947","alterId":64,"cipher":"auto","network":"ws","ws-path":"/footers","servername":"www.49696760.xyz","ws-headers":{"HOST":"www.49696760.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_31 |47.20Mb","server":"46.182.107.46","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"fe5f69e7-e183-439b-950b-8221ef0651f2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/footers","servername":"www.27430248.xyz","ws-headers":{"HOST":"www.27430248.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚦馃嚤 NL_30 |49.84Mb","server":"46.182.107.147","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"1d474f0b-e78d-4af9-bc4a-a539467bc7a7","alterId":64,"cipher":"auto","network":"ws","ws-path":"/footers","servername":"www.73207635.xyz","ws-headers":{"HOST":"www.73207635.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚢馃嚪 KR_29 |31.06Mb","server":"15.164.227.247","type":"vmess","country":"馃嚢馃嚪 KR","port":10891,"uuid":"62affe81-79f0-4c07-ed18-a69b97081542","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚡馃嚨 JP_28 |29.67Mb","server":"gmegme.ml","type":"trojan","country":"馃嚡馃嚨 JP","port":443,"password":"d48629f1-ac71-45ef-b325-37d73da258e8","skip-cert-verify":true,"udp":true}
-  - {"name":"馃嚡馃嚨 JP_27 |29.12Mb","server":"gmegme.ga","type":"vmess","country":"馃嚡馃嚨 JP","port":443,"uuid":"160ce2c0-89d2-11eb-aef3-560003425baf","alterId":12,"cipher":"auto","network":"ws","ws-path":"/zwWptVxh/","servername":"gmegme.ga","ws-headers":{"HOST":"gmegme.ga"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"馃嚞馃嚙 GB_22 |60.12Mb","server":"35.178.68.152","type":"vmess","country":"馃嚞馃嚙 GB","port":47611,"uuid":"97a4d167-b361-48b8-b004-8bc45669e334","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚞馃嚙 GB_21 |47.93Mb","server":"5.183.101.204","type":"vmess","country":"馃嚞馃嚙 GB","port":59857,"uuid":"4c35d374-dbf2-4e5f-c731-dfa49191825a","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"馃嚞馃嚙 GB_20 |45.85Mb","server":"5.183.101.200","type":"vmess","country":"馃嚞馃嚙 GB","port":35374,"uuid":"62836733-0014-4014-e0e3-908eea2f3063","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","servername":"5.183.101.200","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_44 |24.12Mb","server":"els.jklist.ga","type":"vmess","country":"馃嚭馃嚫 US","port":2095,"uuid":"5cf2ecb0-9165-4760-8e8a-381ce547a6ef","alterId":1,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_42 |21.89Mb","server":"96.43.91.58","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.45218443.xyz","ws-headers":{"HOST":"www.45218443.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_41 |52.11Mb","server":"23.224.30.36","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"e4494518-74e8-4d6b-942a-6b332cce09ef","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.01902367.xyz","ws-headers":{"HOST":"www.01902367.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_40 |40.42Mb","server":"104.21.48.161","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_39 |39.96Mb","server":"104.19.45.117","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_38 |39.94Mb","server":"104.18.6.138","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_37 |11.20Mb","server":"euserv5p.ezddns.tk","type":"vmess","country":"馃嚭馃嚫 US","port":80,"uuid":"60b738e2-3aa4-4cde-c270-20f8cc1ab16a","alterId":0,"cipher":"auto","network":"ws","ws-path":"/audio.wav","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_36 |42.77Mb","server":"23.224.30.37","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"e4494518-74e8-4d6b-942a-6b332cce09ef","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.01902367.xyz","ws-headers":{"HOST":"www.01902367.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_35 |48.49Mb","server":"vir01.tk","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3192c3e5-d8b4-4fb0-ae8a-10bdcb5f3875","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","servername":"vir01.tk","ws-headers":{"HOST":"vir01.tk"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_34 |37.63Mb","server":"104.18.7.138","type":"vmess","country":"馃嚭馃嚫 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚭馃嚫 US_33 |14.95Mb","server":"euserv7p.ezddns.tk","type":"vmess","country":"馃嚭馃嚫 US","port":80,"uuid":"0b5aeb7c-e477-484f-8999-61772c43b43c","alterId":0,"cipher":"auto","network":"ws","ws-path":"/audio.wav","servername":"euserv7p.ezddns.tk","ws-headers":{"HOST":"euserv7p.ezddns.tk"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚬馃嚰 TW_27 |46.35Mb","server":"d0a8692.re.gladns.com","type":"vmess","country":"馃嚬馃嚰 TW","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"rx.moss.network","ws-headers":{"HOST":"rx.moss.network"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚬馃嚰 TW_26 |51.72Mb","server":"d0a8692.rb.gladns.com","type":"vmess","country":"馃嚬馃嚰 TW","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"rx.moss.network","ws-headers":{"HOST":"rx.moss.network"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚬馃嚰 TW_24 |44.41Mb","server":"d0a8692.rc.gladns.com","type":"vmess","country":"馃嚬馃嚰 TW","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"rx.moss.network","ws-headers":{"HOST":"rx.moss.network"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚬馃嚰 TW_23 |44.17Mb","server":"d0a8692.rf.gladns.com","type":"vmess","country":"馃嚬馃嚰 TW","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"rx.moss.network","ws-headers":{"HOST":"rx.moss.network"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚦馃嚤 NL_22 |49.37Mb","server":"46.182.107.25","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"0a1ab3bd-0431-4da8-ad8a-238367ce4efc","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.11300814.xyz","ws-headers":{"HOST":"www.11300814.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚦馃嚤 NL_21 |49.93Mb","server":"46.182.107.39","type":"vmess","country":"馃嚦馃嚤 NL","port":443,"uuid":"d3133484-f2bf-4b0c-8d38-f8e645b65687","alterId":64,"cipher":"auto","network":"ws","ws-path":"/footers","servername":"www.07890885.xyz","ws-headers":{"HOST":"www.07890885.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"馃嚟馃嚢 HK_17 |51.74Mb","server":"d0a8692.ra.gladns.com","type":"vmess","country":"馃嚟馃嚢 HK","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"rx.moss.network","ws-headers":{"HOST":"rx.moss.network"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚟馃嚢 HK_16 |51.56Mb","server":"d0a8692.rd.gladns.com","type":"vmess","country":"馃嚟馃嚢 HK","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"rx.moss.network","ws-headers":{"HOST":"rx.moss.network"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚛馃嚜 DE_13 |10.05Mb","server":"138.201.150.52","type":"vmess","country":"馃嚛馃嚜 DE","port":33957,"uuid":"89cee221-b06c-46c5-f0d7-4fd3f4740b97","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"馃嚚馃嚦 CN_12 |11.13Mb","server":"d0a8692.hd.gladns.com","type":"vmess","country":"馃嚚馃嚦 CN","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"api.apple.com","ws-headers":{"HOST":"api.apple.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
   - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: us.199301.xyz, port: 30010, type: vmess, uuid: fd00927a-b0c2-4629-aef7-d9ff15a9d722, alterId: 16, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /websocket, ws-headers: {Host: us.199301.xyz}}
   - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君), server: 45.144.2.10, port: 80, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 45.144.2.10}}
   - {name: 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2, server: 45.129.3.127, port: 8080, type: vmess, uuid: dd8e4c7f-3650-4922-9cc2-b9b9e5f87641, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /WebSocket, ws-headers: {Host: 45.129.3.127}}
@@ -87,23 +91,27 @@ proxy-groups:
     type: select
     proxies:
       - ♻️ 自动选择
-      - 馃嚭馃嚫 US_64 |13.34Mb
-      - 馃嚭馃嚫 US_62 |487.99Mb
-      - 馃嚭馃嚫 US_61 |17.92Mb
-      - 馃嚭馃嚫 US_59 |193.44Mb
-      - 馃嚭馃嚫 US_56 |14.40Mb
-      - 馃嚭馃嚫 US_54 |12.48Mb
-      - 馃嚫馃嚞 SG_35 |21.93Mb
-      - 馃嚨馃嚤 PL_33 |50.34Mb
-      - 馃嚦馃嚤 NL_32 |49.40Mb
-      - 馃嚦馃嚤 NL_31 |47.20Mb
-      - 馃嚦馃嚤 NL_30 |49.84Mb
-      - 馃嚢馃嚪 KR_29 |31.06Mb
-      - 馃嚡馃嚨 JP_28 |29.67Mb
-      - 馃嚡馃嚨 JP_27 |29.12Mb
-      - 馃嚞馃嚙 GB_22 |60.12Mb
-      - 馃嚞馃嚙 GB_21 |47.93Mb
-      - 馃嚞馃嚙 GB_20 |45.85Mb
+      - 馃嚭馃嚫 US_44 |24.12Mb
+      - 馃嚭馃嚫 US_42 |21.89Mb
+      - 馃嚭馃嚫 US_41 |52.11Mb
+      - 馃嚭馃嚫 US_40 |40.42Mb
+      - 馃嚭馃嚫 US_39 |39.96Mb
+      - 馃嚭馃嚫 US_38 |39.94Mb
+      - 馃嚭馃嚫 US_37 |11.20Mb
+      - 馃嚭馃嚫 US_36 |42.77Mb
+      - 馃嚭馃嚫 US_35 |48.49Mb
+      - 馃嚭馃嚫 US_34 |37.63Mb
+      - 馃嚭馃嚫 US_33 |14.95Mb
+      - 馃嚬馃嚰 TW_27 |46.35Mb
+      - 馃嚬馃嚰 TW_26 |51.72Mb
+      - 馃嚬馃嚰 TW_24 |44.41Mb
+      - 馃嚬馃嚰 TW_23 |44.17Mb
+      - 馃嚦馃嚤 NL_22 |49.37Mb
+      - 馃嚦馃嚤 NL_21 |49.93Mb
+      - 馃嚟馃嚢 HK_17 |51.74Mb
+      - 馃嚟馃嚢 HK_16 |51.56Mb
+      - 馃嚛馃嚜 DE_13 |10.05Mb
+      - 馃嚚馃嚦 CN_12 |11.13Mb
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君)
       - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君)
       - 🇷🇺 俄罗斯(欢迎订阅Youtube破解资源君) 2
@@ -169,23 +177,27 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 馃嚭馃嚫 US_64 |13.34Mb
-      - 馃嚭馃嚫 US_62 |487.99Mb
-      - 馃嚭馃嚫 US_61 |17.92Mb
-      - 馃嚭馃嚫 US_59 |193.44Mb
-      - 馃嚭馃嚫 US_56 |14.40Mb
-      - 馃嚭馃嚫 US_54 |12.48Mb
-      - 馃嚫馃嚞 SG_35 |21.93Mb
-      - 馃嚨馃嚤 PL_33 |50.34Mb
-      - 馃嚦馃嚤 NL_32 |49.40Mb
-      - 馃嚦馃嚤 NL_31 |47.20Mb
-      - 馃嚦馃嚤 NL_30 |49.84Mb
-      - 馃嚢馃嚪 KR_29 |31.06Mb
-      - 馃嚡馃嚨 JP_28 |29.67Mb
-      - 馃嚡馃嚨 JP_27 |29.12Mb
-      - 馃嚞馃嚙 GB_22 |60.12Mb
-      - 馃嚞馃嚙 GB_21 |47.93Mb
-      - 馃嚞馃嚙 GB_20 |45.85Mb
+      - 馃嚭馃嚫 US_44 |24.12Mb
+      - 馃嚭馃嚫 US_42 |21.89Mb
+      - 馃嚭馃嚫 US_41 |52.11Mb
+      - 馃嚭馃嚫 US_40 |40.42Mb
+      - 馃嚭馃嚫 US_39 |39.96Mb
+      - 馃嚭馃嚫 US_38 |39.94Mb
+      - 馃嚭馃嚫 US_37 |11.20Mb
+      - 馃嚭馃嚫 US_36 |42.77Mb
+      - 馃嚭馃嚫 US_35 |48.49Mb
+      - 馃嚭馃嚫 US_34 |37.63Mb
+      - 馃嚭馃嚫 US_33 |14.95Mb
+      - 馃嚬馃嚰 TW_27 |46.35Mb
+      - 馃嚬馃嚰 TW_26 |51.72Mb
+      - 馃嚬馃嚰 TW_24 |44.41Mb
+      - 馃嚬馃嚰 TW_23 |44.17Mb
+      - 馃嚦馃嚤 NL_22 |49.37Mb
+      - 馃嚦馃嚤 NL_21 |49.93Mb
+      - 馃嚟馃嚢 HK_17 |51.74Mb
+      - 馃嚟馃嚢 HK_16 |51.56Mb
+      - 馃嚛馃嚜 DE_13 |10.05Mb
+      - 馃嚚馃嚦 CN_12 |11.13Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
