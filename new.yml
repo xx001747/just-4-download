@@ -5,231 +5,183 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {"name":"🏁ZZ_14035 |22.66Mb","server":"198.41.212.234","type":"vmess","country":"🏁ZZ","port":2052,"uuid":"00000000-1111-2222-3333-444444444444","alterId":0,"cipher":"auto","network":"ws","ws-path":"/Telegram/@Loss_0_Vmess","servername":"free.jianguoyun.com","ws-headers":{"HOST":"free.jianguoyun.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13018 |284.34Mb","server":"mgv.zixiwu.ml","type":"vmess","country":"🇺🇸US","port":443,"uuid":"1e575d78-b475-49a2-b187-de397604bdfc","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"mgv.zixiwu.ml","ws-headers":{"HOST":"mgv.zixiwu.ml"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13017 |221.36Mb","server":"104.16.151.215","type":"vmess","country":"🇺🇸US","port":443,"uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","network":"ws","ws-path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","servername":"twilight-breeze-3b18.tianzhen168168.workers.dev","ws-headers":{"HOST":"twilight-breeze-3b18.tianzhen168168.workers.dev"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13016 |125.59Mb","server":"104.16.151.156","type":"vmess","country":"🇺🇸US","port":443,"uuid":"24b4b1e1-7a89-45f6-858c-242cf53b5bdb","alterId":0,"cipher":"auto","network":"ws","ws-path":"/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess","servername":"patient-hill-3b6d.ericwufengcheng8810.workers.dev","ws-headers":{"HOST":"patient-hill-3b6d.ericwufengcheng8810.workers.dev"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13015 |26.31Mb","server":"104.160.43.43","type":"vmess","country":"🇺🇸US","port":443,"uuid":"a307a6f7-b697-400e-bc7e-e6356de877c2","alterId":60,"cipher":"auto","network":"ws","ws-path":"/asdfaszzsdfa","servername":"tt2.feiclouddd.me","ws-headers":{"HOST":"tt2.feiclouddd.me"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13014 |30.11Mb","server":"inapus.mooncloud.bike","type":"vmess","country":"🇺🇸US","port":10020,"uuid":"792f7496-a1e2-4694-96f4-5fbe5e13d68b","alterId":1,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13013 |21.92Mb","server":"152.70.240.201","type":"vmess","country":"🇺🇸US","port":43645,"uuid":"7a44d386-e7eb-41d4-92ce-ffbfb32b7957","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13012 |18.78Mb","server":"104.251.233.106","type":"vmess","country":"🇺🇸US","port":13723,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":10,"cipher":"auto","network":"ws","ws-path":"/ray","servername":"en.tgchannels.org/channel/vpnpool","ws-headers":{"HOST":"en.tgchannels.org/channel/vpnpool"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13011 |27.43Mb","server":"45.78.57.201","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13010 |17.03Mb","server":"47.242.3.85","type":"vmess","country":"🇺🇸US","port":443,"uuid":"f6769679-3960-33d4-a91e-35a04bc190de","alterId":1,"cipher":"auto","network":"ws","ws-path":"/panel","servername":"s224.snode.xyz","ws-headers":{"HOST":"s224.snode.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13009 |116.40Mb","server":"74.121.149.28","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13008 |16.09Mb","server":"107.182.185.112","type":"vmess","country":"🇺🇸US","port":443,"uuid":"2ac0acf7-a788-4b3e-a643-3a87368a49dd","alterId":60,"cipher":"auto","network":"ws","ws-path":"/sadfasf","servername":"qq13.feiclouddd.me","ws-headers":{"HOST":"qq13.feiclouddd.me"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13007 |80.83Mb","server":"98.142.141.130","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13006 |83.43Mb","server":"80.251.223.37","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13005 |161.62Mb","server":"104.244.88.15","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13004 |32.54Mb","server":"23.105.208.198","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸US_13002 |42.36Mb","server":"api.ssfree.ru","type":"vmess","country":"🇺🇸US","port":443,"uuid":"c0d1da8c-4951-11ec-89cf-000017022008","alterId":64,"cipher":"auto","network":"ws","ws-path":"/getweather","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8870 |45.51Mb","server":"ozv.izxy.tk","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"1e575d78-b475-49a2-b187-de397604bdfc","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"ozv.izxy.tk","ws-headers":{"HOST":"ozv.izxy.tk"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8869 |67.62Mb","server":"143.198.237.214","type":"vmess","country":"🇺🇸 US","port":27489,"uuid":"d73f027b-9a37-4e79-dd29-3a0d1e1da128","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8868 |43.17Mb","server":"104.24.64.213","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8867 |26.03Mb","server":"sw.oracleusa.ml","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"d1270d12-76b7-4c4d-97ff-6d6f41a013b0","alterId":0,"cipher":"auto","network":"ws","ws-path":"/4Y3g3EnSU","servername":"sw.oracleusa.ml","ws-headers":{"HOST":"sw.oracleusa.ml"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8866 |43.76Mb","server":"104.24.88.81","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8865 |42.47Mb","server":"104.18.6.138","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8864 |42.55Mb","server":"104.18.7.138","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8863 |44.18Mb","server":"104.22.44.50","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8862 |35.92Mb","server":"104.25.255.229","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8861 |41.87Mb","server":"104.16.149.48","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8860 |43.63Mb","server":"104.20.81.240","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8859 |42.21Mb","server":"104.16.98.249","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8858 |42.48Mb","server":"104.21.48.161","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇺🇸 US_8857 |42.93Mb","server":"104.22.6.49","type":"vmess","country":"🇺🇸 US","port":443,"uuid":"3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"cdnde.irteyz.today","ws-headers":{"HOST":"cdnde.irteyz.today"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇸🇬SG_7733 |25.49Mb","server":"jp-tokyo-node2.ycgyg.com","type":"vmess","country":"🇸🇬SG","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws","ws-path":"/ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
-  - {"name":"🇷🇺RU_7372 |11.51Mb","server":"194.50.170.83","type":"vmess","country":"🇷🇺RU","port":80,"uuid":"a101e37d-3ccd-3b26-9fe5-6b293537e8a4","alterId":0,"cipher":"auto","network":"ws","ws-path":"/els","servername":"shoutingtoutiao3.10010.com","ws-headers":{"HOST":"shoutingtoutiao3.10010.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇷🇴RO_7185 |43.53Mb","server":"185.126.116.235","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7184 |19.38Mb","server":"62.216.92.179","type":"trojan","country":"🇷🇴RO","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7183 |12.07Mb","server":"62.216.92.179","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7182 |46.57Mb","server":"185.126.116.235","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7181 |11.46Mb","server":"62.216.92.180","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7179 |60.30Mb","server":"185.105.191.92","type":"trojan","country":"🇷🇴RO","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7178 |12.63Mb","server":"hk-server-02.selfupay.com","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7177 |17.09Mb","server":"62.216.92.180","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7176 |10.91Mb","server":"62.216.92.180","type":"trojan","country":"🇷🇴RO","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7175 |18.09Mb","server":"hk-server-01.selfupay.com","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7174 |11.49Mb","server":"hk-server-01.selfupay.com","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7173 |19.16Mb","server":"62.216.92.179","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7172 |46.92Mb","server":"185.126.116.235","type":"trojan","country":"🇷🇴RO","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
-  - {"name":"🇷🇴RO_7171 |19.67Mb","server":"hk-server-02.selfupay.com","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5668 |37.09Mb","server":"ned-server-01.selfupay.com","type":"trojan","country":"🇳🇱NL","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5665 |25.04Mb","server":"89.31.127.151","type":"trojan","country":"🇳🇱NL","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5664 |41.40Mb","server":"89.31.127.151","type":"trojan","country":"🇳🇱NL","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5662 |37.66Mb","server":"ned-server-01.selfupay.com","type":"trojan","country":"🇳🇱NL","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5661 |50.72Mb","server":"185.171.120.144","type":"trojan","country":"🇳🇱NL","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5660 |31.61Mb","server":"89.31.127.151","type":"trojan","country":"🇳🇱NL","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5659 |51.68Mb","server":"185.171.120.144","type":"trojan","country":"🇳🇱NL","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5658 |38.64Mb","server":"185.171.120.144","type":"trojan","country":"🇳🇱NL","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇳🇱NL_5657 |53.26Mb","server":"185.239.71.60","type":"vmess","country":"🇳🇱NL","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇯🇵JP_5138 |26.40Mb","server":"45.66.134.219","type":"trojan","country":"🇯🇵JP","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇯🇵JP_5137 |28.09Mb","server":"45.66.134.219","type":"trojan","country":"🇯🇵JP","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
-  - {"name":"🇯🇵JP_5130 |26.14Mb","server":"45.66.134.219","type":"trojan","country":"🇯🇵JP","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇯🇵JP_5129 |28.33Mb","server":"jp-server-02.selfupay.com","type":"trojan","country":"🇯🇵JP","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
-  - {"name":"🇯🇵JP_5127 |21.23Mb","server":"jp-server-02.selfupay.com","type":"trojan","country":"🇯🇵JP","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
-  - {"name":"🇮🇱IL_4096 |26.67Mb","server":"212.80.205.133","type":"vmess","country":"🇮🇱IL","port":31262,"uuid":"00415a68-d5eb-4573-b73e-2b21f6b45c5d","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇭🇺HU_3948 |30.88Mb","server":"185.225.69.134","type":"vmess","country":"🇭🇺HU","port":45081,"uuid":"3c3bfd75-dc30-4e76-8940-47e1137e21f9","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"🇬🇧GB_3718 |34.86Mb","server":"109.74.194.189","type":"trojan","country":"🇬🇧GB","port":1443,"password":"7x42LetRa0","skip-cert-verify":true,"udp":true}
-  - {"name":"🇩🇪DE_2647 |40.77Mb","server":"5.183.179.138","type":"trojan","country":"🇩🇪DE","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
-  - {"name":"🇨🇦CA_1658 |59.51Mb","server":"104.255.66.87","type":"vmess","country":"🇨🇦CA","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
-  - {"name":"_480 |11.53Mb","server":"t8.ssrsub.com","type":"trojan","port":11033,"password":"a0daa9d9-6257-4ae9-9959-ccfb993f122c","sni":"t8.ssrsub.com","udp":true}
-  - {"name":"_479 |26.29Mb","server":"t1.ssrsub.com","type":"trojan","port":11033,"password":"0d0a53dd-6a0f-47ac-8d0c-6eca674926b2","sni":"t1.ssrsub.com","udp":true}
-  - {"name":"_475 |23.65Mb","server":"t1.ssrsub.com","type":"trojan","port":11033,"password":"a0daa9d9-6257-4ae9-9959-ccfb993f122c","sni":"t1.ssrsub.com","udp":true}
-  - {"name":"_471 |29.51Mb","server":"sw.gfwglass.tk","type":"vmess","port":443,"udp":true,"uuid":"ecf3cf5e-8cb2-43c4-bc4c-1e946f7b87ec","alterId":0,"cipher":"auto","network":"ws","ws-path":"/d7KnHN","ws-headers":{"Host":"sw.gfwglass.tk"},"http-opts":{},"h2-opts":{},"tls":true}
-  - {"name":"_470 |10.67Mb","server":"v4.ssrsub.com","type":"vmess","port":443,"udp":true,"uuid":"a0daa9d9-6257-4ae9-9959-ccfb993f122c","alterId":0,"cipher":"auto","network":"ws","ws-path":"/ssrsub","ws-headers":{"Host":"v4.ssrsub.com"},"http-opts":{},"h2-opts":{},"tls":true}
+  - {"name":"🇺🇸US_1047 |11.64Mb","server":"184.168.127.50","type":"trojan","country":"🇺🇸US","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US_1046 |11.50Mb","server":"184.168.127.50","type":"trojan","country":"🇺🇸US","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US_1043 |18.30Mb","server":"72.167.33.106","type":"trojan","country":"🇺🇸US","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US_1041 |17.03Mb","server":"usa-server-02.selfupay.com","type":"trojan","country":"🇺🇸US","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US_1040 |21.24Mb","server":"sg-server-01.selfupay.com","type":"trojan","country":"🇺🇸US","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US_1039 |11.41Mb","server":"sg-server-01.selfupay.com","type":"trojan","country":"🇺🇸US","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US_1003 |12.12Mb","server":"184.168.127.50","type":"trojan","country":"🇺🇸US","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇺🇸US_1002 |77.33Mb","server":"107.175.178.104","type":"vmess","country":"🇺🇸US","port":20924,"uuid":"6d03792c-c475-41d9-bd44-a222cd7b0884","alterId":0,"cipher":"auto","network":"ws","ws-path":"/","servername":"107.175.178.104","ws-headers":{"HOST":"107.175.178.104"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_1000 |279.83Mb","server":"74.121.149.28","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_999 |41.78Mb","server":"ozv.izxy.tk","type":"vmess","country":"🇺🇸US","port":443,"uuid":"1e575d78-b475-49a2-b187-de397604bdfc","alterId":64,"cipher":"auto","network":"ws","ws-path":"/","servername":"ozv.izxy.tk","ws-headers":{"HOST":"ozv.izxy.tk"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇺🇸US_998 |11.43Mb","server":"api.ssfree.ru","type":"vmess","country":"🇺🇸US","port":443,"uuid":"ffeafd3e-4cda-11ec-ab31-000017022008","alterId":64,"cipher":"auto","network":"ws","ws-path":"/getweather","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇺🇸US_997 |32.15Mb","server":"45.78.57.201","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_996 |20.43Mb","server":"152.70.240.201","type":"vmess","country":"🇺🇸US","port":43645,"uuid":"7a44d386-e7eb-41d4-92ce-ffbfb32b7957","alterId":0,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_995 |58.02Mb","server":"107.189.12.75","type":"vmess","country":"🇺🇸US","port":80,"uuid":"261aeb5f-b6f7-359c-a321-9794bf344e12","alterId":2,"cipher":"auto","network":"ws","ws-path":"/v2ray","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_994 |70.33Mb","server":"inapus.mooncloud.bike","type":"vmess","country":"🇺🇸US","port":10020,"uuid":"792f7496-a1e2-4694-96f4-5fbe5e13d68b","alterId":1,"cipher":"auto","network":"ws","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_993 |79.90Mb","server":"98.142.141.130","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_992 |83.29Mb","server":"80.251.223.37","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_991 |76.50Mb","server":"23.105.208.198","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇺🇸US_990 |72.41Mb","server":"142.4.127.67","type":"vmess","country":"🇺🇸US","port":443,"uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"cipher":"auto","network":"ws","ws-path":"/path/310910211916","servername":"www.47727450.xyz","ws-headers":{"HOST":"www.47727450.xyz"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇺🇸US_989 |14.44Mb","server":"104.251.233.106","type":"vmess","country":"🇺🇸US","port":13723,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":10,"cipher":"auto","network":"ws","ws-path":"/ray","servername":"en.tgchannels.org/channel/vpnpool","ws-headers":{"HOST":"en.tgchannels.org/channel/vpnpool"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇺🇸US_988 |70.59Mb","server":"cc.hciahciphcie.club","type":"vmess","country":"🇺🇸US","port":443,"uuid":"9a297bb1-06e3-4e6f-97fa-3d3202d46596","alterId":0,"cipher":"auto","network":"ws","ws-path":"/84c3f/","servername":"cc.hciahciphcie.club","ws-headers":{"HOST":"cc.hciahciphcie.club"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇺🇸US_986 |12.59Mb","server":"hk1opuy-node.3366test.com","type":"vmess","country":"🇺🇸US","port":13723,"uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":10,"cipher":"auto","network":"ws","ws-path":"/ray","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇺🇸US_982 |146.02Mb","server":"104.244.88.15","type":"vmess","country":"🇺🇸US","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇸🇬SG_679 |11.27Mb","server":"81.90.189.85","type":"trojan","country":"🇸🇬SG","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇸🇬SG_676 |24.81Mb","server":"jp-tokyo-node2.ycgyg.com","type":"vmess","country":"🇸🇬SG","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws","ws-path":"/ws","http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇸🇬SG_675 |13.44Mb","server":"ycgyg.com","type":"vmess","country":"🇸🇬SG","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws","ws-path":"/ws","servername":"ycgyg.com","ws-headers":{"HOST":"ycgyg.com"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇸🇬SG_674 |23.23Mb","server":"v2-xgc-v5.cl123.xyz","type":"vmess","country":"🇸🇬SG","port":80,"uuid":"6d3faf56-93b6-33ca-a57d-673bb6ab696f","alterId":2,"cipher":"auto","network":"ws","ws-path":"/hls/cctv5phd.m3u8","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇷🇴RO_553 |39.00Mb","server":"185.126.116.235","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_552 |12.67Mb","server":"hk-server-02.selfupay.com","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_551 |11.97Mb","server":"62.216.92.180","type":"trojan","country":"🇷🇴RO","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_550 |47.68Mb","server":"185.126.116.235","type":"trojan","country":"🇷🇴RO","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_549 |12.30Mb","server":"62.216.92.179","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_548 |54.20Mb","server":"185.105.191.92","type":"trojan","country":"🇷🇴RO","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_547 |48.00Mb","server":"185.126.116.235","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_546 |12.57Mb","server":"62.216.92.180","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_545 |12.57Mb","server":"62.216.92.179","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_543 |12.00Mb","server":"62.216.92.180","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_542 |14.25Mb","server":"hk-server-01.selfupay.com","type":"trojan","country":"🇷🇴RO","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_541 |12.69Mb","server":"62.216.92.179","type":"trojan","country":"🇷🇴RO","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇷🇴RO_539 |12.45Mb","server":"hk-server-01.selfupay.com","type":"trojan","country":"🇷🇴RO","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL_502 |26.34Mb","server":"ned-server-01.selfupay.com","type":"trojan","country":"🇳🇱NL","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL_501 |26.50Mb","server":"89.31.127.151","type":"trojan","country":"🇳🇱NL","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL_500 |58.85Mb","server":"89.31.127.151","type":"trojan","country":"🇳🇱NL","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL_499 |16.31Mb","server":"185.171.120.144","type":"trojan","country":"🇳🇱NL","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL_498 |57.58Mb","server":"ned-server-01.selfupay.com","type":"trojan","country":"🇳🇱NL","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL_495 |57.87Mb","server":"89.31.127.151","type":"trojan","country":"🇳🇱NL","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL_494 |33.78Mb","server":"185.171.120.144","type":"trojan","country":"🇳🇱NL","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇳🇱NL_493 |68.00Mb","server":"185.239.71.60","type":"vmess","country":"🇳🇱NL","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇯🇵JP_474 |10.06Mb","server":"5.183.177.111","type":"trojan","country":"🇯🇵JP","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇯🇵JP_470 |10.18Mb","server":"5.183.177.111","type":"trojan","country":"🇯🇵JP","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true,"udp":true}
+  - {"name":"🇮🇱IL_358 |32.32Mb","server":"212.80.205.133","type":"vmess","country":"🇮🇱IL","port":31262,"uuid":"00415a68-d5eb-4573-b73e-2b21f6b45c5d","alterId":64,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇭🇰HK_344 |11.22Mb","server":"103.138.75.235","type":"vmess","country":"🇭🇰HK","port":443,"uuid":"8ccc3052-4941-47e4-b85f-a67ea71e3fe6","alterId":1,"cipher":"auto","network":"ws","ws-path":"/clientarea","servername":"103.138.75.235","ws-headers":{"HOST":"103.138.75.235"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+  - {"name":"🇩🇪DE_204 |27.55Mb","server":"5.183.179.138","type":"trojan","country":"🇩🇪DE","port":443,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true,"udp":true}
+  - {"name":"🇩🇪DE_202 |51.36Mb","server":"89.163.220.82","type":"vmess","country":"🇩🇪DE","port":11016,"uuid":"842fcd78-475d-11ec-aa20-9cb6548b0ccc","alterId":0,"cipher":"auto","network":"ws","ws-path":"/cOhjRn2G/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+  - {"name":"🇨🇦CA_147 |61.87Mb","server":"104.255.66.87","type":"vmess","country":"🇨🇦CA","port":38922,"uuid":"f3e846c1-d8e4-42df-86d4-f4e5028630d8","alterId":8,"cipher":"auto","network":"tcp","ws-path":"/","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
   - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 30, server: gmegme.gq, port: 443, type: trojan, password: 9bc20ec9-b44e-4da9-89c2-2698473a6468, sni: gmegme.gq, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🏁ZZ_14035 |22.66Mb
-      - 🇺🇸US_13018 |284.34Mb
-      - 🇺🇸US_13017 |221.36Mb
-      - 🇺🇸US_13016 |125.59Mb
-      - 🇺🇸US_13015 |26.31Mb
-      - 🇺🇸US_13014 |30.11Mb
-      - 🇺🇸US_13013 |21.92Mb
-      - 🇺🇸US_13012 |18.78Mb
-      - 🇺🇸US_13011 |27.43Mb
-      - 🇺🇸US_13010 |17.03Mb
-      - 🇺🇸US_13009 |116.40Mb
-      - 🇺🇸US_13008 |16.09Mb
-      - 🇺🇸US_13007 |80.83Mb
-      - 🇺🇸US_13006 |83.43Mb
-      - 🇺🇸US_13005 |161.62Mb
-      - 🇺🇸US_13004 |32.54Mb
-      - 🇺🇸US_13002 |42.36Mb
-      - 🇺🇸 US_8870 |45.51Mb
-      - 🇺🇸 US_8869 |67.62Mb
-      - 🇺🇸 US_8868 |43.17Mb
-      - 🇺🇸 US_8867 |26.03Mb
-      - 🇺🇸 US_8866 |43.76Mb
-      - 🇺🇸 US_8865 |42.47Mb
-      - 🇺🇸 US_8864 |42.55Mb
-      - 🇺🇸 US_8863 |44.18Mb
-      - 🇺🇸 US_8862 |35.92Mb
-      - 🇺🇸 US_8861 |41.87Mb
-      - 🇺🇸 US_8860 |43.63Mb
-      - 🇺🇸 US_8859 |42.21Mb
-      - 🇺🇸 US_8858 |42.48Mb
-      - 🇺🇸 US_8857 |42.93Mb
-      - 🇸🇬SG_7733 |25.49Mb
-      - 🇷🇺RU_7372 |11.51Mb
-      - 🇷🇴RO_7185 |43.53Mb
-      - 🇷🇴RO_7184 |19.38Mb
-      - 🇷🇴RO_7183 |12.07Mb
-      - 🇷🇴RO_7182 |46.57Mb
-      - 🇷🇴RO_7181 |11.46Mb
-      - 🇷🇴RO_7179 |60.30Mb
-      - 🇷🇴RO_7178 |12.63Mb
-      - 🇷🇴RO_7177 |17.09Mb
-      - 🇷🇴RO_7176 |10.91Mb
-      - 🇷🇴RO_7175 |18.09Mb
-      - 🇷🇴RO_7174 |11.49Mb
-      - 🇷🇴RO_7173 |19.16Mb
-      - 🇷🇴RO_7172 |46.92Mb
-      - 🇷🇴RO_7171 |19.67Mb
-      - 🇳🇱NL_5668 |37.09Mb
-      - 🇳🇱NL_5665 |25.04Mb
-      - 🇳🇱NL_5664 |41.40Mb
-      - 🇳🇱NL_5662 |37.66Mb
-      - 🇳🇱NL_5661 |50.72Mb
-      - 🇳🇱NL_5660 |31.61Mb
-      - 🇳🇱NL_5659 |51.68Mb
-      - 🇳🇱NL_5658 |38.64Mb
-      - 🇳🇱NL_5657 |53.26Mb
-      - 🇯🇵JP_5138 |26.40Mb
-      - 🇯🇵JP_5137 |28.09Mb
-      - 🇯🇵JP_5130 |26.14Mb
-      - 🇯🇵JP_5129 |28.33Mb
-      - 🇯🇵JP_5127 |21.23Mb
-      - 🇮🇱IL_4096 |26.67Mb
-      - 🇭🇺HU_3948 |30.88Mb
-      - 🇬🇧GB_3718 |34.86Mb
-      - 🇩🇪DE_2647 |40.77Mb
-      - 🇨🇦CA_1658 |59.51Mb
-      - _480 |11.53Mb
-      - _479 |26.29Mb
-      - _475 |23.65Mb
-      - _471 |29.51Mb
-      - _470 |10.67Mb
+      - 🇺🇸US_1047 |11.64Mb
+      - 🇺🇸US_1046 |11.50Mb
+      - 🇺🇸US_1043 |18.30Mb
+      - 🇺🇸US_1041 |17.03Mb
+      - 🇺🇸US_1040 |21.24Mb
+      - 🇺🇸US_1039 |11.41Mb
+      - 🇺🇸US_1003 |12.12Mb
+      - 🇺🇸US_1002 |77.33Mb
+      - 🇺🇸US_1000 |279.83Mb
+      - 🇺🇸US_999 |41.78Mb
+      - 🇺🇸US_998 |11.43Mb
+      - 🇺🇸US_997 |32.15Mb
+      - 🇺🇸US_996 |20.43Mb
+      - 🇺🇸US_995 |58.02Mb
+      - 🇺🇸US_994 |70.33Mb
+      - 🇺🇸US_993 |79.90Mb
+      - 🇺🇸US_992 |83.29Mb
+      - 🇺🇸US_991 |76.50Mb
+      - 🇺🇸US_990 |72.41Mb
+      - 🇺🇸US_989 |14.44Mb
+      - 🇺🇸US_988 |70.59Mb
+      - 🇺🇸US_986 |12.59Mb
+      - 🇺🇸US_982 |146.02Mb
+      - 🇸🇬SG_679 |11.27Mb
+      - 🇸🇬SG_676 |24.81Mb
+      - 🇸🇬SG_675 |13.44Mb
+      - 🇸🇬SG_674 |23.23Mb
+      - 🇷🇴RO_553 |39.00Mb
+      - 🇷🇴RO_552 |12.67Mb
+      - 🇷🇴RO_551 |11.97Mb
+      - 🇷🇴RO_550 |47.68Mb
+      - 🇷🇴RO_549 |12.30Mb
+      - 🇷🇴RO_548 |54.20Mb
+      - 🇷🇴RO_547 |48.00Mb
+      - 🇷🇴RO_546 |12.57Mb
+      - 🇷🇴RO_545 |12.57Mb
+      - 🇷🇴RO_543 |12.00Mb
+      - 🇷🇴RO_542 |14.25Mb
+      - 🇷🇴RO_541 |12.69Mb
+      - 🇷🇴RO_539 |12.45Mb
+      - 🇳🇱NL_502 |26.34Mb
+      - 🇳🇱NL_501 |26.50Mb
+      - 🇳🇱NL_500 |58.85Mb
+      - 🇳🇱NL_499 |16.31Mb
+      - 🇳🇱NL_498 |57.58Mb
+      - 🇳🇱NL_495 |57.87Mb
+      - 🇳🇱NL_494 |33.78Mb
+      - 🇳🇱NL_493 |68.00Mb
+      - 🇯🇵JP_474 |10.06Mb
+      - 🇯🇵JP_470 |10.18Mb
+      - 🇮🇱IL_358 |32.32Mb
+      - 🇭🇰HK_344 |11.22Mb
+      - 🇩🇪DE_204 |27.55Mb
+      - 🇩🇪DE_202 |51.36Mb
+      - 🇨🇦CA_147 |61.87Mb
       - 🇺🇸 美国(欢迎订阅Youtube破解资源君) 30
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🏁ZZ_14035 |22.66Mb
-      - 🇺🇸US_13018 |284.34Mb
-      - 🇺🇸US_13017 |221.36Mb
-      - 🇺🇸US_13016 |125.59Mb
-      - 🇺🇸US_13015 |26.31Mb
-      - 🇺🇸US_13014 |30.11Mb
-      - 🇺🇸US_13013 |21.92Mb
-      - 🇺🇸US_13012 |18.78Mb
-      - 🇺🇸US_13011 |27.43Mb
-      - 🇺🇸US_13010 |17.03Mb
-      - 🇺🇸US_13009 |116.40Mb
-      - 🇺🇸US_13008 |16.09Mb
-      - 🇺🇸US_13007 |80.83Mb
-      - 🇺🇸US_13006 |83.43Mb
-      - 🇺🇸US_13005 |161.62Mb
-      - 🇺🇸US_13004 |32.54Mb
-      - 🇺🇸US_13002 |42.36Mb
-      - 🇺🇸 US_8870 |45.51Mb
-      - 🇺🇸 US_8869 |67.62Mb
-      - 🇺🇸 US_8868 |43.17Mb
-      - 🇺🇸 US_8867 |26.03Mb
-      - 🇺🇸 US_8866 |43.76Mb
-      - 🇺🇸 US_8865 |42.47Mb
-      - 🇺🇸 US_8864 |42.55Mb
-      - 🇺🇸 US_8863 |44.18Mb
-      - 🇺🇸 US_8862 |35.92Mb
-      - 🇺🇸 US_8861 |41.87Mb
-      - 🇺🇸 US_8860 |43.63Mb
-      - 🇺🇸 US_8859 |42.21Mb
-      - 🇺🇸 US_8858 |42.48Mb
-      - 🇺🇸 US_8857 |42.93Mb
-      - 🇸🇬SG_7733 |25.49Mb
-      - 🇷🇺RU_7372 |11.51Mb
-      - 🇷🇴RO_7185 |43.53Mb
-      - 🇷🇴RO_7184 |19.38Mb
-      - 🇷🇴RO_7183 |12.07Mb
-      - 🇷🇴RO_7182 |46.57Mb
-      - 🇷🇴RO_7181 |11.46Mb
-      - 🇷🇴RO_7179 |60.30Mb
-      - 🇷🇴RO_7178 |12.63Mb
-      - 🇷🇴RO_7177 |17.09Mb
-      - 🇷🇴RO_7176 |10.91Mb
-      - 🇷🇴RO_7175 |18.09Mb
-      - 🇷🇴RO_7174 |11.49Mb
-      - 🇷🇴RO_7173 |19.16Mb
-      - 🇷🇴RO_7172 |46.92Mb
-      - 🇷🇴RO_7171 |19.67Mb
-      - 🇳🇱NL_5668 |37.09Mb
-      - 🇳🇱NL_5665 |25.04Mb
-      - 🇳🇱NL_5664 |41.40Mb
-      - 🇳🇱NL_5662 |37.66Mb
-      - 🇳🇱NL_5661 |50.72Mb
-      - 🇳🇱NL_5660 |31.61Mb
-      - 🇳🇱NL_5659 |51.68Mb
-      - 🇳🇱NL_5658 |38.64Mb
-      - 🇳🇱NL_5657 |53.26Mb
-      - 🇯🇵JP_5138 |26.40Mb
-      - 🇯🇵JP_5137 |28.09Mb
-      - 🇯🇵JP_5130 |26.14Mb
-      - 🇯🇵JP_5129 |28.33Mb
-      - 🇯🇵JP_5127 |21.23Mb
-      - 🇮🇱IL_4096 |26.67Mb
-      - 🇭🇺HU_3948 |30.88Mb
-      - 🇬🇧GB_3718 |34.86Mb
-      - 🇩🇪DE_2647 |40.77Mb
-      - 🇨🇦CA_1658 |59.51Mb
-      - _480 |11.53Mb
-      - _479 |26.29Mb
-      - _475 |23.65Mb
-      - _471 |29.51Mb
-      - _470 |10.67Mb
+      - 🇺🇸US_1047 |11.64Mb
+      - 🇺🇸US_1046 |11.50Mb
+      - 🇺🇸US_1043 |18.30Mb
+      - 🇺🇸US_1041 |17.03Mb
+      - 🇺🇸US_1040 |21.24Mb
+      - 🇺🇸US_1039 |11.41Mb
+      - 🇺🇸US_1003 |12.12Mb
+      - 🇺🇸US_1002 |77.33Mb
+      - 🇺🇸US_1000 |279.83Mb
+      - 🇺🇸US_999 |41.78Mb
+      - 🇺🇸US_998 |11.43Mb
+      - 🇺🇸US_997 |32.15Mb
+      - 🇺🇸US_996 |20.43Mb
+      - 🇺🇸US_995 |58.02Mb
+      - 🇺🇸US_994 |70.33Mb
+      - 🇺🇸US_993 |79.90Mb
+      - 🇺🇸US_992 |83.29Mb
+      - 🇺🇸US_991 |76.50Mb
+      - 🇺🇸US_990 |72.41Mb
+      - 🇺🇸US_989 |14.44Mb
+      - 🇺🇸US_988 |70.59Mb
+      - 🇺🇸US_986 |12.59Mb
+      - 🇺🇸US_982 |146.02Mb
+      - 🇸🇬SG_679 |11.27Mb
+      - 🇸🇬SG_676 |24.81Mb
+      - 🇸🇬SG_675 |13.44Mb
+      - 🇸🇬SG_674 |23.23Mb
+      - 🇷🇴RO_553 |39.00Mb
+      - 🇷🇴RO_552 |12.67Mb
+      - 🇷🇴RO_551 |11.97Mb
+      - 🇷🇴RO_550 |47.68Mb
+      - 🇷🇴RO_549 |12.30Mb
+      - 🇷🇴RO_548 |54.20Mb
+      - 🇷🇴RO_547 |48.00Mb
+      - 🇷🇴RO_546 |12.57Mb
+      - 🇷🇴RO_545 |12.57Mb
+      - 🇷🇴RO_543 |12.00Mb
+      - 🇷🇴RO_542 |14.25Mb
+      - 🇷🇴RO_541 |12.69Mb
+      - 🇷🇴RO_539 |12.45Mb
+      - 🇳🇱NL_502 |26.34Mb
+      - 🇳🇱NL_501 |26.50Mb
+      - 🇳🇱NL_500 |58.85Mb
+      - 🇳🇱NL_499 |16.31Mb
+      - 🇳🇱NL_498 |57.58Mb
+      - 🇳🇱NL_495 |57.87Mb
+      - 🇳🇱NL_494 |33.78Mb
+      - 🇳🇱NL_493 |68.00Mb
+      - 🇯🇵JP_474 |10.06Mb
+      - 🇯🇵JP_470 |10.18Mb
+      - 🇮🇱IL_358 |32.32Mb
+      - 🇭🇰HK_344 |11.22Mb
+      - 🇩🇪DE_204 |27.55Mb
+      - 🇩🇪DE_202 |51.36Mb
+      - 🇨🇦CA_147 |61.87Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
