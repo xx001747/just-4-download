@@ -5,12 +5,14 @@ servers = []
 servername = []
 start_str = '{\"name\":\"'
 end_str = '\",\"server\"'
-cn_str  = '🇨🇳CN_'
+cn_str  = 'CN_'
+hk_str  = 'HK_'
 with open("proxy.txt","r",encoding="UTF-8") as x: 
         for line in x:
                 cnCN_sp = line.find(cn_str)
+                hkHK_sp = line.find(hk_str)
                 start = line.find(start_str)
-                if (start>=0 and cnCN_sp<0):
+                if (start>=0 and cnCN_sp<0 and hkHK_sp<0):
                         #replace "- "
                         #print(line)
                         line1 = ' '+' '+line
