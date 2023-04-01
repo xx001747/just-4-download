@@ -6,17 +6,52 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 美国(yudou66.com 玉豆免费节点), server: cf.163453.xyz, port: 8443, type: vmess, uuid: f92d9bbe-1e0e-49bf-f72d-af327d1158d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: music12.tehrankaraj.ml}}, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_10, server: yzcm.jhfnl3df437lb979.rstmiqdm1svgutwa.bkcloud.top, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: d140829c-c55a-3fa3-a8b9-2a08ab3bc99e, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆免费节点), server: cf.163453.xyz, port: 443, type: vmess, uuid: 990e6a92-af8c-4765-be17-87325e458357, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jgw.ling25938.top}}, udp: true}
   - {name: YouTube梦歌|广港IEPL|Netflix_137, server: 162.159.133.199, port: 2052, type: vmess, uuid: e782db8a-5f2d-47fc-aa19-9d42a54648f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg:@hkaa0, headers: {Host: sg.wyhkaa0.ml}}, udp: true}
   - {name: YouTube梦歌|广港IEPL|Netflix_263, server: sa.steamdownload.top, port: 36633, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_95, server: 139.162.63.139, port: 80, type: vmess, uuid: 5d667691-c393-4de9-8962-9bea18bfca9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_183, server: sglv0.3399780.xyz, port: 443, type: vmess, uuid: 49c2a4bd-c9a0-47f0-b86e-c03fd17a5088, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /202202030565, headers: {Host: sglv0.3399780.xyz}}, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_117, server: sa.steamdownload.top, port: 36634, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_35, server: yzcm.jhfnl3df437lb979.rstmiqdm1svgutwa.bkcloud.top, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: d140829c-c55a-3fa3-a8b9-2a08ab3bc99e, udp: true}
+  - {name: YouTube梦歌|杭港BGP|Netflix_132, server: 104.26.3.37, port: 2052, type: vmess, uuid: e782db8a-5f2d-47fc-aa19-9d42a54648f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg:@hkaa0, headers: {Host: sg.wyhkaa0.ml}}, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_294, server: edge-earth.themars.top, port: 50003, type: ss, cipher: chacha20-ietf-poly1305, password: 8f9bab45-e4a9-499d-b766-217c18b04961, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_209, server: edge-earth.themars.top, port: 50014, type: ss, cipher: chacha20-ietf-poly1305, password: 7d29c8ec-1039-46c1-98cc-5aecda5908d0, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_126, server: sa.steamdownload.top, port: 36631, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_44, server: sa.steamdownload.top, port: 36632, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_132, server: sa.steamdownload.top, port: 36714, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本(yudou66.com 玉豆免费节点), server: cf.163453.xyz, port: 80, type: vmess, uuid: 5c4339e4-156c-4db5-9352-c8d2a3f4cb57, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: jp01.163453.xyz}}, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_242, server: edge-earth.themars.top, port: 50012, type: ss, cipher: chacha20-ietf-poly1305, password: 3eaa18ea-2cc7-4727-8923-2e75fd5c45af, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_296, server: dl-hk5.steamdownload.top, port: 443, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data-hk.steamdownload.top, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_200, server: edge-earth.themars.top, port: 50009, type: ss, cipher: chacha20-ietf-poly1305, password: 3eaa18ea-2cc7-4727-8923-2e75fd5c45af, udp: true}
   - {name: 美国(yudou66.com 玉豆免费节点) 2, server: cf.163453.xyz, port: 8880, type: vmess, uuid: 502d3ed3-278d-6ba8-a698-89fbf8fdce67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.163453.xyz}}, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_243, server: edge-earth.themars.top, port: 50000, type: ss, cipher: chacha20-ietf-poly1305, password: bf9f30ca-7282-475c-9ec7-87e517be5612, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_196, server: edge-earth.themars.top, port: 50002, type: ss, cipher: chacha20-ietf-poly1305, password: 7d29c8ec-1039-46c1-98cc-5aecda5908d0, udp: true}
   - {name: US_youtube@资源分享师_83, server: 45.58.178.12, port: 47982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_421, server: 142.4.108.172, port: 49890, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_youtube@资源分享师_82, server: 108.186.116.172, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_169, server: sa.steamdownload.top, port: 36653, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data.xn--vur082k.cc, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|广港IEPL|Netflix_302, server: 198.2.218.216, port: 51202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_97, server: 03.xn--8fr22cd4k1m9c.cn, port: 41470, type: ss, cipher: chacha20-ietf-poly1305, password: c74a87f5-6f0f-4cd9-921b-1c8f46f40ef9, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_139, server: sa.steamdownload.top, port: 36651, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data.xn--vur082k.cc, skip-cert-verify: true, udp: true}
   - {name: YouTube梦歌|京港BGP_74, server: 198.2.208.180, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_1, server: edge-mars.themars.top, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: 3eaa18ea-2cc7-4727-8923-2e75fd5c45af, udp: true}
   - {name: YouTube梦歌|京港BGP_35, server: 38.54.247.119, port: 54405, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_19, server: n1678005909.edpmvga.cn, port: 443, type: vmess, uuid: 4ec272ab-8fac-47d6-a386-26acb287be7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1678005909.edpmvga.cn}}, udp: true}
   - {name: YouTube梦歌|广港IEPL|Netflix_312, server: 198.2.208.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_17, server: js.xyzxyz8.xyz, port: 29174, type: ss, cipher: chacha20-ietf-poly1305, password: c74a87f5-6f0f-4cd9-921b-1c8f46f40ef9, udp: true}
   - {name: YouTube梦歌|京港BGP_82, server: 142.0.135.52, port: 53399, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_72, server: edge-mars.themars.top, port: 50008, type: ss, cipher: chacha20-ietf-poly1305, password: 6a51724b-fd50-44bf-a401-1d23166abcd2, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_293, server: edge-earth.themars.top, port: 50011, type: ss, cipher: chacha20-ietf-poly1305, password: 3eaa18ea-2cc7-4727-8923-2e75fd5c45af, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_40, server: edge-mars.themars.top, port: 50013, type: ss, cipher: chacha20-ietf-poly1305, password: 7d29c8ec-1039-46c1-98cc-5aecda5908d0, udp: true}
   - {name: YouTube梦歌|杭港BGP|Netflix_35, server: 38.53.92.186, port: 33002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_241, server: edge-earth.themars.top, port: 50013, type: ss, cipher: chacha20-ietf-poly1305, password: 7d29c8ec-1039-46c1-98cc-5aecda5908d0, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_134, server: sa.steamdownload.top, port: 36654, type: trojan, password: 9879f2da-5bb6-41c3-af04-0770332f34f5, sni: data.xn--vur082k.cc, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_131, server: edge-mars.themars.top, port: 50007, type: ss, cipher: chacha20-ietf-poly1305, password: 8f9bab45-e4a9-499d-b766-217c18b04961, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_28, server: js.xyzxyz8.xyz, port: 40775, type: ss, cipher: chacha20-ietf-poly1305, password: c74a87f5-6f0f-4cd9-921b-1c8f46f40ef9, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_66, server: js.xyzxyz8.xyz, port: 45519, type: ss, cipher: chacha20-ietf-poly1305, password: c74a87f5-6f0f-4cd9-921b-1c8f46f40ef9, udp: true}
+  - {name: 梦歌|广港IEPL|解锁流媒体_26, server: edge-mars.themars.top, port: 50000, type: ss, cipher: chacha20-ietf-poly1305, password: bf9f30ca-7282-475c-9ec7-87e517be5612, udp: true}
+  - {name: YouTube梦歌|广港IEPL|Netflix_7, server: js.xyzxyz8.xyz, port: 18708, type: ss, cipher: chacha20-ietf-poly1305, password: c74a87f5-6f0f-4cd9-921b-1c8f46f40ef9, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -24,34 +59,104 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|广港IEPL|Netflix_10
+      - 新加坡(yudou66.com 玉豆免费节点)
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 日本(yudou66.com 玉豆免费节点)
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
       - US_youtube@资源分享师_83
+      - YouTube梦歌|广港IEPL|Netflix_421
       - US_youtube@资源分享师_82
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|广港IEPL|Netflix_10
+      - 新加坡(yudou66.com 玉豆免费节点)
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 日本(yudou66.com 玉豆免费节点)
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
       - US_youtube@资源分享师_83
+      - YouTube梦歌|广港IEPL|Netflix_421
       - US_youtube@资源分享师_82
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -59,17 +164,52 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|广港IEPL|Netflix_10
+      - 新加坡(yudou66.com 玉豆免费节点)
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 日本(yudou66.com 玉豆免费节点)
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
       - US_youtube@资源分享师_83
+      - YouTube梦歌|广港IEPL|Netflix_421
       - US_youtube@资源分享师_82
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -89,29 +229,97 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|广港IEPL|Netflix_10
+      - 新加坡(yudou66.com 玉豆免费节点)
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 日本(yudou66.com 玉豆免费节点)
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
       - US_youtube@资源分享师_83
+      - YouTube梦歌|广港IEPL|Netflix_421
       - US_youtube@资源分享师_82
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - YouTube梦歌|广港IEPL|Netflix_10
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
+      - YouTube梦歌|广港IEPL|Netflix_421
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -119,34 +327,104 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|广港IEPL|Netflix_10
+      - 新加坡(yudou66.com 玉豆免费节点)
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 日本(yudou66.com 玉豆免费节点)
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
       - US_youtube@资源分享师_83
+      - YouTube梦歌|广港IEPL|Netflix_421
       - US_youtube@资源分享师_82
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|广港IEPL|Netflix_10
+      - 新加坡(yudou66.com 玉豆免费节点)
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 日本(yudou66.com 玉豆免费节点)
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
       - US_youtube@资源分享师_83
+      - YouTube梦歌|广港IEPL|Netflix_421
       - US_youtube@资源分享师_82
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -154,17 +432,52 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|广港IEPL|Netflix_10
+      - 新加坡(yudou66.com 玉豆免费节点)
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 日本(yudou66.com 玉豆免费节点)
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
       - US_youtube@资源分享师_83
+      - YouTube梦歌|广港IEPL|Netflix_421
       - US_youtube@资源分享师_82
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -181,17 +494,52 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 美国(yudou66.com 玉豆免费节点)
+      - YouTube梦歌|广港IEPL|Netflix_10
+      - 新加坡(yudou66.com 玉豆免费节点)
       - YouTube梦歌|广港IEPL|Netflix_137
       - YouTube梦歌|广港IEPL|Netflix_263
+      - YouTube梦歌|广港IEPL|Netflix_95
+      - 梦歌|广港IEPL|解锁流媒体_183
+      - 梦歌|广港IEPL|解锁流媒体_117
+      - YouTube梦歌|广港IEPL|Netflix_35
+      - YouTube梦歌|杭港BGP|Netflix_132
+      - 梦歌|广港IEPL|解锁流媒体_294
+      - 梦歌|广港IEPL|解锁流媒体_209
+      - 梦歌|广港IEPL|解锁流媒体_126
+      - 梦歌|广港IEPL|解锁流媒体_44
+      - 梦歌|广港IEPL|解锁流媒体_132
+      - 日本(yudou66.com 玉豆免费节点)
+      - 梦歌|广港IEPL|解锁流媒体_242
+      - 梦歌|广港IEPL|解锁流媒体_296
+      - 梦歌|广港IEPL|解锁流媒体_200
       - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港IEPL|解锁流媒体_243
+      - 梦歌|广港IEPL|解锁流媒体_196
       - US_youtube@资源分享师_83
+      - YouTube梦歌|广港IEPL|Netflix_421
       - US_youtube@资源分享师_82
+      - 梦歌|广港IEPL|解锁流媒体_169
       - YouTube梦歌|广港IEPL|Netflix_302
+      - YouTube梦歌|广港IEPL|Netflix_97
+      - 梦歌|广港IEPL|解锁流媒体_139
       - YouTube梦歌|京港BGP_74
+      - YouTube梦歌|广港IEPL|Netflix_1
       - YouTube梦歌|京港BGP_35
+      - YouTube梦歌|广港IEPL|Netflix_19
       - YouTube梦歌|广港IEPL|Netflix_312
+      - YouTube梦歌|广港IEPL|Netflix_17
       - YouTube梦歌|京港BGP_82
+      - YouTube梦歌|广港IEPL|Netflix_72
+      - 梦歌|广港IEPL|解锁流媒体_293
+      - 梦歌|广港IEPL|解锁流媒体_40
       - YouTube梦歌|杭港BGP|Netflix_35
+      - 梦歌|广港IEPL|解锁流媒体_241
+      - 梦歌|广港IEPL|解锁流媒体_134
+      - 梦歌|广港IEPL|解锁流媒体_131
+      - YouTube梦歌|广港IEPL|Netflix_28
+      - YouTube梦歌|广港IEPL|Netflix_66
+      - 梦歌|广港IEPL|解锁流媒体_26
+      - YouTube梦歌|广港IEPL|Netflix_7
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
