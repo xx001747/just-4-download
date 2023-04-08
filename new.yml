@@ -5,99 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 广港BGP|解锁流媒体_10, server: vpnpool.stablize.top, port: 443, type: trojan, password: a3740de6-74fc-4ab6-bc85-92d19402257c, sni: vpnhat.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 威廉姆华莱士_135, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 823c31da-701f-483d-b36e-896e5cf0987a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 广港BGP|解锁流媒体_3, server: vpnpool.stablize.top, port: 443, type: trojan, password: a3740de6-74fc-4ab6-bc85-92d19402257c, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 广港BGP|解锁流媒体_8, server: vpnhat.stablize.top, port: 443, type: trojan, password: a3740de6-74fc-4ab6-bc85-92d19402257c, sni: in.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 广港BGP|解锁流媒体_9, server: vpnpool.stablize.top, port: 443, type: trojan, password: a3740de6-74fc-4ab6-bc85-92d19402257c, sni: lu.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 威廉姆华莱士_101, server: cf.noaries.de, port: 8080, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: 广港BGP|解锁流媒体_16, server: vpnhat.stablize.top, port: 443, type: trojan, password: a3740de6-74fc-4ab6-bc85-92d19402257c, sni: lu.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|杭港BGP_49, server: 142.4.114.22, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 广港BGP|解锁流媒体_7, server: vpnhat.stablize.top, port: 443, type: trojan, password: a3740de6-74fc-4ab6-bc85-92d19402257c, sni: aujs.stablize.top, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|杭港BGP_101, server: 38.40.219.185, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|杭港BGP_123, server: 142.4.125.1, port: 54102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|杭港BGP_147, server: 51.89.105.176, port: 58812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 威廉姆华莱士_98, server: cf.noaries.de, port: 2052, type: vmess, uuid: 01d07cdf-aa5e-4889-8cbd-bd2b88179a85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: nls.cloudflare.quest}}, udp: true}
-  - {name: youtube@资源分享师_69, server: 112.132.215.189, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|Netflix_11, server: hgsj1.tiktok20000228.top, port: 24103, type: vmess, uuid: f38d3ce3-ed0b-4487-dd1e-1eea48758f96, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: YouTube梦歌|杭港BGP|Netflix_245, server: 137.175.3.226, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 威廉姆华莱士_268, server: 203.30.188.2, port: 80, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr.v2ray1.xyz}}, udp: true}
-  - {name: YouTube梦歌|低速节点_9, server: 203.30.189.1, port: 443, type: vmess, uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ECTCJ0DF, headers: {Host: 154.v2ray3.xyz}}, udp: true}
-  - {name: YouTube梦歌|杭港BGP|Netflix_60, server: 192.74.228.172, port: 42857, type: vmess, uuid: 051b844f-efe3-4847-92aa-66b5de0b6d4e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 192.203.230.65, port: 443, type: vmess, uuid: c22a5ea3-c9f2-4b16-8f65-827aa25cdcfd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1.hnokkdf.top}}, udp: true}
+  - {name: SG_youtube@资源分享师_10, server: vpnhat.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: sg.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: SG_youtube@资源分享师_4, server: vpnpool.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: ap.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: SG_youtube@资源分享师_120, server: vpnhat.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: ap.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: SG_youtube@资源分享师_5, server: vpnpool.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: sgjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: SG_youtube@资源分享师_9, server: vpnhat.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: sgjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: SG_youtube@资源分享师_82, server: vpnpool.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: lu.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|杭港BGP_93, server: 108.186.208.157, port: 50003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 137.175.3.226, port: 53002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|低速PLUS|EVO_133, server: 198.2.203.52, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_39, server: 198.2.203.33, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 198.2.203.146, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_119, server: 198.2.203.146, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_45, server: 192.74.229.216, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 198.2.203.145, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_youtube@资源分享师_31, server: vpnhat.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: jpjs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_162, server: 38.40.219.185, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: YouTube梦歌|杭港BGP|Netflix_270, server: 54.37.192.0, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: SG_youtube@资源分享师_71, server: vpnhat.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: usajs.stablize.top, skip-cert-verify: true, udp: true}
+  - {name: SG_youtube@资源分享师_180, server: vpnhat.stablize.top, port: 443, type: trojan, password: f8c19a7c-45d1-4adc-a11c-43df7abf6e50, sni: vpnhat.stablize.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港BGP|解锁流媒体_10
-      - 威廉姆华莱士_135
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 威廉姆华莱士_101
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - 威廉姆华莱士_98
-      - youtube@资源分享师_69
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - 威廉姆华莱士_268
-      - YouTube梦歌|低速节点_9
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - 美国(yudou66.com 玉豆免费节点)
+      - SG_youtube@资源分享师_10
+      - SG_youtube@资源分享师_4
+      - SG_youtube@资源分享师_120
+      - SG_youtube@资源分享师_5
+      - SG_youtube@资源分享师_9
+      - SG_youtube@资源分享师_82
+      - YouTube梦歌|杭港BGP_93
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|低速PLUS|EVO_133
+      - US_youtube@资源分享师_39
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_youtube@资源分享师_119
+      - US_youtube@资源分享师_45
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - SG_youtube@资源分享师_31
+      - US_youtube@资源分享师_162
+      - YouTube梦歌|杭港BGP|Netflix_270
+      - SG_youtube@资源分享师_71
+      - SG_youtube@资源分享师_180
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 广港BGP|解锁流媒体_10
-      - 威廉姆华莱士_135
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 威廉姆华莱士_101
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - 威廉姆华莱士_98
-      - youtube@资源分享师_69
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - 威廉姆华莱士_268
-      - YouTube梦歌|低速节点_9
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - 美国(yudou66.com 玉豆免费节点)
+      - SG_youtube@资源分享师_10
+      - SG_youtube@资源分享师_4
+      - SG_youtube@资源分享师_120
+      - SG_youtube@资源分享师_5
+      - SG_youtube@资源分享师_9
+      - SG_youtube@资源分享师_82
+      - YouTube梦歌|杭港BGP_93
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|低速PLUS|EVO_133
+      - US_youtube@资源分享师_39
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_youtube@资源分享师_119
+      - US_youtube@资源分享师_45
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - SG_youtube@资源分享师_31
+      - US_youtube@资源分享师_162
+      - YouTube梦歌|杭港BGP|Netflix_270
+      - SG_youtube@资源分享师_71
+      - SG_youtube@资源分享师_180
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港BGP|解锁流媒体_10
-      - 威廉姆华莱士_135
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 威廉姆华莱士_101
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - 威廉姆华莱士_98
-      - youtube@资源分享师_69
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - 威廉姆华莱士_268
-      - YouTube梦歌|低速节点_9
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - 美国(yudou66.com 玉豆免费节点)
+      - SG_youtube@资源分享师_10
+      - SG_youtube@资源分享师_4
+      - SG_youtube@资源分享师_120
+      - SG_youtube@资源分享师_5
+      - SG_youtube@资源分享师_9
+      - SG_youtube@资源分享师_82
+      - YouTube梦歌|杭港BGP_93
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|低速PLUS|EVO_133
+      - US_youtube@资源分享师_39
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_youtube@资源分享师_119
+      - US_youtube@资源分享师_45
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - SG_youtube@资源分享师_31
+      - US_youtube@资源分享师_162
+      - YouTube梦歌|杭港BGP|Netflix_270
+      - SG_youtube@资源分享师_71
+      - SG_youtube@资源分享师_180
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -116,116 +120,109 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港BGP|解锁流媒体_10
-      - 威廉姆华莱士_135
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 威廉姆华莱士_101
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - 威廉姆华莱士_98
-      - youtube@资源分享师_69
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - 威廉姆华莱士_268
-      - YouTube梦歌|低速节点_9
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - 美国(yudou66.com 玉豆免费节点)
+      - SG_youtube@资源分享师_10
+      - SG_youtube@资源分享师_4
+      - SG_youtube@资源分享师_120
+      - SG_youtube@资源分享师_5
+      - SG_youtube@资源分享师_9
+      - SG_youtube@资源分享师_82
+      - YouTube梦歌|杭港BGP_93
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|低速PLUS|EVO_133
+      - US_youtube@资源分享师_39
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_youtube@资源分享师_119
+      - US_youtube@资源分享师_45
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - SG_youtube@资源分享师_31
+      - US_youtube@资源分享师_162
+      - YouTube梦歌|杭港BGP|Netflix_270
+      - SG_youtube@资源分享师_71
+      - SG_youtube@资源分享师_180
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 广港BGP|解锁流媒体_10
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - YouTube梦歌|杭港BGP_93
+      - YouTube梦歌|杭港BGP|Netflix_270
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 广港BGP|解锁流媒体_10
-      - 威廉姆华莱士_135
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 威廉姆华莱士_101
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - 威廉姆华莱士_98
-      - youtube@资源分享师_69
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - 威廉姆华莱士_268
-      - YouTube梦歌|低速节点_9
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - 美国(yudou66.com 玉豆免费节点)
+      - SG_youtube@资源分享师_10
+      - SG_youtube@资源分享师_4
+      - SG_youtube@资源分享师_120
+      - SG_youtube@资源分享师_5
+      - SG_youtube@资源分享师_9
+      - SG_youtube@资源分享师_82
+      - YouTube梦歌|杭港BGP_93
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|低速PLUS|EVO_133
+      - US_youtube@资源分享师_39
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_youtube@资源分享师_119
+      - US_youtube@资源分享师_45
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - SG_youtube@资源分享师_31
+      - US_youtube@资源分享师_162
+      - YouTube梦歌|杭港BGP|Netflix_270
+      - SG_youtube@资源分享师_71
+      - SG_youtube@资源分享师_180
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 广港BGP|解锁流媒体_10
-      - 威廉姆华莱士_135
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 威廉姆华莱士_101
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - 威廉姆华莱士_98
-      - youtube@资源分享师_69
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - 威廉姆华莱士_268
-      - YouTube梦歌|低速节点_9
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - 美国(yudou66.com 玉豆免费节点)
+      - SG_youtube@资源分享师_10
+      - SG_youtube@资源分享师_4
+      - SG_youtube@资源分享师_120
+      - SG_youtube@资源分享师_5
+      - SG_youtube@资源分享师_9
+      - SG_youtube@资源分享师_82
+      - YouTube梦歌|杭港BGP_93
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|低速PLUS|EVO_133
+      - US_youtube@资源分享师_39
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_youtube@资源分享师_119
+      - US_youtube@资源分享师_45
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - SG_youtube@资源分享师_31
+      - US_youtube@资源分享师_162
+      - YouTube梦歌|杭港BGP|Netflix_270
+      - SG_youtube@资源分享师_71
+      - SG_youtube@资源分享师_180
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广港BGP|解锁流媒体_10
-      - 威廉姆华莱士_135
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 威廉姆华莱士_101
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - 威廉姆华莱士_98
-      - youtube@资源分享师_69
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - 威廉姆华莱士_268
-      - YouTube梦歌|低速节点_9
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - 美国(yudou66.com 玉豆免费节点)
+      - SG_youtube@资源分享师_10
+      - SG_youtube@资源分享师_4
+      - SG_youtube@资源分享师_120
+      - SG_youtube@资源分享师_5
+      - SG_youtube@资源分享师_9
+      - SG_youtube@资源分享师_82
+      - YouTube梦歌|杭港BGP_93
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|低速PLUS|EVO_133
+      - US_youtube@资源分享师_39
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_youtube@资源分享师_119
+      - US_youtube@资源分享师_45
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - SG_youtube@资源分享师_31
+      - US_youtube@资源分享师_162
+      - YouTube梦歌|杭港BGP|Netflix_270
+      - SG_youtube@资源分享师_71
+      - SG_youtube@资源分享师_180
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -242,25 +239,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 广港BGP|解锁流媒体_10
-      - 威廉姆华莱士_135
-      - 广港BGP|解锁流媒体_3
-      - 广港BGP|解锁流媒体_8
-      - 广港BGP|解锁流媒体_9
-      - 威廉姆华莱士_101
-      - 广港BGP|解锁流媒体_16
-      - 梦歌|杭港BGP_49
-      - 广港BGP|解锁流媒体_7
-      - 梦歌|杭港BGP_101
-      - 梦歌|杭港BGP_123
-      - 梦歌|杭港BGP_147
-      - 威廉姆华莱士_98
-      - youtube@资源分享师_69
-      - YouTube梦歌|杭港BGP|Netflix_11
-      - YouTube梦歌|杭港BGP|Netflix_245
-      - 威廉姆华莱士_268
-      - YouTube梦歌|低速节点_9
-      - YouTube梦歌|杭港BGP|Netflix_60
+      - 美国(yudou66.com 玉豆免费节点)
+      - SG_youtube@资源分享师_10
+      - SG_youtube@资源分享师_4
+      - SG_youtube@资源分享师_120
+      - SG_youtube@资源分享师_5
+      - SG_youtube@资源分享师_9
+      - SG_youtube@资源分享师_82
+      - YouTube梦歌|杭港BGP_93
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|低速PLUS|EVO_133
+      - US_youtube@资源分享师_39
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - US_youtube@资源分享师_119
+      - US_youtube@资源分享师_45
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - SG_youtube@资源分享师_31
+      - US_youtube@资源分享师_162
+      - YouTube梦歌|杭港BGP|Netflix_270
+      - SG_youtube@资源分享师_71
+      - SG_youtube@资源分享师_180
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
