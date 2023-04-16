@@ -6,49 +6,72 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 梦歌|低速PLUS|EVO_18, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 63fb4106-a7da-4c86-ae60-2906c6b99c4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
-  - {name: 梦歌|低速PLUS|EVO_20, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 63fb4106-a7da-4c86-ae60-2906c6b99c4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/jp2?ed=2048", headers: {Host: jp2.pqjc.buzz}}, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_151, server: f-as1.wvvvv.eu.org, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|香港HKBN|广港隧道|原生解锁_48, server: ap-sg-central-1.292228.xyz, port: 80, type: vmess, uuid: 22873fd1-2db8-4820-af1d-2843107ee744, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /filetransfer, headers: {Host: ap-sg-central-1.292228.xyz}}, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_116, server: cf.515188.xyz, port: 8080, type: vmess, uuid: 9d553e2b-4176-44ef-bf70-48aa8eb6da60, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_134, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: 66.42.40.132, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_112, server: 38.48.182.226, port: 41179, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_123, server: 198.2.204.247, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|原生解锁_141, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_73, server: 137.175.1.2, port: 50003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_167, server: 23.225.33.168, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_124, server: 142.4.118.252, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_139, server: 23.225.33.170, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_41, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 4632aab6-8ad3-416c-9981-e89f639f29c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_291, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_5, server: e.sandbad.live, port: 80, type: vmess, uuid: cd88c879-1ae3-44f3-802a-e60b020ecdf6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /DXUjPIQMteWqysLeEhc6, headers: {Host: e.sandbad.live}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_193, server: 95.85.88.8, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_107, server: 93.123.17.148, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_164, server: 92.223.108.7, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_234, server: 93.123.17.142, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_199, server: 37.17.119.116, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_49, server: 92.223.68.25, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_7, server: 176.34.62.207, port: 443, type: vmess, uuid: 6f0f83aa-8cec-4386-b693-97d22a446e6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_113, server: 92.223.108.15, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_79, server: 5.101.68.5, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_2, server: 117.174.51.146, port: 40511, type: ss, cipher: chacha20-ietf-poly1305, password: 6f0f83aa-8cec-4386-b693-97d22a446e6d, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_57, server: 92.223.68.26, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_257, server: 5.101.68.5, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_266, server: 92.223.108.5, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_219, server: 92.223.124.37, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_3, server: siplier.top, port: 14917, type: ss, cipher: chacha20-ietf-poly1305, password: 6f0f83aa-8cec-4386-b693-97d22a446e6d, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_268, server: 92.223.124.17, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_35, server: cf.noaries.de, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-nl.cloudflare.quest}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_233, server: 18.140.109.24, port: 443, type: vmess, uuid: 6f0f83aa-8cec-4386-b693-97d22a446e6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_64, server: au.legeth.net, port: 8080, type: vmess, uuid: 891b73a8-805c-40a4-b6d2-c8a49e6b9cdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au.legeth.net}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_15, server: 52.220.20.78, port: 443, type: vmess, uuid: 6f0f83aa-8cec-4386-b693-97d22a446e6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_106, server: 95.85.88.8, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_144, server: vn.legeth.net, port: 8080, type: vmess, uuid: 891b73a8-805c-40a4-b6d2-c8a49e6b9cdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vn.legeth.net}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_258, server: 92.223.108.15, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_237, server: cf.noaries.de, port: 8080, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: awsjpec2.cloudflare.quest}}, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_18, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg1.sharecentrepro.com}}, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_47, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_196, server: 80.240.113.5, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_127, server: 38.48.182.226, port: 41179, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_223, server: 37.17.119.116, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|沪港隧道|原生解锁_60, server: 170.178.167.140, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_33, server: 198.2.204.247, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|沪港隧道|原生解锁_94, server: 107.167.12.24, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_38, server: cf.noaries.de, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-sg.cloudflare.quest}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_292, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_162, server: de.legeth.net, port: 8080, type: vmess, uuid: 891b73a8-805c-40a4-b6d2-c8a49e6b9cdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de.legeth.net}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_3, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 4632aab6-8ad3-416c-9981-e89f639f29c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 梦歌|沪港隧道|原生解锁_26, server: 38.63.0.92, port: 47002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_243, server: 93.123.17.135, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
   - {name: 梦歌Hinet|沪港隧道|家宽解锁_66, server: 198.2.201.11, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|原生解锁_105, server: 38.40.219.187, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|香港HKBN|广港隧道|原生解锁_147, server: 142.4.114.25, port: 34002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_126, server: 137.175.18.88, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|深港专线|原生解锁_17, server: 198.2.208.86, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|原生解锁_85, server: 107.148.194.229, port: 54904, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_138, server: 198.2.211.17, port: 46499, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|香港HKBN|广港隧道|原生解锁_115, server: 38.63.17.178, port: 50702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_141, server: 142.4.121.251, port: 45129, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_186, server: 192.74.234.80, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_113, server: 156.225.67.207, port: 48890, type: vmess, uuid: d7735058-1dac-4618-99ff-0aa0441ec2d7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_130, server: 192.74.229.218, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_254, server: 80.240.113.5, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_247, server: 92.223.108.7, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_8, server: cf.noaries.de, port: 8080, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
+  - {name: 梦歌|沪港隧道|原生解锁_21, server: 173.82.55.92, port: 34412, type: vmess, uuid: 82620a6e-dbfd-4d57-8a59-9004a4bb9e92, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|沪港隧道|原生解锁_86, server: 142.4.108.25, port: 55102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_36, server: 192.74.234.80, port: 51302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|沪港隧道|原生解锁_59, server: 23.234.198.83, port: 34888, type: vmess, uuid: a9abf3e7-87f4-473d-8d03-2f26ca4b3583, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|沪港隧道|原生解锁_77, server: 142.4.108.57, port: 59109, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_96, server: 79.133.108.7, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_227, server: 198.2.211.17, port: 46499, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_102, server: 192.74.232.250, port: 51802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_68, server: usjjs.ndy58850.me, port: 26656, type: trojan, password: 799c66fa-1188-4d89-bc94-9a6b9587c1b0, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_59, server: 92.223.68.25, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_304, server: jp01-alt-vm0.entry.srthdw.art, port: 21586, type: vmess, uuid: 4f05af48-efe3-3e0a-b6bf-41c38b129394, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_157, server: 52.197.15.213, port: 443, type: vmess, uuid: 6f0f83aa-8cec-4386-b693-97d22a446e6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_61, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg2.sharecentrepro.com}}, udp: true}
   - {name: 梦歌|广港隧道|原生解锁_138, server: 4.nainiuclioud.xyz, port: 2095, type: vmess, uuid: 5f20f3f7-00b1-4240-b092-a81c89ae8aa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 4.nainiuclioud.xyz}}, udp: true}
-  - {name: 梦歌|香港HKBN|广港隧道|原生解锁_153, server: 156.225.67.121, port: 47744, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_80, server: 156.225.67.76, port: 42882, type: vmess, uuid: 3e016c4d-986e-42df-838c-6046f3d89ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_121, server: 156.225.67.108, port: 49920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_198, server: 156.225.67.252, port: 49920, type: vmess, uuid: 3fd637ad-46fe-4f85-a6e8-86b00bca1122, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_129, server: 172.67.140.193, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_53, server: f-eu1.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|香港HKBN|广港隧道|原生解锁_176, server: 46.182.107.15, port: 51172, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_146, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wo.php, headers: {Host: els200.jslist.tk}}, udp: true}
-  - {name: 梦歌|香港HKBN|广港隧道|原生解锁_222, server: 156.225.67.142, port: 51417, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_6, server: 156.225.67.61, port: 49920, type: vmess, uuid: 6193116d-96f9-4d7a-9be5-5bb06a69af0b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_8, server: 156.225.67.40, port: 35611, type: vmess, uuid: de491802-233e-47f2-8c6c-d19bcf5bd56b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_11, server: 154.85.0.7, port: 42220, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_11, server: cf.noaries.de, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
   - {name: 梦歌|广港隧道|原生解锁_122, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: de1.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_10, server: 156.225.67.130, port: 48131, type: vmess, uuid: 515bcb4d-0ba1-4cae-87cf-a047007eec54, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌Hinet|沪港隧道|家宽解锁_131, server: 156.225.67.98, port: 49920, type: vmess, uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 南非(yudou66.com 玉豆免费节点), server: 156.225.67.121, port: 47744, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_117, server: jp06-alt-vm0.entry.jpojpoh.art, port: 28788, type: vmess, uuid: 4f05af48-efe3-3e0a-b6bf-41c38b129394, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_78, server: pfgo.f3322.net, port: 29721, type: vmess, uuid: 891b73a8-805c-40a4-b6d2-c8a49e6b9cdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pfgo.f3322.net}}, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_17, server: 192.74.233.59, port: 53042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_253, server: jp04-vm0.entry.srthdw.art, port: 449, type: vmess, uuid: 4f05af48-efe3-3e0a-b6bf-41c38b129394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_44, server: pfgo.f3322.net, port: 24401, type: vmess, uuid: 891b73a8-805c-40a4-b6d2-c8a49e6b9cdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pfgo.f3322.net}}, udp: true}
+  - {name: 梦歌|深港专线|家宽解锁_95, server: 92.223.124.23, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -56,98 +79,144 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|低速PLUS|EVO_20
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
-      - 南非(yudou66.com 玉豆免费节点)
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|低速PLUS|EVO_20
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
-      - 南非(yudou66.com 玉豆免费节点)
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -155,49 +224,72 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|低速PLUS|EVO_20
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
-      - 南非(yudou66.com 玉豆免费节点)
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -217,93 +309,142 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|低速PLUS|EVO_20
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
-      - 南非(yudou66.com 玉豆免费节点)
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -311,98 +452,144 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|低速PLUS|EVO_20
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
-      - 南非(yudou66.com 玉豆免费节点)
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|低速PLUS|EVO_20
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
-      - 南非(yudou66.com 玉豆免费节点)
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -410,49 +597,72 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|低速PLUS|EVO_20
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
-      - 南非(yudou66.com 玉豆免费节点)
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -470,49 +680,72 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|低速PLUS|EVO_20
-      - 梦歌Hinet|沪港隧道|家宽解锁_151
-      - 梦歌|香港HKBN|广港隧道|原生解锁_48
-      - 梦歌Hinet|沪港隧道|家宽解锁_116
-      - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌Hinet|沪港隧道|家宽解锁_134
-      - 梦歌Hinet|沪港隧道|家宽解锁_112
-      - 梦歌Hinet|沪港隧道|家宽解锁_123
-      - 梦歌|广港隧道|原生解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_73
-      - 梦歌Hinet|沪港隧道|家宽解锁_167
-      - 梦歌Hinet|沪港隧道|家宽解锁_124
-      - 梦歌Hinet|沪港隧道|家宽解锁_139
-      - 梦歌Hinet|沪港隧道|家宽解锁_41
+      - 梦歌|广港隧道|家宽解锁_291
+      - 梦歌|杭港BGP|NETFLIX_5
+      - 梦歌|深港专线|家宽解锁_193
+      - 梦歌|深港专线|家宽解锁_107
+      - 梦歌|深港专线|家宽解锁_164
+      - 梦歌|深港专线|家宽解锁_234
+      - 梦歌|深港专线|家宽解锁_199
+      - 梦歌|深港专线|家宽解锁_49
+      - 梦歌|深港专线|家宽解锁_7
+      - 梦歌|深港专线|家宽解锁_113
+      - 梦歌|深港专线|家宽解锁_79
+      - 梦歌|深港专线|家宽解锁_2
+      - 梦歌|深港专线|家宽解锁_57
+      - 梦歌|深港专线|家宽解锁_257
+      - 梦歌|深港专线|家宽解锁_266
+      - 梦歌|深港专线|家宽解锁_219
+      - 梦歌|深港专线|家宽解锁_3
+      - 梦歌|深港专线|家宽解锁_268
+      - 梦歌|杭港BGP|NETFLIX_35
+      - 梦歌|深港专线|家宽解锁_233
+      - 梦歌|深港专线|家宽解锁_64
+      - 梦歌|深港专线|家宽解锁_15
+      - 梦歌|深港专线|家宽解锁_106
+      - 梦歌|深港专线|家宽解锁_144
+      - 梦歌|深港专线|家宽解锁_258
+      - 梦歌|广港隧道|家宽解锁_237
+      - 梦歌|杭港BGP|NETFLIX_18
+      - 梦歌|杭港BGP|NETFLIX_47
+      - 梦歌|深港专线|家宽解锁_196
+      - 梦歌|广港隧道|家宽解锁_127
+      - 梦歌|深港专线|家宽解锁_223
+      - 梦歌|沪港隧道|原生解锁_60
+      - 梦歌|杭港BGP|NETFLIX_33
+      - 梦歌|沪港隧道|原生解锁_94
+      - 梦歌|杭港BGP|NETFLIX_38
+      - 梦歌|广港隧道|家宽解锁_292
+      - 梦歌|深港专线|家宽解锁_162
+      - 梦歌|广港隧道|家宽解锁_3
+      - 梦歌|沪港隧道|原生解锁_26
+      - 梦歌|深港专线|家宽解锁_243
       - 梦歌Hinet|沪港隧道|家宽解锁_66
-      - 梦歌|广港隧道|原生解锁_105
-      - 梦歌|香港HKBN|广港隧道|原生解锁_147
-      - 梦歌Hinet|沪港隧道|家宽解锁_126
-      - 梦歌|深港专线|原生解锁_17
-      - 梦歌|广港隧道|原生解锁_85
-      - 梦歌Hinet|沪港隧道|家宽解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_115
-      - 梦歌Hinet|沪港隧道|家宽解锁_141
-      - 梦歌Hinet|沪港隧道|家宽解锁_186
-      - 梦歌Hinet|沪港隧道|家宽解锁_113
-      - 梦歌Hinet|沪港隧道|家宽解锁_130
+      - 梦歌|深港专线|家宽解锁_254
+      - 梦歌|深港专线|家宽解锁_247
+      - 梦歌|杭港BGP|NETFLIX_8
+      - 梦歌|沪港隧道|原生解锁_21
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|杭港BGP|NETFLIX_36
+      - 梦歌|沪港隧道|原生解锁_59
+      - 梦歌|沪港隧道|原生解锁_77
+      - 梦歌|深港专线|家宽解锁_96
+      - 梦歌|广港隧道|家宽解锁_227
+      - 梦歌|广港隧道|家宽解锁_102
+      - 梦歌|杭港BGP|NETFLIX_68
+      - 梦歌|深港专线|家宽解锁_59
+      - 梦歌|广港隧道|家宽解锁_304
+      - 梦歌|深港专线|家宽解锁_157
+      - 梦歌|杭港BGP|NETFLIX_61
       - 梦歌|广港隧道|原生解锁_138
-      - 梦歌|香港HKBN|广港隧道|原生解锁_153
-      - 梦歌Hinet|沪港隧道|家宽解锁_80
-      - 梦歌Hinet|沪港隧道|家宽解锁_121
-      - 梦歌Hinet|沪港隧道|家宽解锁_198
-      - 梦歌Hinet|沪港隧道|家宽解锁_129
-      - 梦歌Hinet|沪港隧道|家宽解锁_53
-      - 梦歌|香港HKBN|广港隧道|原生解锁_176
-      - 梦歌Hinet|沪港隧道|家宽解锁_146
-      - 梦歌|香港HKBN|广港隧道|原生解锁_222
-      - 梦歌Hinet|沪港隧道|家宽解锁_6
-      - 梦歌Hinet|沪港隧道|家宽解锁_8
-      - 梦歌Hinet|沪港隧道|家宽解锁_11
+      - 梦歌|杭港BGP|NETFLIX_11
       - 梦歌|广港隧道|原生解锁_122
-      - 梦歌Hinet|沪港隧道|家宽解锁_10
-      - 梦歌Hinet|沪港隧道|家宽解锁_131
-      - 南非(yudou66.com 玉豆免费节点)
+      - 梦歌|深港专线|家宽解锁_117
+      - 梦歌|深港专线|家宽解锁_78
+      - 梦歌|杭港BGP|NETFLIX_17
+      - 梦歌|深港专线|家宽解锁_253
+      - 梦歌|深港专线|家宽解锁_44
+      - 梦歌|深港专线|家宽解锁_95
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
