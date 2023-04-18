@@ -5,483 +5,191 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 梦歌|深港专线|家宽解锁_66, server: 5.188.121.138, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_309, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
   - {name: 梦歌|低速PLUS|EVO_18, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: 63fb4106-a7da-4c86-ae60-2906c6b99c4c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_8, server: cf.noaries.de, port: 8080, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.cloudflare.quest}}, udp: true}
-  - {name: youtube@资源分享师_349, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_196, server: 80.240.113.5, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_43, server: 93.123.17.134, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_229, server: 45.82.101.5, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_164, server: 92.223.108.7, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_79, server: 5.101.68.5, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_242, server: 95.85.69.7, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_145, server: 92.223.114.11, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_149, server: 45.82.101.9, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_97, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_213, server: 95.85.69.7, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_219, server: 92.223.124.37, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_234, server: 93.123.17.142, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_202, server: 5.188.121.138, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_237, server: 92.223.114.11, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_214, server: 92.223.124.17, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_96, server: 79.133.108.7, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_223, server: 37.17.119.116, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_189, server: 93.123.11.11, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_62, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_108, server: 5.189.207.4, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_214, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_59, server: 92.223.68.25, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_46, server: 93.123.17.134, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: pop.usa.gfwcaonimanmsl.ml, port: 8966, type: vmess, uuid: 3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /name, headers: {Host: pop.usa.gfwcaonimanmsl.ml}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_6, server: pop.china.gfwcaonimanmsl.ml, port: 10010, type: vmess, uuid: 3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /name, headers: {Host: pop.china.gfwcaonimanmsl.ml}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_47, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 日本(yudou66.com 玉豆免费节点), server: jp.stablize.top, port: 443, type: trojan, password: 5962fe8f-d510-4046-a21e-e1acede672e6, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_257, server: 5.101.68.5, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_106, server: 95.85.88.8, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_193, server: 95.85.88.8, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_244, server: 92.223.124.17, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_258, server: 92.223.108.15, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_61, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg2.sharecentrepro.com}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_266, server: 92.223.108.5, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: ca.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_61, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_14, server: 92.223.114.11, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_108, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_11, server: cf.noaries.de, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: ee.cloudflare.quest}}, udp: true}
-  - {name: HK_youtube@资源分享师_67, server: pop.shanghai.gfwcaonimanmsl.ml, port: 43954, type: vmess, uuid: 3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_2, server: d0cd89648587.sanfen004.me, port: 16609, type: vmess, uuid: e5ffd02e-a82b-40d1-83aa-23f9f6841abb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: ca.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 梦歌|江港隧道|NETFLIX_82, server: 23.227.38.39, port: 8880, type: vmess, uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lg.trump2023.net}}, udp: true}
+  - {name: 梦歌|杭港隧道|NETFLIX_146, server: ca.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 梦歌|江港隧道|NETFLIX_108, server: gd-cn-02.1024.com.s1024.cc, port: 27204, type: ss, cipher: chacha20-ietf-poly1305, password: 4548b593-1fcf-4b47-9644-f93015c9ac4c, udp: true}
   - {name: 梦歌|杭港BGP|NETFLIX_38, server: cf.noaries.de, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-sg.cloudflare.quest}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_48, server: 80.240.113.5, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_200, server: 92.223.55.5, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_94, server: 92.223.124.23, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_291, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_156, server: 134.0.219.37, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_188, server: 92.223.124.46, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: SG_youtube@资源分享师_26, server: hkjs.stablize.top, port: 443, type: trojan, password: 4caf2fa6-964b-4413-b2d2-70a60e185c62, skip-cert-verify: true, udp: true}
-  - {name: 韩国(yudou66.com 玉豆免费节点), server: kr.stablize.top, port: 443, type: trojan, password: ed5a1734-aa35-4c79-bda2-6bf319c66cf7, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_73, server: cf.noaries.de, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: csjp.cloudflare.quest}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_281, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_87, server: 172.247.148.82, port: 53302, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_158, server: 142.4.126.121, port: 50032, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: dp1.scproxy.top, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_243, server: 93.123.17.135, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_79, server: cf.noaries.de, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-de.cloudflare.quest}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_127, server: 38.48.182.226, port: 41179, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_60, server: 170.178.167.140, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_98, server: 92.223.124.46, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|广港隧道|原生解锁_59, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: b00ac480-3e34-4ca9-8b3b-0b4515e4b75d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_199, server: 37.17.119.116, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_222, server: 23.224.14.116, port: 51552, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_33, server: 198.2.204.247, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_177, server: 142.4.110.119, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_95, server: 92.223.124.23, port: 80, type: vmess, uuid: 5ac960de-3f6b-4a75-ecc9-42071d884788, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: moghaddam.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_292, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_94, server: 107.167.12.24, port: 41702, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_35, server: cf.noaries.de, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-nl.cloudflare.quest}}, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_55, server: 142.4.127.152, port: 50042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_113, server: 92.223.108.15, port: 80, type: vmess, uuid: c01e2239-aa31-40c1-f123-c5dd1cc14fc8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_22, server: cf.noaries.de, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: awsjpec2.cloudflare.quest}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_54, server: 38.40.219.187, port: 50462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_107, server: 93.123.17.148, port: 80, type: vmess, uuid: 5175c861-8fcc-40f9-d8e2-86981d979a65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: mehdi.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_237, server: cf.noaries.de, port: 8080, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: awsjpec2.cloudflare.quest}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_26, server: lop.hk3.gfwcaonimanmsl.ml, port: 12800, type: vmess, uuid: 3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_179, server: 198.2.206.34, port: 33012, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_4, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 4632aab6-8ad3-416c-9981-e89f639f29c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: SG_youtube@资源分享师_69, server: aujs.stablize.top, port: 443, type: trojan, password: 85f0aed5-6694-4194-90d3-9b33352e0791, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_200, server: 198.2.232.175, port: 54342, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_227, server: 198.2.211.17, port: 46499, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_274, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_151, server: 93.123.17.139, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_174, server: 142.4.113.102, port: 59022, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_86, server: 142.4.108.25, port: 55102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_51, server: 198.2.203.109, port: 46612, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: cf.noaries.de, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-us.cloudflare.quest}}, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_75, server: 38.54.247.99, port: 54405, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_48, server: 198.2.203.145, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_188, server: 192.74.229.218, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: SG_youtube@资源分享师_94, server: ukjs.stablize.top, port: 443, type: trojan, password: 0282f7e0-f452-4298-a985-0a3984919128, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_248, server: 198.2.203.148, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_302, server: 137.175.15.195, port: 43487, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_17, server: 142.0.132.41, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_57, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: SG_youtube@资源分享师_103, server: cajs.stablize.top, port: 443, type: trojan, password: 0282f7e0-f452-4298-a985-0a3984919128, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_19, server: 198.2.208.183, port: 35402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_15, server: 198.16.45.171, port: 53392, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_6, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 4632aab6-8ad3-416c-9981-e89f639f29c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_3, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 4632aab6-8ad3-416c-9981-e89f639f29c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_67, server: cf.noaries.de, port: 8880, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-au.cloudflare.quest}}, udp: true}
-  - {name: US_youtube@资源分享师_11, server: rnrn3g.555456.xyz, port: 443, type: vmess, uuid: 17c6c64e-eb3c-44ae-98f8-d469713f91f1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /lpkuvws, headers: {Host: rnrn3g.555456.xyz}}, udp: true}
-  - {name: 梦歌|广港IEPL|NETFLIX_145, server: 142.4.112.14, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_28, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg2.sharecentrepro.com}}, udp: true}
+  - {name: youtube@资源分享师_349, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk2.ilovescp.com}}, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_27, server: 198.2.205.108, port: 53327, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港隧道|NETFLIX_1, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 4632aab6-8ad3-416c-9981-e89f639f29c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_102, server: 198.2.198.16, port: 42288, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_35, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ny1.sharecentrepro.org}}, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_83, server: 142.4.110.29, port: 52902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_164, server: 107.148.199.13, port: 35212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港隧道|NETFLIX_2, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: 4632aab6-8ad3-416c-9981-e89f639f29c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
   - {name: 梦歌|杭港BGP|NETFLIX_76, server: f-eu1.wvvvv.eu.org, port: 1, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: youtube@资源分享师_235, server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vde2.0bad.com}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_254, server: 154.85.0.7, port: 42220, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_107, server: 156.225.67.142, port: 51417, type: vmess, uuid: 990006bd-cb20-482f-9c97-f5fc65359605, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_256, server: 170.238.234.217, port: 80, type: vmess, uuid: 18d45dc8-62aa-4a02-9c15-d9905059e3ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /mehdi, headers: {Host: goodbyefiltering.mashtopituanbipi.tk}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_18, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg1.sharecentrepro.com}}, udp: true}
-  - {name: 梦歌|江港BGP|NETFLIX_111, server: chat.samrg.buzz, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cutin, headers: {Host: chat.samrg.buzz}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_9, server: cf.noaries.de, port: 2052, type: vmess, uuid: a0f153d8-e32f-41f3-9bcd-073f579e2264, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-de.cloudflare.quest}}, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_246, server: 156.225.67.121, port: 44144, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|沪港隧道|原生解锁_86, server: 142.4.108.25, port: 55102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 142.4.108.25, port: 55102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_251, server: 51.195.35.148, port: 58812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 142.4.108.25, port: 55102, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港隧道|NETFLIX_8, server: yes.iamagoodman.net, port: 16642, type: vmess, uuid: b00ac480-3e34-4ca9-8b3b-0b4515e4b75d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.iamagoodman.net}}, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_73, server: 156.225.67.85, port: 49920, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港IEPL|NETFLIX_236, server: 142.4.119.208, port: 53986, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港IEPL专线|NETFLIX_52, server: cdn.arno.buzz, port: 80, type: vmess, uuid: 7bea35a3-d29c-4a33-b471-1eb63b3ecf70, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hahuutung, headers: {Host: vietnam8.azzphuc.pro}}, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_202, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_214, server: 156.225.67.125, port: 43922, type: vmess, uuid: 3a3c8a9c-334e-4360-adb8-a80a57ddcbbf, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_75, server: 156.225.67.152, port: 37381, type: vmess, uuid: a7fa8f14-4fb6-4280-9005-d6bbe99c5da9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|家宽解锁_188, server: 192.74.229.218, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|杭港BGP|NETFLIX_6, server: pop.china.gfwcaonimanmsl.ml, port: 10010, type: vmess, uuid: 3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /name, headers: {Host: pop.china.gfwcaonimanmsl.ml}}, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_207, server: 154.84.1.48, port: 43313, type: vmess, uuid: bd249e37-7359-41ee-84a7-09e49e0ec5c4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: youtube@资源分享师_262, server: f-as1.wvvvv.eu.org, port: 20, type: vmess, uuid: 0da1d372-ec60-4b89-8a3f-79159438c6f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_19, server: 156.245.8.196, port: 42294, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_18, server: 156.225.67.101, port: 44388, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_30, server: 156.225.67.68, port: 43553, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_47, server: 154.84.1.60, port: 44123, type: vmess, uuid: 6fa560d4-35c5-4968-adfc-812c52878b84, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_56, server: 156.225.67.213, port: 47134, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_53, server: 46.182.107.15, port: 51332, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 梦歌|广港隧道|NETFLIX_99, server: 156.245.8.246, port: 49920, type: vmess, uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: els200.jslist.tk, port: 8443, type: vmess, uuid: e30cfa80-bc2c-43df-e808-97876aee77e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wo.php, headers: {Host: els200.jslist.tk}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|深港专线|家宽解锁_66
+      - 梦歌|广港隧道|家宽解锁_309
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|杭港BGP|NETFLIX_8
-      - youtube@资源分享师_349
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
+      - 梦歌|杭港BGP|NETFLIX_2
       - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 日本(yudou66.com 玉豆免费节点)
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
-      - HK_youtube@资源分享师_67
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - SG_youtube@资源分享师_26
-      - 韩国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - SG_youtube@资源分享师_69
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 梦歌|广港IEPL|NETFLIX_75
-      - US_youtube@资源分享师_48
-      - 梦歌|广港隧道|家宽解锁_188
-      - SG_youtube@资源分享师_94
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - SG_youtube@资源分享师_103
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - US_youtube@资源分享师_11
-      - 梦歌|广港IEPL|NETFLIX_145
-      - US_youtube@资源分享师_28
+      - youtube@资源分享师_349
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - US_youtube@资源分享师_35
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - youtube@资源分享师_235
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 梦歌|广港隧道|NETFLIX_251
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - youtube@资源分享师_262
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
+      - 美国(yudou66.com 玉豆免费节点) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 梦歌|深港专线|家宽解锁_66
+      - 梦歌|广港隧道|家宽解锁_309
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|杭港BGP|NETFLIX_8
-      - youtube@资源分享师_349
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
+      - 梦歌|杭港BGP|NETFLIX_2
       - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 日本(yudou66.com 玉豆免费节点)
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
-      - HK_youtube@资源分享师_67
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - SG_youtube@资源分享师_26
-      - 韩国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - SG_youtube@资源分享师_69
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 梦歌|广港IEPL|NETFLIX_75
-      - US_youtube@资源分享师_48
-      - 梦歌|广港隧道|家宽解锁_188
-      - SG_youtube@资源分享师_94
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - SG_youtube@资源分享师_103
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - US_youtube@资源分享师_11
-      - 梦歌|广港IEPL|NETFLIX_145
-      - US_youtube@资源分享师_28
+      - youtube@资源分享师_349
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - US_youtube@资源分享师_35
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - youtube@资源分享师_235
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 梦歌|广港隧道|NETFLIX_251
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - youtube@资源分享师_262
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
+      - 美国(yudou66.com 玉豆免费节点) 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|深港专线|家宽解锁_66
+      - 梦歌|广港隧道|家宽解锁_309
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|杭港BGP|NETFLIX_8
-      - youtube@资源分享师_349
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
+      - 梦歌|杭港BGP|NETFLIX_2
       - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 日本(yudou66.com 玉豆免费节点)
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
-      - HK_youtube@资源分享师_67
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - SG_youtube@资源分享师_26
-      - 韩国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - SG_youtube@资源分享师_69
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 梦歌|广港IEPL|NETFLIX_75
-      - US_youtube@资源分享师_48
-      - 梦歌|广港隧道|家宽解锁_188
-      - SG_youtube@资源分享师_94
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - SG_youtube@资源分享师_103
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - US_youtube@资源分享师_11
-      - 梦歌|广港IEPL|NETFLIX_145
-      - US_youtube@资源分享师_28
+      - youtube@资源分享师_349
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - US_youtube@资源分享师_35
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - youtube@资源分享师_235
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 梦歌|广港隧道|NETFLIX_251
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - youtube@资源分享师_262
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
+      - 美国(yudou66.com 玉豆免费节点) 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -500,585 +208,228 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|深港专线|家宽解锁_66
+      - 梦歌|广港隧道|家宽解锁_309
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|杭港BGP|NETFLIX_8
-      - youtube@资源分享师_349
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
+      - 梦歌|杭港BGP|NETFLIX_2
       - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 日本(yudou66.com 玉豆免费节点)
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
-      - HK_youtube@资源分享师_67
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - SG_youtube@资源分享师_26
-      - 韩国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - SG_youtube@资源分享师_69
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 梦歌|广港IEPL|NETFLIX_75
-      - US_youtube@资源分享师_48
-      - 梦歌|广港隧道|家宽解锁_188
-      - SG_youtube@资源分享师_94
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - SG_youtube@资源分享师_103
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - US_youtube@资源分享师_11
-      - 梦歌|广港IEPL|NETFLIX_145
-      - US_youtube@资源分享师_28
+      - youtube@资源分享师_349
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - US_youtube@资源分享师_35
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - youtube@资源分享师_235
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 梦歌|广港隧道|NETFLIX_251
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - youtube@资源分享师_262
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
+      - 美国(yudou66.com 玉豆免费节点) 5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 梦歌|深港专线|家宽解锁_66
-      - 梦歌|杭港BGP|NETFLIX_8
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
+      - 梦歌|广港隧道|家宽解锁_309
+      - 梦歌|杭港BGP|NETFLIX_2
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 梦歌|广港IEPL|NETFLIX_75
-      - 梦歌|广港隧道|家宽解锁_188
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - 梦歌|广港IEPL|NETFLIX_145
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 梦歌|广港隧道|NETFLIX_251
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 梦歌|深港专线|家宽解锁_66
+      - 梦歌|广港隧道|家宽解锁_309
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|杭港BGP|NETFLIX_8
-      - youtube@资源分享师_349
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
+      - 梦歌|杭港BGP|NETFLIX_2
       - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 日本(yudou66.com 玉豆免费节点)
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
-      - HK_youtube@资源分享师_67
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - SG_youtube@资源分享师_26
-      - 韩国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - SG_youtube@资源分享师_69
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 梦歌|广港IEPL|NETFLIX_75
-      - US_youtube@资源分享师_48
-      - 梦歌|广港隧道|家宽解锁_188
-      - SG_youtube@资源分享师_94
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - SG_youtube@资源分享师_103
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - US_youtube@资源分享师_11
-      - 梦歌|广港IEPL|NETFLIX_145
-      - US_youtube@资源分享师_28
+      - youtube@资源分享师_349
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - US_youtube@资源分享师_35
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - youtube@资源分享师_235
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 梦歌|广港隧道|NETFLIX_251
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - youtube@资源分享师_262
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
+      - 美国(yudou66.com 玉豆免费节点) 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 梦歌|深港专线|家宽解锁_66
+      - 梦歌|广港隧道|家宽解锁_309
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|杭港BGP|NETFLIX_8
-      - youtube@资源分享师_349
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
+      - 梦歌|杭港BGP|NETFLIX_2
       - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 日本(yudou66.com 玉豆免费节点)
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
-      - HK_youtube@资源分享师_67
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - SG_youtube@资源分享师_26
-      - 韩国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - SG_youtube@资源分享师_69
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 梦歌|广港IEPL|NETFLIX_75
-      - US_youtube@资源分享师_48
-      - 梦歌|广港隧道|家宽解锁_188
-      - SG_youtube@资源分享师_94
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - SG_youtube@资源分享师_103
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - US_youtube@资源分享师_11
-      - 梦歌|广港IEPL|NETFLIX_145
-      - US_youtube@资源分享师_28
+      - youtube@资源分享师_349
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - US_youtube@资源分享师_35
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - youtube@资源分享师_235
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 梦歌|广港隧道|NETFLIX_251
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - youtube@资源分享师_262
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
+      - 美国(yudou66.com 玉豆免费节点) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 梦歌|深港专线|家宽解锁_66
+      - 梦歌|广港隧道|家宽解锁_309
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|杭港BGP|NETFLIX_8
-      - youtube@资源分享师_349
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
+      - 梦歌|杭港BGP|NETFLIX_2
       - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 日本(yudou66.com 玉豆免费节点)
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
-      - HK_youtube@资源分享师_67
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - SG_youtube@资源分享师_26
-      - 韩国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - SG_youtube@资源分享师_69
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 梦歌|广港IEPL|NETFLIX_75
-      - US_youtube@资源分享师_48
-      - 梦歌|广港隧道|家宽解锁_188
-      - SG_youtube@资源分享师_94
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - SG_youtube@资源分享师_103
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - US_youtube@资源分享师_11
-      - 梦歌|广港IEPL|NETFLIX_145
-      - US_youtube@资源分享师_28
+      - youtube@资源分享师_349
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - US_youtube@资源分享师_35
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - youtube@资源分享师_235
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 梦歌|广港隧道|NETFLIX_251
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - youtube@资源分享师_262
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
+      - 美国(yudou66.com 玉豆免费节点) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1095,121 +446,48 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 梦歌|深港专线|家宽解锁_66
+      - 梦歌|广港隧道|家宽解锁_309
       - 梦歌|低速PLUS|EVO_18
-      - 梦歌|杭港BGP|NETFLIX_8
-      - youtube@资源分享师_349
-      - 梦歌|深港专线|家宽解锁_196
-      - 梦歌|深港专线|家宽解锁_43
-      - 梦歌|深港专线|家宽解锁_229
-      - 梦歌|深港专线|家宽解锁_164
-      - 梦歌|深港专线|家宽解锁_79
-      - 梦歌|深港专线|家宽解锁_242
-      - 梦歌|深港专线|家宽解锁_145
-      - 梦歌|深港专线|家宽解锁_149
-      - 梦歌|杭港BGP|NETFLIX_97
-      - 梦歌|深港专线|家宽解锁_213
-      - 梦歌|深港专线|家宽解锁_219
-      - 梦歌|深港专线|家宽解锁_234
-      - 梦歌|深港专线|家宽解锁_202
-      - 梦歌|深港专线|家宽解锁_237
-      - 梦歌|深港专线|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_96
-      - 梦歌|深港专线|家宽解锁_223
-      - 梦歌|深港专线|家宽解锁_189
-      - 梦歌|杭港BGP|NETFLIX_62
-      - 梦歌|深港专线|家宽解锁_108
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|深港专线|家宽解锁_59
-      - 梦歌|深港专线|家宽解锁_46
+      - 梦歌|杭港BGP|NETFLIX_2
       - 美国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_6
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 日本(yudou66.com 玉豆免费节点)
-      - 梦歌|深港专线|家宽解锁_257
-      - 梦歌|深港专线|家宽解锁_106
-      - 梦歌|深港专线|家宽解锁_193
-      - 梦歌|深港专线|家宽解锁_244
-      - 梦歌|深港专线|家宽解锁_258
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|深港专线|家宽解锁_266
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|深港专线|家宽解锁_14
-      - 梦歌|杭港BGP|NETFLIX_108
-      - 梦歌|杭港BGP|NETFLIX_11
-      - HK_youtube@资源分享师_67
+      - 梦歌|江港隧道|NETFLIX_82
+      - 梦歌|杭港隧道|NETFLIX_146
+      - 梦歌|江港隧道|NETFLIX_108
       - 梦歌|杭港BGP|NETFLIX_38
-      - 梦歌|深港专线|家宽解锁_48
-      - 梦歌|深港专线|家宽解锁_200
-      - 梦歌|深港专线|家宽解锁_94
-      - 梦歌|广港隧道|家宽解锁_291
-      - 梦歌|深港专线|家宽解锁_156
-      - 梦歌|深港专线|家宽解锁_188
-      - SG_youtube@资源分享师_26
-      - 韩国(yudou66.com 玉豆免费节点)
-      - 梦歌|杭港BGP|NETFLIX_73
-      - 梦歌|广港隧道|家宽解锁_281
-      - 梦歌|沪港隧道|原生解锁_87
-      - 梦歌|广港IEPL|NETFLIX_158
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|深港专线|家宽解锁_243
-      - 梦歌|杭港BGP|NETFLIX_79
-      - 梦歌|广港隧道|家宽解锁_127
-      - 梦歌|沪港隧道|原生解锁_60
-      - 梦歌|深港专线|家宽解锁_98
-      - 梦歌|广港隧道|原生解锁_59
-      - 梦歌|深港专线|家宽解锁_199
-      - 梦歌|广港隧道|家宽解锁_222
-      - 梦歌|杭港BGP|NETFLIX_33
-      - 梦歌|广港IEPL|NETFLIX_177
-      - 梦歌|深港专线|家宽解锁_95
-      - 梦歌|广港隧道|家宽解锁_292
-      - 梦歌|沪港隧道|原生解锁_94
-      - 梦歌|杭港BGP|NETFLIX_35
-      - 梦歌|沪港隧道|原生解锁_55
-      - 梦歌|深港专线|家宽解锁_113
-      - 梦歌|杭港BGP|NETFLIX_22
-      - 梦歌|杭港BGP|NETFLIX_54
-      - 梦歌|深港专线|家宽解锁_107
-      - 梦歌|广港隧道|家宽解锁_237
-      - 梦歌|杭港BGP|NETFLIX_26
-      - 梦歌|广港IEPL|NETFLIX_179
-      - 梦歌|广港隧道|家宽解锁_4
-      - SG_youtube@资源分享师_69
-      - 梦歌|广港IEPL|NETFLIX_200
-      - 梦歌|广港隧道|家宽解锁_227
-      - 梦歌|广港隧道|家宽解锁_274
-      - 梦歌|深港专线|家宽解锁_151
-      - 梦歌|广港IEPL|NETFLIX_174
-      - 梦歌|沪港隧道|原生解锁_86
-      - 梦歌|沪港隧道|原生解锁_51
-      - 美国(yudou66.com 玉豆免费节点) 4
-      - 梦歌|广港IEPL|NETFLIX_75
-      - US_youtube@资源分享师_48
-      - 梦歌|广港隧道|家宽解锁_188
-      - SG_youtube@资源分享师_94
-      - 梦歌|广港IEPL|NETFLIX_248
-      - 梦歌|广港隧道|家宽解锁_302
-      - 梦歌|沪港隧道|原生解锁_17
-      - 梦歌|沪港隧道|原生解锁_57
-      - SG_youtube@资源分享师_103
-      - 梦歌|沪港隧道|原生解锁_19
-      - 梦歌|广港IEPL|NETFLIX_15
-      - 梦歌|广港隧道|家宽解锁_6
-      - 梦歌|广港隧道|家宽解锁_3
-      - 梦歌|杭港BGP|NETFLIX_67
-      - US_youtube@资源分享师_11
-      - 梦歌|广港IEPL|NETFLIX_145
-      - US_youtube@资源分享师_28
+      - youtube@资源分享师_349
+      - 美国(yudou66.com 玉豆免费节点) 2
+      - 梦歌|广港隧道|NETFLIX_27
+      - 梦歌|杭港隧道|NETFLIX_1
+      - 梦歌|广港隧道|NETFLIX_102
+      - US_youtube@资源分享师_35
+      - 梦歌|广港隧道|NETFLIX_83
+      - 梦歌|广港隧道|NETFLIX_164
+      - 梦歌|杭港隧道|NETFLIX_2
       - 梦歌|杭港BGP|NETFLIX_76
-      - youtube@资源分享师_235
-      - 梦歌|广港隧道|家宽解锁_254
-      - 梦歌|杭港BGP|NETFLIX_107
-      - 梦歌|深港专线|家宽解锁_256
-      - 梦歌|杭港BGP|NETFLIX_18
-      - 梦歌|江港BGP|NETFLIX_111
-      - 梦歌|杭港BGP|NETFLIX_9
+      - 梦歌|广港隧道|NETFLIX_246
+      - 梦歌|沪港隧道|原生解锁_86
+      - 美国(yudou66.com 玉豆免费节点) 3
+      - 梦歌|广港隧道|NETFLIX_251
+      - 美国(yudou66.com 玉豆免费节点) 4
+      - 梦歌|杭港隧道|NETFLIX_8
+      - 梦歌|广港隧道|NETFLIX_73
+      - 梦歌|广港IEPL|NETFLIX_236
+      - 梦歌|广港IEPL专线|NETFLIX_52
+      - 梦歌|广港隧道|家宽解锁_202
+      - 梦歌|广港隧道|NETFLIX_214
+      - 梦歌|广港隧道|NETFLIX_75
+      - 梦歌|广港隧道|家宽解锁_188
+      - 梦歌|杭港BGP|NETFLIX_6
+      - 梦歌|广港隧道|NETFLIX_207
+      - youtube@资源分享师_262
+      - 梦歌|广港隧道|NETFLIX_19
+      - 梦歌|广港隧道|NETFLIX_18
+      - 梦歌|广港隧道|NETFLIX_30
+      - 梦歌|广港隧道|NETFLIX_47
+      - 梦歌|广港隧道|NETFLIX_56
+      - 梦歌|广港隧道|NETFLIX_53
+      - 梦歌|广港隧道|NETFLIX_99
+      - 美国(yudou66.com 玉豆免费节点) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
