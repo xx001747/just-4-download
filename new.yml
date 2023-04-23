@@ -5,115 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 梦歌|杭港BGP|NETFLIX_61, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: sg2.sharecentrepro.com}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_214, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_47, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: cf.noaries.de, port: 80, type: vmess, uuid: 6f1d968e-7f41-41fd-931d-73cf35a9f26b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: dedipath.cloudflare.quest}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: cf.noaries.de, port: 443, type: vmess, uuid: 6f1d968e-7f41-41fd-931d-73cf35a9f26b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: dedipath.cloudflare.quest}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_245, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_56, server: 172.67.140.193, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_57, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_59, server: 162.159.138.245, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_209, server: 172.67.84.93, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_32, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: 梦歌|深港专线|家宽解锁_104, server: 172.67.250.239, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp2.scproxy.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk2.ilovescp.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】USA21, server: 108.162.192.12, port: 443, type: vmess, uuid: efb8f3ba-848f-4716-b233-ea038cd2eb32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: vtcss.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: ca.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: ca.ilovescp.com}}, udp: true}
-  - {name: 梦歌|沪港隧道|原生解锁_61, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_10, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: youtube@资源分享师_349, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_89, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌|广港隧道|家宽解锁_265, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: lv3.sharecentrepro.org, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv3.sharecentrepro.org}}, udp: true}
-  - {name: 梦歌|杭港BGP|NETFLIX_173, server: hk-hytron.ilovescp.com, port: 443, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk-hytron.ilovescp.com}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: zjcu.lele233.top, port: 26111, type: ss, cipher: chacha20-ietf-poly1305, password: fd6b031e-7b35-4716-8e53-060c755b5259, udp: true}
+  - {name: 智利(yudou66.com 玉豆免费节点), server: 104.16.53.111, port: 8443, type: vmess, uuid: 381a7f87-ecf3-4aa5-a1a0-96cf54907913, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Alfred, headers: {Host: wsv2ray.serviciosbo.online}}, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 137.175.69.228, port: 44920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_127, server: 142.4.127.5, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 172.247.67.22, port: 42940, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_138, server: 198.2.205.74, port: 30402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 4, server: 198.2.205.66, port: 30402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(yudou66.com 玉豆免费节点), server: hn.xiaohouzi.club, port: 48732, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: ajpn02.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_333, server: 198.2.203.57, port: 44002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_178, server: 142.4.118.253, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_54, server: 198.2.205.68, port: 30402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_79, server: 172.247.67.22, port: 42940, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_352, server: 137.175.18.87, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳洲(yudou66.com 玉豆免费节点), server: hn.xiaohouzi.club, port: 18583, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: vutnkr03.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 5, server: hn.xiaohouzi.club, port: 19025, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: siga05.xiaohouzi.club, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube-由零開始】22, server: 38.54.250.55, port: 51431, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_72, server: 198.2.205.70, port: 30402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_84, server: 142.4.121.252, port: 45409, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点) 6, server: 137.175.18.87, port: 42002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: RS_youtube@资源分享师_47, server: 37.120.193.102, port: 49920, type: vmess, uuid: 57170ff0-7180-4664-8f61-8debdda345f7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TH_youtube@资源分享师_258, server: 119.59.98.107, port: 40957, type: vmess, uuid: 400553bc-7eb0-4c65-a507-50809c2bf20e, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_136, server: 142.4.127.4, port: 53013, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK_youtube@资源分享师_320, server: fc.hk03.fp-dns.xyz, port: 2087, type: trojan, password: f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7, skip-cert-verify: true, udp: true}
+  - {name: 法国【YouTube-由零開始】22, server: 51.210.101.213, port: 9443, type: vmess, uuid: 1530f575-94b7-495e-98c5-c0859daac5f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fr1-vmess.greenssh.xyz}}, udp: true}
+  - {name: 日本(yudou66.com 玉豆免费节点) 2, server: hn.xiaohouzi.club, port: 18735, type: trojan, password: 82277b90-9f40-3c91-9b5a-e97140f63d8b, sni: ajpn05.xiaohouzi.club, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
       - 美国(yudou66.com 玉豆免费节点)
+      - 智利(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
+      - US_youtube@资源分享师_127
       - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
+      - US_youtube@资源分享师_138
       - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国【YouTube-由零開始】USA21
+      - 日本(yudou66.com 玉豆免费节点)
+      - US_youtube@资源分享师_333
+      - US_youtube@资源分享师_178
+      - US_youtube@资源分享师_54
+      - US_youtube@资源分享师_79
+      - US_youtube@资源分享师_352
+      - 澳洲(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - youtube@资源分享师_349
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
+      - 美国【YouTube-由零開始】22
+      - US_youtube@资源分享师_72
+      - US_youtube@资源分享师_84
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 梦歌|杭港BGP|NETFLIX_173
+      - RS_youtube@资源分享师_47
+      - TH_youtube@资源分享师_258
+      - US_youtube@资源分享师_136
+      - HK_youtube@资源分享师_320
+      - 法国【YouTube-由零開始】22
+      - 日本(yudou66.com 玉豆免费节点) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
       - 美国(yudou66.com 玉豆免费节点)
+      - 智利(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
+      - US_youtube@资源分享师_127
       - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
+      - US_youtube@资源分享师_138
       - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国【YouTube-由零開始】USA21
+      - 日本(yudou66.com 玉豆免费节点)
+      - US_youtube@资源分享师_333
+      - US_youtube@资源分享师_178
+      - US_youtube@资源分享师_54
+      - US_youtube@资源分享师_79
+      - US_youtube@资源分享师_352
+      - 澳洲(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - youtube@资源分享师_349
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
+      - 美国【YouTube-由零開始】22
+      - US_youtube@资源分享师_72
+      - US_youtube@资源分享师_84
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 梦歌|杭港BGP|NETFLIX_173
+      - RS_youtube@资源分享师_47
+      - TH_youtube@资源分享师_258
+      - US_youtube@资源分享师_136
+      - HK_youtube@资源分享师_320
+      - 法国【YouTube-由零開始】22
+      - 日本(yudou66.com 玉豆免费节点) 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
       - 美国(yudou66.com 玉豆免费节点)
+      - 智利(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
+      - US_youtube@资源分享师_127
       - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
+      - US_youtube@资源分享师_138
       - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国【YouTube-由零開始】USA21
+      - 日本(yudou66.com 玉豆免费节点)
+      - US_youtube@资源分享师_333
+      - US_youtube@资源分享师_178
+      - US_youtube@资源分享师_54
+      - US_youtube@资源分享师_79
+      - US_youtube@资源分享师_352
+      - 澳洲(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - youtube@资源分享师_349
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
+      - 美国【YouTube-由零開始】22
+      - US_youtube@资源分享师_72
+      - US_youtube@资源分享师_84
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 梦歌|杭港BGP|NETFLIX_173
+      - RS_youtube@资源分享师_47
+      - TH_youtube@资源分享师_258
+      - US_youtube@资源分享师_136
+      - HK_youtube@资源分享师_320
+      - 法国【YouTube-由零開始】22
+      - 日本(yudou66.com 玉豆免费节点) 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,134 +140,127 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
       - 美国(yudou66.com 玉豆免费节点)
+      - 智利(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
+      - US_youtube@资源分享师_127
       - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
+      - US_youtube@资源分享师_138
       - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国【YouTube-由零開始】USA21
+      - 日本(yudou66.com 玉豆免费节点)
+      - US_youtube@资源分享师_333
+      - US_youtube@资源分享师_178
+      - US_youtube@资源分享师_54
+      - US_youtube@资源分享师_79
+      - US_youtube@资源分享师_352
+      - 澳洲(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - youtube@资源分享师_349
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
+      - 美国【YouTube-由零開始】22
+      - US_youtube@资源分享师_72
+      - US_youtube@资源分享师_84
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 梦歌|杭港BGP|NETFLIX_173
+      - RS_youtube@资源分享师_47
+      - TH_youtube@资源分享师_258
+      - US_youtube@资源分享师_136
+      - HK_youtube@资源分享师_320
+      - 法国【YouTube-由零開始】22
+      - 日本(yudou66.com 玉豆免费节点) 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
-      - 梦歌|杭港BGP|NETFLIX_173
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
       - 美国(yudou66.com 玉豆免费节点)
+      - 智利(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
+      - US_youtube@资源分享师_127
       - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
+      - US_youtube@资源分享师_138
       - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国【YouTube-由零開始】USA21
+      - 日本(yudou66.com 玉豆免费节点)
+      - US_youtube@资源分享师_333
+      - US_youtube@资源分享师_178
+      - US_youtube@资源分享师_54
+      - US_youtube@资源分享师_79
+      - US_youtube@资源分享师_352
+      - 澳洲(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - youtube@资源分享师_349
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
+      - 美国【YouTube-由零開始】22
+      - US_youtube@资源分享师_72
+      - US_youtube@资源分享师_84
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 梦歌|杭港BGP|NETFLIX_173
+      - RS_youtube@资源分享师_47
+      - TH_youtube@资源分享师_258
+      - US_youtube@资源分享师_136
+      - HK_youtube@资源分享师_320
+      - 法国【YouTube-由零開始】22
+      - 日本(yudou66.com 玉豆免费节点) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
       - 美国(yudou66.com 玉豆免费节点)
+      - 智利(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
+      - US_youtube@资源分享师_127
       - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
+      - US_youtube@资源分享师_138
       - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国【YouTube-由零開始】USA21
+      - 日本(yudou66.com 玉豆免费节点)
+      - US_youtube@资源分享师_333
+      - US_youtube@资源分享师_178
+      - US_youtube@资源分享师_54
+      - US_youtube@资源分享师_79
+      - US_youtube@资源分享师_352
+      - 澳洲(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - youtube@资源分享师_349
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
+      - 美国【YouTube-由零開始】22
+      - US_youtube@资源分享师_72
+      - US_youtube@资源分享师_84
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 梦歌|杭港BGP|NETFLIX_173
+      - RS_youtube@资源分享师_47
+      - TH_youtube@资源分享师_258
+      - US_youtube@资源分享师_136
+      - HK_youtube@资源分享师_320
+      - 法国【YouTube-由零開始】22
+      - 日本(yudou66.com 玉豆免费节点) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
       - 美国(yudou66.com 玉豆免费节点)
+      - 智利(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
+      - US_youtube@资源分享师_127
       - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
+      - US_youtube@资源分享师_138
       - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国【YouTube-由零開始】USA21
+      - 日本(yudou66.com 玉豆免费节点)
+      - US_youtube@资源分享师_333
+      - US_youtube@资源分享师_178
+      - US_youtube@资源分享师_54
+      - US_youtube@资源分享师_79
+      - US_youtube@资源分享师_352
+      - 澳洲(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - youtube@资源分享师_349
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
+      - 美国【YouTube-由零開始】22
+      - US_youtube@资源分享师_72
+      - US_youtube@资源分享师_84
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 梦歌|杭港BGP|NETFLIX_173
+      - RS_youtube@资源分享师_47
+      - TH_youtube@资源分享师_258
+      - US_youtube@资源分享师_136
+      - HK_youtube@资源分享师_320
+      - 法国【YouTube-由零開始】22
+      - 日本(yudou66.com 玉豆免费节点) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -276,29 +277,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 梦歌|杭港BGP|NETFLIX_61
-      - 梦歌|广港隧道|家宽解锁_214
-      - 梦歌|杭港BGP|NETFLIX_47
       - 美国(yudou66.com 玉豆免费节点)
+      - 智利(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 2
-      - 梦歌|广港隧道|家宽解锁_245
-      - 梦歌|杭港BGP|NETFLIX_56
-      - 梦歌|沪港隧道|原生解锁_57
+      - US_youtube@资源分享师_127
       - 美国(yudou66.com 玉豆免费节点) 3
-      - 梦歌|杭港BGP|NETFLIX_59
-      - 梦歌|广港隧道|家宽解锁_209
-      - 梦歌|杭港BGP|NETFLIX_32
-      - 梦歌|深港专线|家宽解锁_104
+      - US_youtube@资源分享师_138
       - 美国(yudou66.com 玉豆免费节点) 4
-      - 美国【YouTube-由零開始】USA21
+      - 日本(yudou66.com 玉豆免费节点)
+      - US_youtube@资源分享师_333
+      - US_youtube@资源分享师_178
+      - US_youtube@资源分享师_54
+      - US_youtube@资源分享师_79
+      - US_youtube@资源分享师_352
+      - 澳洲(yudou66.com 玉豆免费节点)
       - 美国(yudou66.com 玉豆免费节点) 5
-      - 梦歌|沪港隧道|原生解锁_61
-      - 梦歌|杭港BGP|NETFLIX_10
-      - youtube@资源分享师_349
-      - 梦歌|杭港BGP|NETFLIX_89
-      - 梦歌|广港隧道|家宽解锁_265
+      - 美国【YouTube-由零開始】22
+      - US_youtube@资源分享师_72
+      - US_youtube@资源分享师_84
       - 美国(yudou66.com 玉豆免费节点) 6
-      - 梦歌|杭港BGP|NETFLIX_173
+      - RS_youtube@资源分享师_47
+      - TH_youtube@资源分享师_258
+      - US_youtube@资源分享师_136
+      - HK_youtube@资源分享师_320
+      - 法国【YouTube-由零開始】22
+      - 日本(yudou66.com 玉豆免费节点) 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
