@@ -5,87 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_youtube@资源分享师_45, server: 107.148.195.23, port: 42014, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_27, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a55a752f-3f73-4b7f-8c1c-b6ba06930724, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1.hnokkdf.top}}, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆免费节点), server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: e5305888-423d-4239-b140-495f53014098, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
   - {name: US_youtube@资源分享师_32, server: 170.178.167.140, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_35, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_50, server: 142.4.104.193, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_49, server: cfcdn.sanfencdn.net, port: 443, type: vmess, uuid: da9d5c74-a572-4cf4-a375-19b886f5ffc4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: us2.sanfencdn.net}}, udp: true}
-  - {name: US_youtube@资源分享师_22, server: 198.2.212.244, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】24, server: 137.175.3.230, port: 53042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_21, server: 156.225.67.70, port: 43553, type: vmess, uuid: 11117d4c-3b6a-4e76-8bcc-2b41b3e9ca93, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_218, server: 137.175.9.193, port: 57402, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君), server: 142.4.112.11, port: 51091, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_131, server: 169.197.141.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: GB_youtube@资源分享师_133, server: 172.99.190.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: GB_youtube@资源分享师_125, server: 172.99.190.61, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: GB_youtube@资源分享师_116, server: 172.99.190.61, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: GB_youtube@资源分享师_113, server: 172.99.190.61, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: GB_youtube@资源分享师_98, server: 172.99.190.61, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_youtube@资源分享师_175, server: 23.225.33.173, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_59, server: ca.moop.wiki, port: 80, type: vmess, uuid: f24eee1f-a2c6-4d94-becb-50960e72b7cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /catre2, headers: {Host: ca.moop.wiki}}, udp: true}
+  - {name: FR_youtube@资源分享师_88, server: 156.249.18.40, port: 44202, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_45
+      - US_youtube@资源分享师_27
+      - 新加坡(yudou66.com 玉豆免费节点)
       - US_youtube@资源分享师_32
-      - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_50
-      - US_youtube@资源分享师_49
-      - US_youtube@资源分享师_22
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_21
-      - US_youtube@资源分享师_218
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_133
-      - GB_youtube@资源分享师_125
-      - GB_youtube@资源分享师_116
-      - GB_youtube@资源分享师_113
-      - GB_youtube@资源分享师_98
+      - US_youtube@资源分享师_175
+      - US_youtube@资源分享师_59
+      - FR_youtube@资源分享师_88
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_youtube@资源分享师_45
+      - US_youtube@资源分享师_27
+      - 新加坡(yudou66.com 玉豆免费节点)
       - US_youtube@资源分享师_32
-      - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_50
-      - US_youtube@资源分享师_49
-      - US_youtube@资源分享师_22
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_21
-      - US_youtube@资源分享师_218
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_133
-      - GB_youtube@资源分享师_125
-      - GB_youtube@资源分享师_116
-      - GB_youtube@资源分享师_113
-      - GB_youtube@资源分享师_98
+      - US_youtube@资源分享师_175
+      - US_youtube@资源分享师_59
+      - FR_youtube@资源分享师_88
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_45
+      - US_youtube@资源分享师_27
+      - 新加坡(yudou66.com 玉豆免费节点)
       - US_youtube@资源分享师_32
-      - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_50
-      - US_youtube@资源分享师_49
-      - US_youtube@资源分享师_22
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_21
-      - US_youtube@资源分享师_218
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_133
-      - GB_youtube@资源分享师_125
-      - GB_youtube@资源分享师_116
-      - GB_youtube@资源分享师_113
-      - GB_youtube@资源分享师_98
+      - US_youtube@资源分享师_175
+      - US_youtube@资源分享师_59
+      - FR_youtube@资源分享师_88
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,22 +64,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_45
+      - US_youtube@资源分享师_27
+      - 新加坡(yudou66.com 玉豆免费节点)
       - US_youtube@资源分享师_32
-      - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_50
-      - US_youtube@资源分享师_49
-      - US_youtube@资源分享师_22
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_21
-      - US_youtube@资源分享师_218
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_133
-      - GB_youtube@资源分享师_125
-      - GB_youtube@资源分享师_116
-      - GB_youtube@资源分享师_113
-      - GB_youtube@资源分享师_98
+      - US_youtube@资源分享师_175
+      - US_youtube@资源分享师_59
+      - FR_youtube@资源分享师_88
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -130,65 +80,35 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_youtube@资源分享师_45
+      - US_youtube@资源分享师_27
+      - 新加坡(yudou66.com 玉豆免费节点)
       - US_youtube@资源分享师_32
-      - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_50
-      - US_youtube@资源分享师_49
-      - US_youtube@资源分享师_22
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_21
-      - US_youtube@资源分享师_218
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_133
-      - GB_youtube@资源分享师_125
-      - GB_youtube@资源分享师_116
-      - GB_youtube@资源分享师_113
-      - GB_youtube@资源分享师_98
+      - US_youtube@资源分享师_175
+      - US_youtube@资源分享师_59
+      - FR_youtube@资源分享师_88
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_45
+      - US_youtube@资源分享师_27
+      - 新加坡(yudou66.com 玉豆免费节点)
       - US_youtube@资源分享师_32
-      - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_50
-      - US_youtube@资源分享师_49
-      - US_youtube@资源分享师_22
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_21
-      - US_youtube@资源分享师_218
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_133
-      - GB_youtube@资源分享师_125
-      - GB_youtube@资源分享师_116
-      - GB_youtube@资源分享师_113
-      - GB_youtube@资源分享师_98
+      - US_youtube@资源分享师_175
+      - US_youtube@资源分享师_59
+      - FR_youtube@资源分享师_88
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_youtube@资源分享师_45
+      - US_youtube@资源分享师_27
+      - 新加坡(yudou66.com 玉豆免费节点)
       - US_youtube@资源分享师_32
-      - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_50
-      - US_youtube@资源分享师_49
-      - US_youtube@资源分享师_22
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_21
-      - US_youtube@资源分享师_218
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_133
-      - GB_youtube@资源分享师_125
-      - GB_youtube@资源分享师_116
-      - GB_youtube@资源分享师_113
-      - GB_youtube@资源分享师_98
+      - US_youtube@资源分享师_175
+      - US_youtube@资源分享师_59
+      - FR_youtube@资源分享师_88
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,22 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_youtube@资源分享师_45
+      - US_youtube@资源分享师_27
+      - 新加坡(yudou66.com 玉豆免费节点)
       - US_youtube@资源分享师_32
-      - US_youtube@资源分享师_35
-      - US_youtube@资源分享师_50
-      - US_youtube@资源分享师_49
-      - US_youtube@资源分享师_22
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_21
-      - US_youtube@资源分享师_218
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_131
-      - GB_youtube@资源分享师_133
-      - GB_youtube@资源分享师_125
-      - GB_youtube@资源分享师_116
-      - GB_youtube@资源分享师_113
-      - GB_youtube@资源分享师_98
+      - US_youtube@资源分享师_175
+      - US_youtube@资源分享师_59
+      - FR_youtube@资源分享师_88
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
