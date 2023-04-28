@@ -5,143 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 美国【YouTube-由零開始】26, server: ganjun.xyz, port: 443, type: vmess, uuid: 17bc2008-0ff7-44b0-bfb1-0c300180c71e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ganjun.xyz}}, udp: true}
+  - {name: SG_youtube@资源分享师_1, server: fscjp.fscloud123456789.com, port: 443, type: trojan, password: 514b8c92-12da-4219-b06c-56ecc67dfa23, skip-cert-verify: true, udp: true}
   - {name: 新加坡(yudou66.com 玉豆免费节点), server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: e5305888-423d-4239-b140-495f53014098, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
-  - {name: 美国(油管:破解资源君), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 35d1eaf8-53e7-4c8b-92aa-d96a20854e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v02.ssrsub.com}}, udp: true}
-  - {name: US_youtube@资源分享师_27, server: zfc.windowsupdate1.com, port: 443, type: vmess, uuid: a55a752f-3f73-4b7f-8c1c-b6ba06930724, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kbjc/jp1, headers: {Host: jp1.hnokkdf.top}}, udp: true}
-  - {name: US_youtube@资源分享师_153, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】26 2, server: arm.gofun.today, port: 443, type: vmess, uuid: f8064c03-ebbb-48e9-b873-c6ac8893e980, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /admin, headers: {Host: arm.gofun.today}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】26 3, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: 13c7db38-b00f-49ca-bd9e-60f4f1f008cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: de01.cctvvip.ml}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 198.2.204.247, port: 46802, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆免费节点) 2, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: e5305888-423d-4239-b140-495f53014098, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: SG_youtube@资源分享师_120, server: fscus.fscloud123456789.com, port: 443, type: trojan, password: 514b8c92-12da-4219-b06c-56ecc67dfa23, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(yudou66.com 玉豆免费节点) 3, server: m.lwvzmdu.cn, port: 16618, type: vmess, uuid: e5305888-423d-4239-b140-495f53014098, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.lwvzmdu.cn}}, udp: true}
+  - {name: SG_youtube@资源分享师_21, server: jp.stablize.top, port: 443, type: trojan, password: 4cb60c22-8d5d-469e-b5c1-c1cb78448a6d, skip-cert-verify: true, udp: true}
   - {name: US_youtube@资源分享师_32, server: 170.178.167.140, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】26 4, server: mobile.cfcdn.giize.com, port: 443, type: vmess, uuid: 111acc93-34b3-4fb9-8a92-b0224e72db4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp01.cctvvip.ml}}, udp: true}
-  - {name: US_youtube@资源分享师_35, server: 108.186.116.177, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】24, server: cf-lt-dns.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp3.scproxy.top}}, udp: true}
-  - {name: US_youtube@资源分享师_234, server: 108.186.116.175, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_118, server: 108.186.116.174, port: 55005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_175, server: 23.225.33.173, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_152, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: dp1.scproxy.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】26 5, server: telecom.cfcdn.giize.com, port: 443, type: vmess, uuid: cfc3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: jp06.cctvvip.ml}}, udp: true}
+  - {name: US_youtube@资源分享师_52, server: 198.2.203.57, port: 44502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube-由零開始】27, server: 142.4.126.71, port: 31002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_youtube@资源分享师_50, server: 142.4.104.193, port: 56002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: FR_youtube@资源分享师_161, server: 51.195.35.149, port: 58812, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_128, server: 198.2.206.37, port: 33012, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_227, server: 142.0.132.41, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_69, server: 38.40.219.189, port: 52462, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_70, server: 192.74.229.221, port: 51592, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_40, server: 107.148.194.231, port: 55504, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: US_youtube@资源分享师_85, server: 137.175.41.196, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 3, server: 142.0.132.43, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(油管:破解资源君) 2, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 35d1eaf8-53e7-4c8b-92aa-d96a20854e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v01.ssrsub.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】26 6, server: 104.21.235.172, port: 80, type: vmess, uuid: 83ddd3fe-8dec-41d1-b125-d571ec4034bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tunnelvmess, headers: {Host: bz1.hijinetwork.cloud}}, udp: true}
-  - {name: 德国(yudou66.com 玉豆免费节点), server: web.siiah.de, port: 443, type: trojan, password: b78d8341-684c-4684-893c-f2d4c3847892, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_79, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: hk2.ilovescp.com}}, udp: true}
-  - {name: 欧洲(油管:破解资源君), server: 172.67.140.193, port: 80, type: vmess, uuid: 2e496758-950e-4549-8842-d5eec98d9fde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】26 7, server: woiden-eu2.moop.wiki, port: 443, type: vmess, uuid: 3ac00ed9-d138-4371-b357-ee6ea864c0d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /hax02eu, headers: {Host: woiden-eu2.moop.wiki}}, udp: true}
+  - {name: US_youtube@资源分享师_78, server: 198.2.203.58, port: 44502, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆免费节点), server: 142.0.132.43, port: 50015, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国【YouTube-由零開始】27, server: 92.222.209.100, port: 47021, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US_youtube@资源分享师_144, server: 192.74.232.253, port: 52902, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube-由零開始】26, server: 104.21.235.172, port: 80, type: vmess, uuid: 83ddd3fe-8dec-41d1-b125-d571ec4034bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tunnelvmess, headers: {Host: bz1.hijinetwork.cloud}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】26
+      - SG_youtube@资源分享师_1
       - 新加坡(yudou66.com 玉豆免费节点)
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_153
-      - 美国【YouTube-由零開始】26 2
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】26 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - SG_youtube@资源分享师_120
+      - 新加坡(yudou66.com 玉豆免费节点) 3
+      - SG_youtube@资源分享师_21
       - US_youtube@资源分享师_32
-      - 美国【YouTube-由零開始】26 4
-      - US_youtube@资源分享师_35
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_175
-      - US_youtube@资源分享师_152
-      - 美国【YouTube-由零開始】26 5
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】27
       - US_youtube@资源分享师_50
-      - FR_youtube@资源分享师_161
-      - US_youtube@资源分享师_128
-      - US_youtube@资源分享师_227
+      - US_youtube@资源分享师_69
+      - US_youtube@资源分享师_70
+      - US_youtube@资源分享师_40
       - US_youtube@资源分享师_85
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(油管:破解资源君) 2
-      - 美国【YouTube-由零開始】26 6
-      - 德国(yudou66.com 玉豆免费节点)
-      - US_youtube@资源分享师_79
-      - 欧洲(油管:破解资源君)
-      - 美国【YouTube-由零開始】26 7
+      - US_youtube@资源分享师_78
+      - 美国(yudou66.com 玉豆免费节点)
+      - 法国【YouTube-由零開始】27
+      - US_youtube@资源分享师_144
+      - 美国【YouTube-由零開始】26
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 美国【YouTube-由零開始】26
+      - SG_youtube@资源分享师_1
       - 新加坡(yudou66.com 玉豆免费节点)
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_153
-      - 美国【YouTube-由零開始】26 2
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】26 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - SG_youtube@资源分享师_120
+      - 新加坡(yudou66.com 玉豆免费节点) 3
+      - SG_youtube@资源分享师_21
       - US_youtube@资源分享师_32
-      - 美国【YouTube-由零開始】26 4
-      - US_youtube@资源分享师_35
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_175
-      - US_youtube@资源分享师_152
-      - 美国【YouTube-由零開始】26 5
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】27
       - US_youtube@资源分享师_50
-      - FR_youtube@资源分享师_161
-      - US_youtube@资源分享师_128
-      - US_youtube@资源分享师_227
+      - US_youtube@资源分享师_69
+      - US_youtube@资源分享师_70
+      - US_youtube@资源分享师_40
       - US_youtube@资源分享师_85
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(油管:破解资源君) 2
-      - 美国【YouTube-由零開始】26 6
-      - 德国(yudou66.com 玉豆免费节点)
-      - US_youtube@资源分享师_79
-      - 欧洲(油管:破解资源君)
-      - 美国【YouTube-由零開始】26 7
+      - US_youtube@资源分享师_78
+      - 美国(yudou66.com 玉豆免费节点)
+      - 法国【YouTube-由零開始】27
+      - US_youtube@资源分享师_144
+      - 美国【YouTube-由零開始】26
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】26
+      - SG_youtube@资源分享师_1
       - 新加坡(yudou66.com 玉豆免费节点)
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_153
-      - 美国【YouTube-由零開始】26 2
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】26 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - SG_youtube@资源分享师_120
+      - 新加坡(yudou66.com 玉豆免费节点) 3
+      - SG_youtube@资源分享师_21
       - US_youtube@资源分享师_32
-      - 美国【YouTube-由零開始】26 4
-      - US_youtube@资源分享师_35
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_175
-      - US_youtube@资源分享师_152
-      - 美国【YouTube-由零開始】26 5
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】27
       - US_youtube@资源分享师_50
-      - FR_youtube@资源分享师_161
-      - US_youtube@资源分享师_128
-      - US_youtube@资源分享师_227
+      - US_youtube@资源分享师_69
+      - US_youtube@资源分享师_70
+      - US_youtube@资源分享师_40
       - US_youtube@资源分享师_85
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(油管:破解资源君) 2
-      - 美国【YouTube-由零開始】26 6
-      - 德国(yudou66.com 玉豆免费节点)
-      - US_youtube@资源分享师_79
-      - 欧洲(油管:破解资源君)
-      - 美国【YouTube-由零開始】26 7
+      - US_youtube@资源分享师_78
+      - 美国(yudou66.com 玉豆免费节点)
+      - 法国【YouTube-由零開始】27
+      - US_youtube@资源分享师_144
+      - 美国【YouTube-由零開始】26
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,36 +116,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】26
+      - SG_youtube@资源分享师_1
       - 新加坡(yudou66.com 玉豆免费节点)
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_153
-      - 美国【YouTube-由零開始】26 2
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】26 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - SG_youtube@资源分享师_120
+      - 新加坡(yudou66.com 玉豆免费节点) 3
+      - SG_youtube@资源分享师_21
       - US_youtube@资源分享师_32
-      - 美国【YouTube-由零開始】26 4
-      - US_youtube@资源分享师_35
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_175
-      - US_youtube@资源分享师_152
-      - 美国【YouTube-由零開始】26 5
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】27
       - US_youtube@资源分享师_50
-      - FR_youtube@资源分享师_161
-      - US_youtube@资源分享师_128
-      - US_youtube@资源分享师_227
+      - US_youtube@资源分享师_69
+      - US_youtube@资源分享师_70
+      - US_youtube@资源分享师_40
       - US_youtube@资源分享师_85
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(油管:破解资源君) 2
-      - 美国【YouTube-由零開始】26 6
-      - 德国(yudou66.com 玉豆免费节点)
-      - US_youtube@资源分享师_79
-      - 欧洲(油管:破解资源君)
-      - 美国【YouTube-由零開始】26 7
+      - US_youtube@资源分享师_78
+      - 美国(yudou66.com 玉豆免费节点)
+      - 法国【YouTube-由零開始】27
+      - US_youtube@资源分享师_144
+      - 美国【YouTube-由零開始】26
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -200,107 +145,74 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 美国【YouTube-由零開始】26
+      - SG_youtube@资源分享师_1
       - 新加坡(yudou66.com 玉豆免费节点)
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_153
-      - 美国【YouTube-由零開始】26 2
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】26 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - SG_youtube@资源分享师_120
+      - 新加坡(yudou66.com 玉豆免费节点) 3
+      - SG_youtube@资源分享师_21
       - US_youtube@资源分享师_32
-      - 美国【YouTube-由零開始】26 4
-      - US_youtube@资源分享师_35
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_175
-      - US_youtube@资源分享师_152
-      - 美国【YouTube-由零開始】26 5
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】27
       - US_youtube@资源分享师_50
-      - FR_youtube@资源分享师_161
-      - US_youtube@资源分享师_128
-      - US_youtube@资源分享师_227
+      - US_youtube@资源分享师_69
+      - US_youtube@资源分享师_70
+      - US_youtube@资源分享师_40
       - US_youtube@资源分享师_85
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(油管:破解资源君) 2
-      - 美国【YouTube-由零開始】26 6
-      - 德国(yudou66.com 玉豆免费节点)
-      - US_youtube@资源分享师_79
-      - 欧洲(油管:破解资源君)
-      - 美国【YouTube-由零開始】26 7
+      - US_youtube@资源分享师_78
+      - 美国(yudou66.com 玉豆免费节点)
+      - 法国【YouTube-由零開始】27
+      - US_youtube@资源分享师_144
+      - 美国【YouTube-由零開始】26
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 美国【YouTube-由零開始】26
+      - SG_youtube@资源分享师_1
       - 新加坡(yudou66.com 玉豆免费节点)
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_153
-      - 美国【YouTube-由零開始】26 2
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】26 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - SG_youtube@资源分享师_120
+      - 新加坡(yudou66.com 玉豆免费节点) 3
+      - SG_youtube@资源分享师_21
       - US_youtube@资源分享师_32
-      - 美国【YouTube-由零開始】26 4
-      - US_youtube@资源分享师_35
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_175
-      - US_youtube@资源分享师_152
-      - 美国【YouTube-由零開始】26 5
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】27
       - US_youtube@资源分享师_50
-      - FR_youtube@资源分享师_161
-      - US_youtube@资源分享师_128
-      - US_youtube@资源分享师_227
+      - US_youtube@资源分享师_69
+      - US_youtube@资源分享师_70
+      - US_youtube@资源分享师_40
       - US_youtube@资源分享师_85
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(油管:破解资源君) 2
-      - 美国【YouTube-由零開始】26 6
-      - 德国(yudou66.com 玉豆免费节点)
-      - US_youtube@资源分享师_79
-      - 欧洲(油管:破解资源君)
-      - 美国【YouTube-由零開始】26 7
+      - US_youtube@资源分享师_78
+      - 美国(yudou66.com 玉豆免费节点)
+      - 法国【YouTube-由零開始】27
+      - US_youtube@资源分享师_144
+      - 美国【YouTube-由零開始】26
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国【YouTube-由零開始】26
+      - SG_youtube@资源分享师_1
       - 新加坡(yudou66.com 玉豆免费节点)
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_153
-      - 美国【YouTube-由零開始】26 2
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】26 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - SG_youtube@资源分享师_120
+      - 新加坡(yudou66.com 玉豆免费节点) 3
+      - SG_youtube@资源分享师_21
       - US_youtube@资源分享师_32
-      - 美国【YouTube-由零開始】26 4
-      - US_youtube@资源分享师_35
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_175
-      - US_youtube@资源分享师_152
-      - 美国【YouTube-由零開始】26 5
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】27
       - US_youtube@资源分享师_50
-      - FR_youtube@资源分享师_161
-      - US_youtube@资源分享师_128
-      - US_youtube@资源分享师_227
+      - US_youtube@资源分享师_69
+      - US_youtube@资源分享师_70
+      - US_youtube@资源分享师_40
       - US_youtube@资源分享师_85
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(油管:破解资源君) 2
-      - 美国【YouTube-由零開始】26 6
-      - 德国(yudou66.com 玉豆免费节点)
-      - US_youtube@资源分享师_79
-      - 欧洲(油管:破解资源君)
-      - 美国【YouTube-由零開始】26 7
+      - US_youtube@资源分享师_78
+      - 美国(yudou66.com 玉豆免费节点)
+      - 法国【YouTube-由零開始】27
+      - US_youtube@资源分享师_144
+      - 美国【YouTube-由零開始】26
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -317,36 +229,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国【YouTube-由零開始】26
+      - SG_youtube@资源分享师_1
       - 新加坡(yudou66.com 玉豆免费节点)
-      - 美国(油管:破解资源君)
-      - US_youtube@资源分享师_27
-      - US_youtube@资源分享师_153
-      - 美国【YouTube-由零開始】26 2
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】26 3
-      - 美国(yudou66.com 玉豆免费节点) 2
+      - 新加坡(yudou66.com 玉豆免费节点) 2
+      - SG_youtube@资源分享师_120
+      - 新加坡(yudou66.com 玉豆免费节点) 3
+      - SG_youtube@资源分享师_21
       - US_youtube@资源分享师_32
-      - 美国【YouTube-由零開始】26 4
-      - US_youtube@资源分享师_35
-      - 美国【YouTube-由零開始】24
-      - US_youtube@资源分享师_234
-      - US_youtube@资源分享师_118
-      - US_youtube@资源分享师_175
-      - US_youtube@资源分享师_152
-      - 美国【YouTube-由零開始】26 5
+      - US_youtube@资源分享师_52
+      - 美国【YouTube-由零開始】27
       - US_youtube@资源分享师_50
-      - FR_youtube@资源分享师_161
-      - US_youtube@资源分享师_128
-      - US_youtube@资源分享师_227
+      - US_youtube@资源分享师_69
+      - US_youtube@资源分享师_70
+      - US_youtube@资源分享师_40
       - US_youtube@资源分享师_85
-      - 美国(yudou66.com 玉豆免费节点) 3
-      - 美国(油管:破解资源君) 2
-      - 美国【YouTube-由零開始】26 6
-      - 德国(yudou66.com 玉豆免费节点)
-      - US_youtube@资源分享师_79
-      - 欧洲(油管:破解资源君)
-      - 美国【YouTube-由零開始】26 7
+      - US_youtube@资源分享师_78
+      - 美国(yudou66.com 玉豆免费节点)
+      - 法国【YouTube-由零開始】27
+      - US_youtube@资源分享师_144
+      - 美国【YouTube-由零開始】26
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
