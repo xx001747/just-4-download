@@ -5,83 +5,103 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: HK香港(youtube阿伟科技), server: jp2.downloadvip.cfd, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港(youtube阿伟科技) 2, server: hk2.downloadvip.cfd, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: HK香港(youtube阿伟科技) 3, server: hk2.downloadvip.cfd, port: 443, type: trojan, password: 4d35e3e1-1aee-422a-b99a-6e33fd22ca3c, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(油管:破解资源君), server: 163.123.192.155, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: JP日本(youtube阿伟科技), server: downloadvip.cfd, port: 443, type: vmess, uuid: 5f70213f-4681-4f70-a31b-42f37402cd66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /djjc/jp1, headers: {Host: jp1.djjc.sbs}}, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: downloadvip.cfd, port: 443, type: vmess, uuid: 5f70213f-4681-4f70-a31b-42f37402cd66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /djjc/us1, headers: {Host: us1.djjc.sbs}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 2, server: 163.123.192.153, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 3, server: azjp2.downloadvip.cfd, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, sni: us1.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: 欧洲(油管:破解资源君), server: 163.123.192.156, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 4, server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: SG新加坡(youtube阿伟科技), server: sg12.microsoft-orgwly.vip, port: 16789, type: trojan, password: 76120efb-4d66-4e35-9ca7-e46ad5b767d0, sni: tls.microsoft-orgwly.vip, skip-cert-verify: true, udp: true}
-  - {name: SG_youtube@资源分享师_117, server: aujs.stablize.top, port: 443, type: trojan, password: 03604138-c4b4-481a-bc82-52a41189415a, skip-cert-verify: true, udp: true}
-  - {name: VN越南(youtube阿伟科技), server: cf.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: vnpt.iiio.wiki}}, udp: true}
-  - {name: US美国(youtube阿伟科技2) 5, server: 163.123.192.154, port: 443, type: trojan, password: 5f70213f-4681-4f70-a31b-42f37402cd66, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 🇺🇸_43, server: 142.4.115.243, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685361567761, headers: {Host: www.66273264.xyz}}, udp: true}
+  - {name: US美国(mibei77.com 米贝节点分享), server: downloadvip.cfd, port: 443, type: vmess, uuid: 92622695-8087-4f81-97ea-1bd9cfeddfcf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /djjc/us4, headers: {Host: us4.djjc.sbs}}, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 科技网络 🇺🇸_21, server: 192.74.231.181, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685530089600, headers: {Host: www.70814184.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_2, server: 137.175.3.234, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.33021824.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_49, server: 198.2.203.151, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685439562518, headers: {Host: www.68339205.xyz}}, udp: true}
+  - {name: US美国(youtube阿伟科技2) 2, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: 科技网络 🇺🇸_13, server: 142.4.114.28, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.47734954.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_24, server: 192.74.231.181, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.70814184.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_43, server: 142.4.110.122, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.64830206.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_72, server: 23.225.33.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.53638055.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_75, server: 198.2.203.151, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.68339205.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_52, server: 142.4.110.122, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1684829897380, headers: {Host: www.64830206.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_97, server: 198.2.203.151, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685361567761, headers: {Host: www.68339205.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_145, server: 108.186.116.179, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685530089600, headers: {Host: www.42576874.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_62, server: 23.224.11.147, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.76432641.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_194, server: 108.186.116.179, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1684750961173, headers: {Host: www.42576874.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_6, server: 142.4.100.36, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.26167530.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_1, server: 199.188.110.115, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.54092415.xyz}}, udp: true}
+  - {name: 科技网络 🇺🇸_21 2, server: 156.225.67.159, port: 443, type: vmess, uuid: 9c026efe-6af0-465f-b8c0-3f58c8c2d4c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.84661158.xyz}}, udp: true}
+  - {name: 科技网络 🇫🇷_48, server: 156.249.18.9, port: 443, type: vmess, uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1684829897380, headers: {Host: www.48643700.xyz}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - 亚洲(油管:破解资源君)
-      - JP日本(youtube阿伟科技)
+      - US美国(mibei77.com 米贝节点分享)
       - US美国(youtube阿伟科技2)
+      - 科技网络 🇺🇸_21
+      - 科技网络 🇺🇸_2
+      - 科技网络 🇺🇸_49
       - US美国(youtube阿伟科技2) 2
-      - US美国(youtube阿伟科技2) 3
-      - 欧洲(油管:破解资源君)
-      - US美国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - SG_youtube@资源分享师_117
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_24
       - 科技网络 🇺🇸_43
+      - 科技网络 🇺🇸_72
+      - 科技网络 🇺🇸_75
+      - 科技网络 🇺🇸_52
+      - 科技网络 🇺🇸_97
+      - 科技网络 🇺🇸_145
+      - 科技网络 🇺🇸_62
+      - 科技网络 🇺🇸_194
+      - 科技网络 🇺🇸_6
+      - 科技网络 🇺🇸_1
+      - 科技网络 🇺🇸_21 2
+      - 科技网络 🇫🇷_48
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - 亚洲(油管:破解资源君)
-      - JP日本(youtube阿伟科技)
+      - US美国(mibei77.com 米贝节点分享)
       - US美国(youtube阿伟科技2)
+      - 科技网络 🇺🇸_21
+      - 科技网络 🇺🇸_2
+      - 科技网络 🇺🇸_49
       - US美国(youtube阿伟科技2) 2
-      - US美国(youtube阿伟科技2) 3
-      - 欧洲(油管:破解资源君)
-      - US美国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - SG_youtube@资源分享师_117
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_24
       - 科技网络 🇺🇸_43
+      - 科技网络 🇺🇸_72
+      - 科技网络 🇺🇸_75
+      - 科技网络 🇺🇸_52
+      - 科技网络 🇺🇸_97
+      - 科技网络 🇺🇸_145
+      - 科技网络 🇺🇸_62
+      - 科技网络 🇺🇸_194
+      - 科技网络 🇺🇸_6
+      - 科技网络 🇺🇸_1
+      - 科技网络 🇺🇸_21 2
+      - 科技网络 🇫🇷_48
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - 亚洲(油管:破解资源君)
-      - JP日本(youtube阿伟科技)
+      - US美国(mibei77.com 米贝节点分享)
       - US美国(youtube阿伟科技2)
+      - 科技网络 🇺🇸_21
+      - 科技网络 🇺🇸_2
+      - 科技网络 🇺🇸_49
       - US美国(youtube阿伟科技2) 2
-      - US美国(youtube阿伟科技2) 3
-      - 欧洲(油管:破解资源君)
-      - US美国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - SG_youtube@资源分享师_117
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_24
       - 科技网络 🇺🇸_43
+      - 科技网络 🇺🇸_72
+      - 科技网络 🇺🇸_75
+      - 科技网络 🇺🇸_52
+      - 科技网络 🇺🇸_97
+      - 科技网络 🇺🇸_145
+      - 科技网络 🇺🇸_62
+      - 科技网络 🇺🇸_194
+      - 科技网络 🇺🇸_6
+      - 科技网络 🇺🇸_1
+      - 科技网络 🇺🇸_21 2
+      - 科技网络 🇫🇷_48
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,95 +120,111 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - 亚洲(油管:破解资源君)
-      - JP日本(youtube阿伟科技)
+      - US美国(mibei77.com 米贝节点分享)
       - US美国(youtube阿伟科技2)
+      - 科技网络 🇺🇸_21
+      - 科技网络 🇺🇸_2
+      - 科技网络 🇺🇸_49
       - US美国(youtube阿伟科技2) 2
-      - US美国(youtube阿伟科技2) 3
-      - 欧洲(油管:破解资源君)
-      - US美国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - SG_youtube@资源分享师_117
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_24
       - 科技网络 🇺🇸_43
+      - 科技网络 🇺🇸_72
+      - 科技网络 🇺🇸_75
+      - 科技网络 🇺🇸_52
+      - 科技网络 🇺🇸_97
+      - 科技网络 🇺🇸_145
+      - 科技网络 🇺🇸_62
+      - 科技网络 🇺🇸_194
+      - 科技网络 🇺🇸_6
+      - 科技网络 🇺🇸_1
+      - 科技网络 🇺🇸_21 2
+      - 科技网络 🇫🇷_48
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - 亚洲(油管:破解资源君)
-      - JP日本(youtube阿伟科技)
+      - US美国(mibei77.com 米贝节点分享)
       - US美国(youtube阿伟科技2)
+      - 科技网络 🇺🇸_21
+      - 科技网络 🇺🇸_2
+      - 科技网络 🇺🇸_49
       - US美国(youtube阿伟科技2) 2
-      - US美国(youtube阿伟科技2) 3
-      - 欧洲(油管:破解资源君)
-      - US美国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - SG_youtube@资源分享师_117
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_24
       - 科技网络 🇺🇸_43
+      - 科技网络 🇺🇸_72
+      - 科技网络 🇺🇸_75
+      - 科技网络 🇺🇸_52
+      - 科技网络 🇺🇸_97
+      - 科技网络 🇺🇸_145
+      - 科技网络 🇺🇸_62
+      - 科技网络 🇺🇸_194
+      - 科技网络 🇺🇸_6
+      - 科技网络 🇺🇸_1
+      - 科技网络 🇺🇸_21 2
+      - 科技网络 🇫🇷_48
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - 亚洲(油管:破解资源君)
-      - JP日本(youtube阿伟科技)
+      - US美国(mibei77.com 米贝节点分享)
       - US美国(youtube阿伟科技2)
+      - 科技网络 🇺🇸_21
+      - 科技网络 🇺🇸_2
+      - 科技网络 🇺🇸_49
       - US美国(youtube阿伟科技2) 2
-      - US美国(youtube阿伟科技2) 3
-      - 欧洲(油管:破解资源君)
-      - US美国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - SG_youtube@资源分享师_117
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_24
       - 科技网络 🇺🇸_43
+      - 科技网络 🇺🇸_72
+      - 科技网络 🇺🇸_75
+      - 科技网络 🇺🇸_52
+      - 科技网络 🇺🇸_97
+      - 科技网络 🇺🇸_145
+      - 科技网络 🇺🇸_62
+      - 科技网络 🇺🇸_194
+      - 科技网络 🇺🇸_6
+      - 科技网络 🇺🇸_1
+      - 科技网络 🇺🇸_21 2
+      - 科技网络 🇫🇷_48
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - 亚洲(油管:破解资源君)
-      - JP日本(youtube阿伟科技)
+      - US美国(mibei77.com 米贝节点分享)
       - US美国(youtube阿伟科技2)
+      - 科技网络 🇺🇸_21
+      - 科技网络 🇺🇸_2
+      - 科技网络 🇺🇸_49
       - US美国(youtube阿伟科技2) 2
-      - US美国(youtube阿伟科技2) 3
-      - 欧洲(油管:破解资源君)
-      - US美国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - SG_youtube@资源分享师_117
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_24
       - 科技网络 🇺🇸_43
+      - 科技网络 🇺🇸_72
+      - 科技网络 🇺🇸_75
+      - 科技网络 🇺🇸_52
+      - 科技网络 🇺🇸_97
+      - 科技网络 🇺🇸_145
+      - 科技网络 🇺🇸_62
+      - 科技网络 🇺🇸_194
+      - 科技网络 🇺🇸_6
+      - 科技网络 🇺🇸_1
+      - 科技网络 🇺🇸_21 2
+      - 科技网络 🇫🇷_48
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
-      - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -200,21 +236,26 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK香港(youtube阿伟科技)
-      - HK香港(youtube阿伟科技) 2
-      - HK香港(youtube阿伟科技) 3
-      - 亚洲(油管:破解资源君)
-      - JP日本(youtube阿伟科技)
+      - US美国(mibei77.com 米贝节点分享)
       - US美国(youtube阿伟科技2)
+      - 科技网络 🇺🇸_21
+      - 科技网络 🇺🇸_2
+      - 科技网络 🇺🇸_49
       - US美国(youtube阿伟科技2) 2
-      - US美国(youtube阿伟科技2) 3
-      - 欧洲(油管:破解资源君)
-      - US美国(youtube阿伟科技2) 4
-      - SG新加坡(youtube阿伟科技)
-      - SG_youtube@资源分享师_117
-      - VN越南(youtube阿伟科技)
-      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇺🇸_13
+      - 科技网络 🇺🇸_24
       - 科技网络 🇺🇸_43
+      - 科技网络 🇺🇸_72
+      - 科技网络 🇺🇸_75
+      - 科技网络 🇺🇸_52
+      - 科技网络 🇺🇸_97
+      - 科技网络 🇺🇸_145
+      - 科技网络 🇺🇸_62
+      - 科技网络 🇺🇸_194
+      - 科技网络 🇺🇸_6
+      - 科技网络 🇺🇸_1
+      - 科技网络 🇺🇸_21 2
+      - 科技网络 🇫🇷_48
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
