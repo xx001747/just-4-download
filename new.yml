@@ -5,163 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_youtube@资源分享师_230, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: lv2.sharecentrepro.org}}, udp: true}
-  - {name: 美国【YouTube-由零開始】, server: 104.18.1.110, port: 443, type: vmess, uuid: 1d8488a7-c784-4e66-ae92-1b22da9c9e68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/c3lZ7dp02p?ed=2048", headers: {Host: d2.pgypgykmoljklj.xyz}}, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点), server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: nl.sharecentrepro.com}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 2, server: 104.18.112.248, port: 80, type: vmess, uuid: 66d6266e-812c-4969-9f02-8d33e3265cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: x1.vtcss.top}}, udp: true}
-  - {name: 美国(油管:破解资源君), server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us3.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】 3, server: 104.19.171.190, port: 8880, type: vmess, uuid: 8ab00262-6a69-4f32-933e-f58a020279f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: x1.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 4, server: x1.vtcss.top, port: 2052, type: vmess, uuid: a94aed90-ae0f-4094-fdd5-1c5a0e2eeabf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: x1.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 5, server: x1.vtcss.top, port: 80, type: vmess, uuid: 66d6266e-812c-4969-9f02-8d33e3265cae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: x1.vtcss.top}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 6, server: 172.66.43.211, port: 8080, type: vmess, uuid: 9ed66ae3-ef13-4303-ff45-7c6093b8618c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: x1.vtcss.top}}, udp: true}
-  - {name: US_youtube@资源分享师_38, server: cf.noaries.de, port: 2052, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: scw-fr.iiio.wiki}}, udp: true}
-  - {name: US美国(youtube阿伟科技2), server: us3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_245, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
-  - {name: US_youtube@资源分享师_48, server: cf.noaries.de, port: 8080, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: buyvm.iiio.wiki}}, udp: true}
-  - {name: 美国【YouTube-由零開始】 7, server: x1.vtcss.top, port: 8080, type: vmess, uuid: 9ed66ae3-ef13-4303-ff45-7c6093b8618c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /qwer, headers: {Host: x1.vtcss.top}}, udp: true}
-  - {name: IN印度(youtube阿伟科技), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: in.sharecentrepro.com}}, udp: true}
-  - {name: 台湾(yudou66.com 玉豆免费节点), server: assets.flareai.site, port: 13343, type: trojan, password: d0d24d5b-54ae-40a0-ab68-889dbd4b8a66, skip-cert-verify: true, udp: true}
-  - {name: IL_youtube@资源分享师_26, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: us1.chuqiangtou.net, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 2, server: us1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_277, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: uk1.scproxy.top}}, udp: true}
-  - {name: 科技网络 🇺🇸_17, server: 142.4.110.122, port: 54002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 🇺🇸_6, server: 172.247.104.71, port: 53303, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 3, server: fscus.fscloud123456789.com, port: 443, type: trojan, password: 6274ef15-8769-46f3-ba96-b21874fcbfc1, sni: fscus.fscloud123456789.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆免费节点) 2, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: JP_youtube@资源分享师_5, server: fscus.fscloud123456789.com, port: 443, type: trojan, password: 6274ef15-8769-46f3-ba96-b21874fcbfc1, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 🇺🇸_29, server: 198.2.203.51, port: 44672, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 🇺🇸_1, server: 38.54.250.58, port: 51444, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 🇺🇸_19, server: 142.4.108.26, port: 49982, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 4, server: 23.224.15.181, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 🇺🇸_72, server: 23.225.33.173, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685613581032, headers: {Host: www.53638055.xyz}}, udp: true}
-  - {name: 科技网络 🇫🇷_56, server: 156.249.18.48, port: 51881, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 5, server: ieplhk.lanyunshi.top, port: 51004, type: vmess, uuid: 1a7680df-81a1-3d89-a221-db81ac4b04df, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 科技网络 🇳🇱_33, server: 154.85.1.243, port: 40407, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_youtube@资源分享师_249, server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 2d5d8b9c-8ec4-4a37-b610-78e71e13eaef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: gcore.ilovescp.com}}, udp: true}
-  - {name: US_youtube@资源分享师_103, server: beta.noaries.de, port: 8880, type: vmess, uuid: 67c5ce45-7b48-473e-bf25-e4c830b0ed24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: contabo-au.iiio.wiki}}, udp: true}
-  - {name: 科技网络 🇺🇸_92, server: 156.225.67.117, port: 44678, type: vmess, uuid: 84d1de11-ce12-4a15-8312-1338356d4ac4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: 163.123.192.152, port: 443, type: trojan, password: eb04af08-a11b-422a-8dfa-710238d91625, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: DE德国(youtube阿伟科技2), server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /djjc/de1, headers: {Host: de1.djjc.sbs}}, udp: true}
+  - {name: SG新加坡(youtube阿伟科技2), server: fscsg.fscloud123456789.com, port: 443, type: trojan, password: fd47bd8c-21e5-4bbd-8ab1-c17005a9ac98, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 2, server: 163.123.192.156, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
+  - {name: 美国【YouTube-由零開始】, server: downloadvip.cfd, port: 443, type: vmess, uuid: 92622695-8087-4f81-97ea-1bd9cfeddfcf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /djjc/us4, headers: {Host: us4.djjc.sbs}}, udp: true}
+  - {name: JP日本(youtube阿伟科技), server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_230
-      - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】 2
-      - 美国(油管:破解资源君)
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 6
-      - US_youtube@资源分享师_38
       - US美国(youtube阿伟科技2)
-      - US_youtube@资源分享师_245
-      - US_youtube@资源分享师_48
-      - 美国【YouTube-由零開始】 7
-      - IN印度(youtube阿伟科技)
-      - 台湾(yudou66.com 玉豆免费节点)
-      - IL_youtube@资源分享师_26
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
       - US美国(youtube阿伟科技2) 2
-      - US_youtube@资源分享师_277
-      - 科技网络 🇺🇸_17
-      - 科技网络 🇺🇸_6
-      - US美国(youtube阿伟科技2) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - JP_youtube@资源分享师_5
-      - 科技网络 🇺🇸_29
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_19
-      - US美国(youtube阿伟科技2) 4
-      - 科技网络 🇺🇸_72
-      - 科技网络 🇫🇷_56
-      - US美国(youtube阿伟科技2) 5
-      - 科技网络 🇳🇱_33
-      - US_youtube@资源分享师_249
-      - US_youtube@资源分享师_103
-      - 科技网络 🇺🇸_92
+      - 美国【YouTube-由零開始】
+      - JP日本(youtube阿伟科技)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_youtube@资源分享师_230
-      - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】 2
-      - 美国(油管:破解资源君)
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 6
-      - US_youtube@资源分享师_38
       - US美国(youtube阿伟科技2)
-      - US_youtube@资源分享师_245
-      - US_youtube@资源分享师_48
-      - 美国【YouTube-由零開始】 7
-      - IN印度(youtube阿伟科技)
-      - 台湾(yudou66.com 玉豆免费节点)
-      - IL_youtube@资源分享师_26
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
       - US美国(youtube阿伟科技2) 2
-      - US_youtube@资源分享师_277
-      - 科技网络 🇺🇸_17
-      - 科技网络 🇺🇸_6
-      - US美国(youtube阿伟科技2) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - JP_youtube@资源分享师_5
-      - 科技网络 🇺🇸_29
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_19
-      - US美国(youtube阿伟科技2) 4
-      - 科技网络 🇺🇸_72
-      - 科技网络 🇫🇷_56
-      - US美国(youtube阿伟科技2) 5
-      - 科技网络 🇳🇱_33
-      - US_youtube@资源分享师_249
-      - US_youtube@资源分享师_103
-      - 科技网络 🇺🇸_92
+      - 美国【YouTube-由零開始】
+      - JP日本(youtube阿伟科技)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_230
-      - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】 2
-      - 美国(油管:破解资源君)
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 6
-      - US_youtube@资源分享师_38
       - US美国(youtube阿伟科技2)
-      - US_youtube@资源分享师_245
-      - US_youtube@资源分享师_48
-      - 美国【YouTube-由零開始】 7
-      - IN印度(youtube阿伟科技)
-      - 台湾(yudou66.com 玉豆免费节点)
-      - IL_youtube@资源分享师_26
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
       - US美国(youtube阿伟科技2) 2
-      - US_youtube@资源分享师_277
-      - 科技网络 🇺🇸_17
-      - 科技网络 🇺🇸_6
-      - US美国(youtube阿伟科技2) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - JP_youtube@资源分享师_5
-      - 科技网络 🇺🇸_29
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_19
-      - US美国(youtube阿伟科技2) 4
-      - 科技网络 🇺🇸_72
-      - 科技网络 🇫🇷_56
-      - US美国(youtube阿伟科技2) 5
-      - 科技网络 🇳🇱_33
-      - US_youtube@资源分享师_249
-      - US_youtube@资源分享师_103
-      - 科技网络 🇺🇸_92
+      - 美国【YouTube-由零開始】
+      - JP日本(youtube阿伟科技)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -180,172 +64,56 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_230
-      - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】 2
-      - 美国(油管:破解资源君)
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 6
-      - US_youtube@资源分享师_38
       - US美国(youtube阿伟科技2)
-      - US_youtube@资源分享师_245
-      - US_youtube@资源分享师_48
-      - 美国【YouTube-由零開始】 7
-      - IN印度(youtube阿伟科技)
-      - 台湾(yudou66.com 玉豆免费节点)
-      - IL_youtube@资源分享师_26
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
       - US美国(youtube阿伟科技2) 2
-      - US_youtube@资源分享师_277
-      - 科技网络 🇺🇸_17
-      - 科技网络 🇺🇸_6
-      - US美国(youtube阿伟科技2) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - JP_youtube@资源分享师_5
-      - 科技网络 🇺🇸_29
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_19
-      - US美国(youtube阿伟科技2) 4
-      - 科技网络 🇺🇸_72
-      - 科技网络 🇫🇷_56
-      - US美国(youtube阿伟科技2) 5
-      - 科技网络 🇳🇱_33
-      - US_youtube@资源分享师_249
-      - US_youtube@资源分享师_103
-      - 科技网络 🇺🇸_92
+      - 美国【YouTube-由零開始】
+      - JP日本(youtube阿伟科技)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾(yudou66.com 玉豆免费节点)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_youtube@资源分享师_230
-      - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】 2
-      - 美国(油管:破解资源君)
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 6
-      - US_youtube@资源分享师_38
       - US美国(youtube阿伟科技2)
-      - US_youtube@资源分享师_245
-      - US_youtube@资源分享师_48
-      - 美国【YouTube-由零開始】 7
-      - IN印度(youtube阿伟科技)
-      - 台湾(yudou66.com 玉豆免费节点)
-      - IL_youtube@资源分享师_26
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
       - US美国(youtube阿伟科技2) 2
-      - US_youtube@资源分享师_277
-      - 科技网络 🇺🇸_17
-      - 科技网络 🇺🇸_6
-      - US美国(youtube阿伟科技2) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - JP_youtube@资源分享师_5
-      - 科技网络 🇺🇸_29
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_19
-      - US美国(youtube阿伟科技2) 4
-      - 科技网络 🇺🇸_72
-      - 科技网络 🇫🇷_56
-      - US美国(youtube阿伟科技2) 5
-      - 科技网络 🇳🇱_33
-      - US_youtube@资源分享师_249
-      - US_youtube@资源分享师_103
-      - 科技网络 🇺🇸_92
+      - 美国【YouTube-由零開始】
+      - JP日本(youtube阿伟科技)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_youtube@资源分享师_230
-      - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】 2
-      - 美国(油管:破解资源君)
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 6
-      - US_youtube@资源分享师_38
       - US美国(youtube阿伟科技2)
-      - US_youtube@资源分享师_245
-      - US_youtube@资源分享师_48
-      - 美国【YouTube-由零開始】 7
-      - IN印度(youtube阿伟科技)
-      - 台湾(yudou66.com 玉豆免费节点)
-      - IL_youtube@资源分享师_26
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
       - US美国(youtube阿伟科技2) 2
-      - US_youtube@资源分享师_277
-      - 科技网络 🇺🇸_17
-      - 科技网络 🇺🇸_6
-      - US美国(youtube阿伟科技2) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - JP_youtube@资源分享师_5
-      - 科技网络 🇺🇸_29
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_19
-      - US美国(youtube阿伟科技2) 4
-      - 科技网络 🇺🇸_72
-      - 科技网络 🇫🇷_56
-      - US美国(youtube阿伟科技2) 5
-      - 科技网络 🇳🇱_33
-      - US_youtube@资源分享师_249
-      - US_youtube@资源分享师_103
-      - 科技网络 🇺🇸_92
+      - 美国【YouTube-由零開始】
+      - JP日本(youtube阿伟科技)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_youtube@资源分享师_230
-      - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】 2
-      - 美国(油管:破解资源君)
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 6
-      - US_youtube@资源分享师_38
       - US美国(youtube阿伟科技2)
-      - US_youtube@资源分享师_245
-      - US_youtube@资源分享师_48
-      - 美国【YouTube-由零開始】 7
-      - IN印度(youtube阿伟科技)
-      - 台湾(yudou66.com 玉豆免费节点)
-      - IL_youtube@资源分享师_26
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
       - US美国(youtube阿伟科技2) 2
-      - US_youtube@资源分享师_277
-      - 科技网络 🇺🇸_17
-      - 科技网络 🇺🇸_6
-      - US美国(youtube阿伟科技2) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - JP_youtube@资源分享师_5
-      - 科技网络 🇺🇸_29
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_19
-      - US美国(youtube阿伟科技2) 4
-      - 科技网络 🇺🇸_72
-      - 科技网络 🇫🇷_56
-      - US美国(youtube阿伟科技2) 5
-      - 科技网络 🇳🇱_33
-      - US_youtube@资源分享师_249
-      - US_youtube@资源分享师_103
-      - 科技网络 🇺🇸_92
+      - 美国【YouTube-由零開始】
+      - JP日本(youtube阿伟科技)
   - name: 🎯 全球直连
     type: select
     proxies:
       - DIRECT
+      - ♻️ 自动选择
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -357,41 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_youtube@资源分享师_230
-      - 美国【YouTube-由零開始】
-      - 美国(yudou66.com 玉豆免费节点)
-      - 美国【YouTube-由零開始】 2
-      - 美国(油管:破解资源君)
-      - 美国【YouTube-由零開始】 3
-      - 美国【YouTube-由零開始】 4
-      - 美国【YouTube-由零開始】 5
-      - 美国【YouTube-由零開始】 6
-      - US_youtube@资源分享师_38
       - US美国(youtube阿伟科技2)
-      - US_youtube@资源分享师_245
-      - US_youtube@资源分享师_48
-      - 美国【YouTube-由零開始】 7
-      - IN印度(youtube阿伟科技)
-      - 台湾(yudou66.com 玉豆免费节点)
-      - IL_youtube@资源分享师_26
+      - DE德国(youtube阿伟科技2)
+      - SG新加坡(youtube阿伟科技2)
       - US美国(youtube阿伟科技2) 2
-      - US_youtube@资源分享师_277
-      - 科技网络 🇺🇸_17
-      - 科技网络 🇺🇸_6
-      - US美国(youtube阿伟科技2) 3
-      - 美国(yudou66.com 玉豆免费节点) 2
-      - JP_youtube@资源分享师_5
-      - 科技网络 🇺🇸_29
-      - 科技网络 🇺🇸_1
-      - 科技网络 🇺🇸_19
-      - US美国(youtube阿伟科技2) 4
-      - 科技网络 🇺🇸_72
-      - 科技网络 🇫🇷_56
-      - US美国(youtube阿伟科技2) 5
-      - 科技网络 🇳🇱_33
-      - US_youtube@资源分享师_249
-      - US_youtube@资源分享师_103
-      - 科技网络 🇺🇸_92
+      - 美国【YouTube-由零開始】
+      - JP日本(youtube阿伟科技)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
