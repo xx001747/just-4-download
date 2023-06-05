@@ -5,47 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US美国(youtube阿伟科技2), server: 163.123.192.152, port: 443, type: trojan, password: eb04af08-a11b-422a-8dfa-710238d91625, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
-  - {name: DE德国(youtube阿伟科技2), server: downloadvip.cfd, port: 443, type: vmess, uuid: 363f868f-0374-46ab-a58e-ea108d06abe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /djjc/de1, headers: {Host: de1.djjc.sbs}}, udp: true}
-  - {name: SG新加坡(youtube阿伟科技2), server: fscsg.fscloud123456789.com, port: 443, type: trojan, password: fd47bd8c-21e5-4bbd-8ab1-c17005a9ac98, skip-cert-verify: true, udp: true}
-  - {name: US美国(youtube阿伟科技2) 2, server: 163.123.192.156, port: 443, type: trojan, password: 363f868f-0374-46ab-a58e-ea108d06abe3, sni: download.xn--mes358a9urctx.com, skip-cert-verify: true, udp: true}
-  - {name: 美国【YouTube-由零開始】, server: downloadvip.cfd, port: 443, type: vmess, uuid: 92622695-8087-4f81-97ea-1bd9cfeddfcf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /djjc/us4, headers: {Host: us4.djjc.sbs}}, udp: true}
-  - {name: JP日本(youtube阿伟科技), server: jp3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: JP日本(youtube阿伟科技), server: jp1.downloadvip.cfd, port: 443, type: trojan, password: 5d4adc8a-9444-426c-bf1a-781353b92ef3, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: HK香港(youtube阿伟科技), server: sg1.downloadvip.cfd, port: 443, type: trojan, password: 5d4adc8a-9444-426c-bf1a-781353b92ef3, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2), server: 163.123.192.57, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: IN印度(youtube阿伟科技), server: 163.123.192.151, port: 443, type: trojan, password: 5d4adc8a-9444-426c-bf1a-781353b92ef3, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: IL_youtube@资源分享师_24, server: uk1.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, sni: uk1.chuqiangtou.net, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 2, server: 163.123.192.152, port: 443, type: trojan, password: 5d4adc8a-9444-426c-bf1a-781353b92ef3, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 3, server: 163.123.192.58, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 4, server: 163.123.192.150, port: 443, type: trojan, password: 5d4adc8a-9444-426c-bf1a-781353b92ef3, sni: download.xn--mes358acgm99l.com, skip-cert-verify: true, udp: true}
+  - {name: JP日本(youtube阿伟科技) 2, server: fscjp.fscloud123456789.com, port: 443, type: trojan, password: 7d1183a4-560a-494f-b15f-8152018b27fd, skip-cert-verify: true, udp: true}
+  - {name: 科技网络 🇺🇸_57, server: 142.4.127.14, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1685950726372, headers: {Host: www.58058761.xyz}}, udp: true}
+  - {name: AU澳大利亚(youtube阿伟科技), server: au3.chuqiangtou.net, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, udp: true}
+  - {name: DE德国(youtube阿伟科技2), server: 139.144.73.102, port: 41527, type: vmess, uuid: d1ec0132-135d-4bb8-f26f-1455fcd71b2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 5, server: 45.33.69.21, port: 40840, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 1948469439, udp: true}
+  - {name: 科技网络 🇫🇷_76, server: 156.249.18.158, port: 43999, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: US美国(youtube阿伟科技2) 6, server: 163.123.192.59, port: 443, type: trojan, password: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US美国(youtube阿伟科技2)
-      - DE德国(youtube阿伟科技2)
-      - SG新加坡(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - 美国【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - IN印度(youtube阿伟科技)
+      - IL_youtube@资源分享师_24
+      - US美国(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技) 2
+      - 科技网络 🇺🇸_57
+      - AU澳大利亚(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇫🇷_76
+      - US美国(youtube阿伟科技2) 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US美国(youtube阿伟科技2)
-      - DE德国(youtube阿伟科技2)
-      - SG新加坡(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - 美国【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - IN印度(youtube阿伟科技)
+      - IL_youtube@资源分享师_24
+      - US美国(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技) 2
+      - 科技网络 🇺🇸_57
+      - AU澳大利亚(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇫🇷_76
+      - US美国(youtube阿伟科技2) 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US美国(youtube阿伟科技2)
-      - DE德国(youtube阿伟科技2)
-      - SG新加坡(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - 美国【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - IN印度(youtube阿伟科技)
+      - IL_youtube@资源分享师_24
+      - US美国(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技) 2
+      - 科技网络 🇺🇸_57
+      - AU澳大利亚(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇫🇷_76
+      - US美国(youtube阿伟科技2) 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,51 +100,88 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US美国(youtube阿伟科技2)
-      - DE德国(youtube阿伟科技2)
-      - SG新加坡(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - 美国【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - IN印度(youtube阿伟科技)
+      - IL_youtube@资源分享师_24
+      - US美国(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技) 2
+      - 科技网络 🇺🇸_57
+      - AU澳大利亚(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇫🇷_76
+      - US美国(youtube阿伟科技2) 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - HK香港(youtube阿伟科技)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US美国(youtube阿伟科技2)
-      - DE德国(youtube阿伟科技2)
-      - SG新加坡(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - 美国【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - IN印度(youtube阿伟科技)
+      - IL_youtube@资源分享师_24
+      - US美国(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技) 2
+      - 科技网络 🇺🇸_57
+      - AU澳大利亚(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇫🇷_76
+      - US美国(youtube阿伟科技2) 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US美国(youtube阿伟科技2)
-      - DE德国(youtube阿伟科技2)
-      - SG新加坡(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - 美国【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - IN印度(youtube阿伟科技)
+      - IL_youtube@资源分享师_24
+      - US美国(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技) 2
+      - 科技网络 🇺🇸_57
+      - AU澳大利亚(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇫🇷_76
+      - US美国(youtube阿伟科技2) 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US美国(youtube阿伟科技2)
-      - DE德国(youtube阿伟科技2)
-      - SG新加坡(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - 美国【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - IN印度(youtube阿伟科技)
+      - IL_youtube@资源分享师_24
+      - US美国(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技) 2
+      - 科技网络 🇺🇸_57
+      - AU澳大利亚(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇫🇷_76
+      - US美国(youtube阿伟科技2) 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,12 +198,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US美国(youtube阿伟科技2)
-      - DE德国(youtube阿伟科技2)
-      - SG新加坡(youtube阿伟科技2)
-      - US美国(youtube阿伟科技2) 2
-      - 美国【YouTube-由零開始】
       - JP日本(youtube阿伟科技)
+      - HK香港(youtube阿伟科技)
+      - US美国(youtube阿伟科技2)
+      - IN印度(youtube阿伟科技)
+      - IL_youtube@资源分享师_24
+      - US美国(youtube阿伟科技2) 2
+      - US美国(youtube阿伟科技2) 3
+      - US美国(youtube阿伟科技2) 4
+      - JP日本(youtube阿伟科技) 2
+      - 科技网络 🇺🇸_57
+      - AU澳大利亚(youtube阿伟科技)
+      - DE德国(youtube阿伟科技2)
+      - US美国(youtube阿伟科技2) 5
+      - 科技网络 🇫🇷_76
+      - US美国(youtube阿伟科技2) 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
